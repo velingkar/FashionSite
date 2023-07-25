@@ -127,7 +127,7 @@
               >
                 <img
                   srcset="
-                    {%- if card_collection.metafields.custom.countryflag.width >= 64 -%}{{ card_collection.featured_image | image_url: width: 128 }} 128w,{%- endif -%}
+                    {%- if card_collection.metafields.custom.countryflag.width >= 64 -%}{{ card_collection.featured_image | image_url: width: 64 }} 64w,{%- endif -%}
                     {{ card_collection.metafields.custom.countryflag | image_url }} {{ card_collection.metafields.custom.countryflag.width }}w
                   "
                   src="{{ card_collection.metafields.custom.countryflag | image_url: width: 64 }}"
@@ -190,7 +190,7 @@
             >
               <img
                 srcset="
-                  {%- if card_collection.metafields.custom.countryflag.width >= 64 -%}{{ card_collection.featured_image | image_url: width: 128 }} 128w,{%- endif -%}
+                  {%- if card_collection.metafields.custom.countryflag.width >= 64 -%}{{ card_collection.featured_image | image_url: width: 64 }} 64w,{%- endif -%}
                   {{ card_collection.metafields.custom.countryflag | image_url }} {{ card_collection.metafields.custom.countryflag.width }}w
                 "
                 src="{{ card_collection.metafields.custom.countryflag | image_url: width: 64 }}"
