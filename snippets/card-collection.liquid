@@ -109,6 +109,17 @@
               </p>
             {%- endif -%}
           </div>
+          {% comment %}Adding Badge that Shows Product Count{% endcomment %}
+          <div class="card__badge {{ settings.badge_position }}">
+            {%- if card_collection.products.count > 1 -%}
+              <span
+                id="NoMediaStandardBadge-{{ section_id }}-{{ card_collection.id }}"
+                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+              >
+                {{- 'collections.collection.style_count' | t: quantity: card_collection.products.count -}}
+              </span>
+            {%- endif -%}
+          </div>
         </div>
       {%- endif -%}
     </div>
@@ -139,6 +150,17 @@
               {{- card_collection.description | strip_html | truncatewords: 12 -}}
               <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
             </p>
+          {%- endif -%}
+        </div>
+        {% comment %}Adding Badge that Shows Product Count{% endcomment %}
+        <div class="card__badge {{ settings.badge_position }}">
+          {%- if card_collection.products.count > 0 -%}
+            <span
+              id="NoMediaStandardBadge-{{ section_id }}-{{ card_collection.id }}"
+              class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+            >
+              {{- 'card_collection.products.count' | t -}}
+            </span>
           {%- endif -%}
         </div>
       </div>
