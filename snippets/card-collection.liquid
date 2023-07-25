@@ -120,6 +120,26 @@
               </span>
             {%- endif -%}
           </div>
+          <div class="">
+            {%- if card_collection.metafields.custom.countryflag != null -%}
+              <span
+                id="CountryFlag-{{ section_id }}-{{ card_collection.id }}"
+              >
+                <img
+                  srcset="
+                    {%- if card_collection.metafields.custom.countryflag.width >= 64 -%}{{ card_collection.featured_image | image_url: width: 128 }} 128w,{%- endif -%}
+                    {{ card_collection.metafields.custom.countryflag | image_url }} {{ card_collection.metafields.custom.countryflag.width }}w
+                  "
+                  src="{{ card_collection.metafields.custom.countryflag | image_url: width: 64 }}"
+                  alt=""
+                  height="{{ card_collection.metafields.custom.countryflag.height }}"
+                  width="{{ card_collection.metafields.custom.countryflag.width }}"
+                  loading="lazy"
+                  class="motion-reduce"
+                >
+              </span>
+            {%- endif -%}
+          </div>
         </div>
       {%- endif -%}
     </div>
@@ -154,12 +174,32 @@
         </div>
         {% comment %}Adding Badge that Shows Product Count{% endcomment %}
         <div class="card__badge {{ settings.badge_position }}">
-          {%- if card_collection.products.count > 0 -%}
+          {%- if card_collection.products.count > 1 -%}
             <span
               id="NoMediaStandardBadge-{{ section_id }}-{{ card_collection.id }}"
               class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
             >
-              {{- 'card_collection.products.count' | t -}}
+              {{- 'collections.collection.style_count' | t: quantity: card_collection.products.count -}}
+            </span>
+          {%- endif -%}
+        </div>
+        <div class="">
+          {%- if card_collection.metafields.custom.countryflag != null -%}
+            <span
+              id="CountryFlag-{{ section_id }}-{{ card_collection.id }}"
+            >
+              <img
+                srcset="
+                  {%- if card_collection.metafields.custom.countryflag.width >= 64 -%}{{ card_collection.featured_image | image_url: width: 128 }} 128w,{%- endif -%}
+                  {{ card_collection.metafields.custom.countryflag | image_url }} {{ card_collection.metafields.custom.countryflag.width }}w
+                "
+                src="{{ card_collection.metafields.custom.countryflag | image_url: width: 64 }}"
+                alt=""
+                height="{{ card_collection.metafields.custom.countryflag.height }}"
+                width="{{ card_collection.metafields.custom.countryflag.width }}"
+                loading="lazy"
+                class="motion-reduce"
+              >
             </span>
           {%- endif -%}
         </div>
