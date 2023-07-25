@@ -183,26 +183,6 @@
             </span>
           {%- endif -%}
         </div>
-        <div class="">
-          {%- if card_collection.metafields.custom.countryflag != null -%}
-            <span
-              id="CountryFlag-{{ section_id }}-{{ card_collection.id }}"
-            >
-              <img
-                srcset="
-                  {%- if card_collection.metafields.custom.countryflag.width >= 64 -%}{{ card_collection.featured_image | image_url: width: 64 }} 64w,{%- endif -%}
-                  {{ card_collection.metafields.custom.countryflag | image_url }} {{ card_collection.metafields.custom.countryflag.width }}w
-                "
-                src="{{ card_collection.metafields.custom.countryflag | image_url: width: 64 }}"
-                alt=""
-                height="{{ card_collection.metafields.custom.countryflag.height }}"
-                width="{{ card_collection.metafields.custom.countryflag.width }}"
-                loading="lazy"
-                class="motion-reduce"
-              >
-            </span>
-          {%- endif -%}
-        </div>
       </div>
     {%- endif -%}
     {%- if card_collection == blank -%}
