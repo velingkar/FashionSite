@@ -103,6 +103,7 @@
         "template--20174006124864__416886b3-62e8-48b8-bdf5-4bfa9db445ba-button-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/womens-tshirts.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -147,6 +148,7 @@
         "74e6274c-6d85-42e1-8b79-54ca4a9af222"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/planning-design-being-creative.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -166,7 +168,7 @@
         "42fcd550-22f2-4bb4-83b0-41a0e2f3ae08": {
           "type": "heading",
           "settings": {
-            "heading": "International Quality Designs",
+            "heading": "Premium Fabric",
             "heading_size": "h2"
           }
         },
@@ -191,6 +193,7 @@
         "16171664-10b7-4d1f-be3e-71ab8ebff7c6"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/stack-of-t-shirts.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
