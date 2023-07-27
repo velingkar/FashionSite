@@ -20,7 +20,7 @@
         "template--20174006387008__e38d460f-d359-40c8-b36a-8324af972aad-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ladies, welcome to our unique, that celebrates that <em><strong>special something<\/strong><\/em> in all of us.<\/p><p>With <em><strong>dozens of new international designs<\/strong><\/em> launched each week, our t-shirts <em><strong>aspire to be unique<\/strong><\/em> just like you are. <\/p><p><em><strong>Mix & Match<\/strong><\/em> with our fun color ranges to get that <em><strong>perfect t-shirt<\/strong><\/em> lets <strong>your personality shine<\/strong>.<\/p>"
+            "text": "<p>Ladies, welcome to <em><strong>our <\/strong><\/em><strong>privileged<\/strong><em><strong> club<\/strong><\/em>, that celebrates that <em><strong>special something<\/strong><\/em> present all of us.<\/p><p>With <em><strong>dozens of new international designs<\/strong><\/em> launched each week, our t-shirts <em><strong>aspire to be unique<\/strong><\/em> just like you are. <\/p><p><em><strong>Mix & Match<\/strong><\/em> with our fun color ranges to get that <em><strong>perfect t-shirt<\/strong><\/em> lets <strong>your personality shine<\/strong>.<\/p>"
           }
         }
       },
@@ -35,6 +35,54 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6": {
+      "type": "image-banner",
+      "blocks": {
+        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become Our Model",
+            "heading_size": "h2"
+          }
+        },
+        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Ladies & girls, our clothes are <em><strong>made for you. Hence, <\/strong><\/em>our clothes should<em><strong> look good on you<\/strong><\/em>, not for some photoshopped models. Hence, we don't hire models to showcase our clothes, we would rather <em><strong>celebrate our clothes<\/strong><\/em><strong> with you<\/strong>. Interested? We will send a female photographer to your home & make this fun.",
+            "text_style": "body"
+          }
+        },
+        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn More",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-heading-1",
+        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-text-1",
+        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-buttons-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tenniskid12_street_style_photo_of_an_indian_woman_and_daughter__617135f1-3d76-4ba6-9ea5-0cdf7bec8779.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "a2946ae0-8932-45de-9fb5-fcf0e9661686": {
@@ -152,6 +200,7 @@
   "order": [
     "main",
     "e38d460f-d359-40c8-b36a-8324af972aad",
+    "a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6",
     "a2946ae0-8932-45de-9fb5-fcf0e9661686",
     "f119e8d5-0b40-4c1a-b929-80f30eb9ee98",
     "a5bbee70-7cb5-47e6-b5a6-fe709f06da08"
