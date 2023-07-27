@@ -1,1 +1,196 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"heading":{"type":"heading","settings":{"heading":"<em>because every <\/em><em><strong>fashionista<\/strong><\/em><em> needs to be <\/em><em><strong>unique<\/strong><\/em>","heading_size":"h2"}},"button":{"type":"buttons","settings":{"button_label_1":"See Our Collections","button_link_1":"shopify:\/\/collections","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading","button"],"custom_css":["@media (max-width: 767px) {h2 {font-size: 13px; } .banner__box {padding-top: 8rem; padding-bottom: 0; }}"],"settings":{"image":"shopify:\/\/shop_images\/tenniskid12_street_style_photo_of_3_indian_8_year_old_girls_wea_1bf6e79d-489d-41ba-8360-ffcff03604d9.png","image_overlay_opacity":30,"image_height":"adapt","desktop_content_position":"bottom-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"inverse","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"featured_collection":{"type":"featured-collection","disabled":true,"settings":{"title":"Featured products","heading_size":"h2","description":"","show_description":false,"description_style":"body","collection":"all","products_to_show":8,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":true,"color_scheme":"background-1","image_ratio":"adapt","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":44,"padding_bottom":36}},"080c609c-f338-4ba8-b14a-96fd71d9ec23":{"type":"collection-list","blocks":{"template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-1":{"type":"featured_collection","settings":{"collection":"patch-work-animals"}},"template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-2":{"type":"featured_collection","settings":{"collection":"magical-jars"}},"template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-3":{"type":"featured_collection","settings":{"collection":"embroidery-flowers"}},"978a2c33-02b1-4460-80ee-5d787e002e9b":{"type":"featured_collection","settings":{"collection":"bejeweled-animals"}},"a2347ed0-9a48-48b8-b1e1-1caec3edb3b6":{"type":"featured_collection","settings":{"collection":"flowery-letters"}}},"block_order":["template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-1","template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-2","template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-3","978a2c33-02b1-4460-80ee-5d787e002e9b","a2347ed0-9a48-48b8-b1e1-1caec3edb3b6"],"custom_css":["@media (max-width: 767px) {.card__heading {font-size: calc(var(--font-heading-scale) * 1.2rem); font-weight: 600; }}"],"settings":{"title":"Women's Collections","heading_size":"h1","image_ratio":"square","columns_desktop":3,"color_scheme":"","show_view_all":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"69c4fa48-baf7-4762-9b37-e961aab2f263":{"type":"collection-list","blocks":{"template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-1":{"type":"featured_collection","settings":{"collection":"ninja-animals"}},"template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-2":{"type":"featured_collection","settings":{"collection":"japanese-kawaii-art"}},"template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-3":{"type":"featured_collection","settings":{"collection":"sleep-animals"}},"eb6db859-8bc1-42b9-b889-39aac5bf6871":{"type":"featured_collection","settings":{"collection":"little-world-traveler"}},"1d1b2e8f-dde7-41ea-95cf-e70e61e07ee8":{"type":"featured_collection","settings":{"collection":"soft-quilted-toys"}}},"block_order":["template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-1","template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-2","template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-3","eb6db859-8bc1-42b9-b889-39aac5bf6871","1d1b2e8f-dde7-41ea-95cf-e70e61e07ee8"],"custom_css":["@media (max-width: 767px) {.card__heading {font-size: calc(var(--font-heading-scale) * 1.2rem); font-weight: 600; }}"],"settings":{"title":"Kid's Collection","heading_size":"h1","image_ratio":"square","columns_desktop":3,"color_scheme":"","show_view_all":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}}},"order":["image_banner","featured_collection","080c609c-f338-4ba8-b14a-96fd71d9ec23","69c4fa48-baf7-4762-9b37-e961aab2f263"]}
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>because every <\/em><em><strong>fashionista<\/strong><\/em><em> needs to be <\/em><em><strong>unique<\/strong><\/em>",
+            "heading_size": "h2"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "See Our Collections",
+            "button_link_1": "shopify:\/\/collections",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "custom_css": [
+        "@media (max-width: 767px) {h2 {font-size: 13px; } .banner__box {padding-top: 8rem; padding-bottom: 0; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tenniskid12_street_style_photo_of_3_indian_8_year_old_girls_wea_1bf6e79d-489d-41ba-8360-ffcff03604d9.png",
+        "image_overlay_opacity": 30,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured products",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
+    },
+    "080c609c-f338-4ba8-b14a-96fd71d9ec23": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "patch-work-animals"
+          }
+        },
+        "template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "magical-jars"
+          }
+        },
+        "template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "embroidery-flowers"
+          }
+        },
+        "978a2c33-02b1-4460-80ee-5d787e002e9b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bejeweled-animals"
+          }
+        },
+        "a2347ed0-9a48-48b8-b1e1-1caec3edb3b6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "flowery-letters"
+          }
+        }
+      },
+      "block_order": [
+        "template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-1",
+        "template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-2",
+        "template--20125350723904__080c609c-f338-4ba8-b14a-96fd71d9ec23-featured_collection-3",
+        "978a2c33-02b1-4460-80ee-5d787e002e9b",
+        "a2347ed0-9a48-48b8-b1e1-1caec3edb3b6"
+      ],
+      "custom_css": [
+        "@media (max-width: 767px) {.card__heading {font-size: calc(var(--font-heading-scale) * 1.2rem); font-weight: 600; }}"
+      ],
+      "settings": {
+        "title": "Women's Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "69c4fa48-baf7-4762-9b37-e961aab2f263": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "japanese-kawaii-art"
+          }
+        },
+        "template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sleep-animals"
+          }
+        },
+        "1d1b2e8f-dde7-41ea-95cf-e70e61e07ee8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "soft-quilted-toys"
+          }
+        },
+        "eb6db859-8bc1-42b9-b889-39aac5bf6871": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "little-world-traveler"
+          }
+        },
+        "template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ninja-animals"
+          }
+        }
+      },
+      "block_order": [
+        "template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-2",
+        "template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-3",
+        "1d1b2e8f-dde7-41ea-95cf-e70e61e07ee8",
+        "eb6db859-8bc1-42b9-b889-39aac5bf6871",
+        "template--20125350723904__69c4fa48-baf7-4762-9b37-e961aab2f263-featured_collection-1"
+      ],
+      "custom_css": [
+        "@media (max-width: 767px) {.card__heading {font-size: calc(var(--font-heading-scale) * 1.2rem); font-weight: 600; }}"
+      ],
+      "settings": {
+        "title": "Kid's Collection",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "featured_collection",
+    "080c609c-f338-4ba8-b14a-96fd71d9ec23",
+    "69c4fa48-baf7-4762-9b37-e961aab2f263"
+  ]
+}
