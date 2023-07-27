@@ -74,14 +74,14 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/tenniskid12_street_style_photo_of_an_indian_woman_and_daughter__617135f1-3d76-4ba6-9ea5-0cdf7bec8779.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "image_height": "small",
+        "desktop_content_position": "bottom-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "show_text_below": true
       }
     },
