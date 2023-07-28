@@ -50,7 +50,7 @@
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-text-1": {
           "type": "text",
           "settings": {
-            "text": "Ladies & girls, our clothes are <em><strong>made for you. <\/strong><\/em><em>O<\/em>ur clothes should<em><strong> look good on you<\/strong><\/em>, not for some photoshopped models. Hence, we don't hire models to showcase our clothes, we would rather <em><strong>celebrate our clothes<\/strong><\/em><strong> with you<\/strong>. Interested? We will send a female photographer to your home & make this fun.",
+            "text": "Ladies & girls, our clothes are <em><strong>made for you. <\/strong><\/em><em>O<\/em>ur clothes should<em><strong> look good on you<\/strong><\/em>, not for some photoshopped models. Hence, we don't hire models to showcase our clothes, we would rather <em><strong>celebrate our clothes<\/strong><\/em><strong> with you<\/strong>. Interested? We will arrange a <strong>female photographer<\/strong> to come your home & we promise to make this fun.",
             "text_style": "body"
           }
         },
@@ -72,8 +72,8 @@
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-buttons-1"
       ],
       "custom_css": [
-        "@media screen and (max-width: 749px){.banner__box {background: pink; }}",
-        "@media screen and (min-width: 750px) {.banner__box {background: #ffffff99; text-shadow: 1px 1px #999; } }"
+        "@media screen and (max-width: 749px) {.banner__box {background: pink; }}",
+        "@media screen and (min-width: 750px) {.banner__box {background: #ffffff99; text-shadow: 1px 1px #999; }}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/tenniskid12_street_style_photo_of_an_indian_woman_and_daughter__617135f1-3d76-4ba6-9ea5-0cdf7bec8779.png",
@@ -199,6 +199,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "5def6d63-08b3-44b2-8ba1-2318bb253bbe": {
+      "type": "image-banner",
+      "blocks": {
+        "9e6f62ed-5d34-40c2-96a3-11b0159dd86b": {
+          "type": "heading",
+          "settings": {
+            "heading": "Become Our Influencer",
+            "heading_size": "h2"
+          }
+        },
+        "fae4bf71-1bba-4988-be1b-8138821585df": {
+          "type": "text",
+          "settings": {
+            "text": "Ladies & girls, we are looking for a <em><strong>champion<\/strong><\/em> & there is no one <strong>Better than<\/strong> <em><strong>YOU. <\/strong><\/em><strong>Inspire other ladies and girls<\/strong> to express themselves, just like you do. Our success lies in <strong>you recommending & showcasing us<\/strong> instead of a paid influencer. Share your photo with hastag <strong>#XyzShirts<\/strong> on Insta to featured on our site.",
+            "text_style": "body"
+          }
+        },
+        "1e258674-deaf-45ea-a023-bdbd02d753e8": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Send Request",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "9e6f62ed-5d34-40c2-96a3-11b0159dd86b",
+        "fae4bf71-1bba-4988-be1b-8138821585df",
+        "1e258674-deaf-45ea-a023-bdbd02d753e8"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {.banner__box {background: pink; }}",
+        "@media screen and (min-width: 750px) {.banner__box {background: #ffffff99; text-shadow: 1px 1px #999; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tenniskid12_street_style_photo_of_an_indian_woman_and_daughter__617135f1-3d76-4ba6-9ea5-0cdf7bec8779.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -207,6 +259,7 @@
     "a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6",
     "a2946ae0-8932-45de-9fb5-fcf0e9661686",
     "f119e8d5-0b40-4c1a-b929-80f30eb9ee98",
-    "a5bbee70-7cb5-47e6-b5a6-fe709f06da08"
+    "a5bbee70-7cb5-47e6-b5a6-fe709f06da08",
+    "5def6d63-08b3-44b2-8ba1-2318bb253bbe"
   ]
 }
