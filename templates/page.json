@@ -13,7 +13,7 @@
         "template--20174006387008__e38d460f-d359-40c8-b36a-8324af972aad-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "XYZ T-Shirts",
+            "heading": "",
             "heading_size": "h1"
           }
         },
@@ -50,14 +50,14 @@
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-text-1": {
           "type": "text",
           "settings": {
-            "text": "Ladies & girls, our clothes are <em><strong>made for you. Hence, <\/strong><\/em>our clothes should<em><strong> look good on you<\/strong><\/em>, not for some photoshopped models. Hence, we don't hire models to showcase our clothes, we would rather <em><strong>celebrate our clothes<\/strong><\/em><strong> with you<\/strong>. Interested? We will send a female photographer to your home & make this fun.",
+            "text": "Ladies & girls, our clothes are <em><strong>made for you. <\/strong><\/em><em>O<\/em>ur clothes should<em><strong> look good on you<\/strong><\/em>, not for some photoshopped models. Hence, we don't hire models to showcase our clothes, we would rather <em><strong>celebrate our clothes<\/strong><\/em><strong> with you<\/strong>. Interested? We will send a female photographer to your home & make this fun.",
             "text_style": "body"
           }
         },
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Learn More",
+            "button_label_1": "Send Request",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -70,6 +70,9 @@
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-heading-1",
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-text-1",
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-buttons-1"
+      ],
+      "custom_css": [
+        ".banner__box {background: #ffffff99; text-shadow: 1px 1px #999;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/tenniskid12_street_style_photo_of_an_indian_woman_and_daughter__617135f1-3d76-4ba6-9ea5-0cdf7bec8779.png",
