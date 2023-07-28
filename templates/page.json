@@ -50,14 +50,14 @@
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-text-1": {
           "type": "text",
           "settings": {
-            "text": "Ladies & girls, our clothes are <em><strong>made for you. <\/strong><\/em><em>O<\/em>ur clothes should<em><strong> look good on you<\/strong><\/em>, not for some photoshopped models. Hence, we want you to model them. Interested? We will arrange a <strong>female photographer<\/strong> to come your home & we promise to make this fun.",
+            "text": "Ladies & girls, our clothes are <em><strong>made for you. <\/strong><\/em><em>O<\/em>ur clothes should<em><strong> look good on you<\/strong><\/em>, not for some photoshopped models. Hence, we <em><strong>want you to model them<\/strong><\/em>. Interested? We will arrange a <strong>female photographer<\/strong> to come your home & we promise to make this fun.",
             "text_style": "body"
           }
         },
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Send Request",
+            "button_label_1": "Learn More",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
