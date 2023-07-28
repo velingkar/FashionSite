@@ -4,7 +4,7 @@
       "type": "main-page",
       "settings": {
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 0
       }
     },
     "e38d460f-d359-40c8-b36a-8324af972aad": {
@@ -20,7 +20,7 @@
         "template--20174006387008__e38d460f-d359-40c8-b36a-8324af972aad-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ladies, welcome to <em><strong>our <\/strong><\/em><strong>privileged<\/strong><em><strong> club<\/strong><\/em>, that celebrates that <em><strong>special something<\/strong><\/em> present all of us.<\/p><p>With <em><strong>dozens of new international designs<\/strong><\/em> launched each week, our t-shirts <em><strong>aspire to be unique<\/strong><\/em> just like you are. <\/p><p><em><strong>Mix & Match<\/strong><\/em> with our fun color ranges to get that <em><strong>perfect t-shirt<\/strong><\/em> lets <strong>your personality shine<\/strong>.<\/p>"
+            "text": "<p>Ladies, welcome to <em><strong>our <\/strong><\/em><strong>privileged<\/strong><em><strong> club<\/strong><\/em>, that celebrates that <em><strong>special something<\/strong><\/em> present all of us.<\/p><p>With <em><strong>dozens of new international designs<\/strong><\/em> launched each week, our t-shirts <em><strong>aspire to be unique<\/strong><\/em> just like you are. <\/p><p><em><strong>Mix & Match<\/strong><\/em> with our fun color ranges to get that <em><strong>perfect t-shirt<\/strong><\/em> lets <strong>your personality shine<\/strong>. We carry <strong>limited stocks<\/strong> with new designs launching every week. <strong>Get Yours Today!!!<\/strong><\/p>"
           }
         }
       },
