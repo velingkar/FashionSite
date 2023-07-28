@@ -43,6 +43,51 @@
         "show_text_below": false
       }
     },
+    "a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Best Designs mixed with Fun Colors",
+            "heading_size": "h1"
+          }
+        },
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Finally, get a t-shirt that is all about you. <\/p><p>You can mix & match our international designs with your favorite colours to get a unique shirt made just for YOU. <\/p><p>We carry limited stocks, new designs launching every week. Get yours today!<\/p>"
+          }
+        },
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-heading-1",
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-text-1",
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-button-1"
+      ],
+      "custom_css": [
+        "div {background-color: pink;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -69,141 +114,6 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
-    "416886b3-62e8-48b8-bdf5-4bfa9db445ba": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20174006124864__416886b3-62e8-48b8-bdf5-4bfa9db445ba-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Create Unique Combinations",
-            "heading_size": "h2"
-          }
-        },
-        "template--20174006124864__416886b3-62e8-48b8-bdf5-4bfa9db445ba-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Choose any design you like and combine it with any color of your choice to create thousands of unique choices. <br\/><br\/>Printed in high quality directly on the surface of the garment which gives it a breathable life-like print that doesn't fade after washing.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--20174006124864__416886b3-62e8-48b8-bdf5-4bfa9db445ba-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--20174006124864__416886b3-62e8-48b8-bdf5-4bfa9db445ba-heading-1",
-        "template--20174006124864__416886b3-62e8-48b8-bdf5-4bfa9db445ba-text-1",
-        "template--20174006124864__416886b3-62e8-48b8-bdf5-4bfa9db445ba-button-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/womens-tshirts.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "d45d58d3-676a-4012-8e8f-cc15557e2e33": {
-      "type": "image-with-text",
-      "blocks": {
-        "5216fbd1-2449-49e4-be6d-c09ff0a1c8d8": {
-          "type": "heading",
-          "settings": {
-            "heading": "International Quality Designs",
-            "heading_size": "h2"
-          }
-        },
-        "9233382c-78eb-4db7-ae47-207c0c6a31fc": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our designs are sourced from the best designers around the world. Each collection is themed to create a unique yet common look to suit your unique preference.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "74e6274c-6d85-42e1-8b79-54ca4a9af222": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "5216fbd1-2449-49e4-be6d-c09ff0a1c8d8",
-        "9233382c-78eb-4db7-ae47-207c0c6a31fc",
-        "74e6274c-6d85-42e1-8b79-54ca4a9af222"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/planning-design-being-creative.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "2eb65ebb-787d-45c0-9600-eb506b041aaa": {
-      "type": "image-with-text",
-      "blocks": {
-        "42fcd550-22f2-4bb4-83b0-41a0e2f3ae08": {
-          "type": "heading",
-          "settings": {
-            "heading": "Premium Fabric",
-            "heading_size": "h2"
-          }
-        },
-        "f8facc5f-3971-4a22-8c24-4c966c32f3c5": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Why buy your shirts in Singapore, Dubai and Thailand when you can buy the same quality right here?<\/em><\/p><p>Our t-shirts are made of premium export-quality cotton and are breathable and soft, making them comfortable to wear at any time of the day. This ensures a premium fit even after many washes.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16171664-10b7-4d1f-be3e-71ab8ebff7c6": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "42fcd550-22f2-4bb4-83b0-41a0e2f3ae08",
-        "f8facc5f-3971-4a22-8c24-4c966c32f3c5",
-        "16171664-10b7-4d1f-be3e-71ab8ebff7c6"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/stack-of-t-shirts.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -324,10 +234,8 @@
   },
   "order": [
     "image_banner",
+    "a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4",
     "featured_collection",
-    "416886b3-62e8-48b8-bdf5-4bfa9db445ba",
-    "d45d58d3-676a-4012-8e8f-cc15557e2e33",
-    "2eb65ebb-787d-45c0-9600-eb506b041aaa",
     "080c609c-f338-4ba8-b14a-96fd71d9ec23",
     "69c4fa48-baf7-4762-9b37-e961aab2f263"
   ]
