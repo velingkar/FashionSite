@@ -72,7 +72,8 @@
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-buttons-1"
       ],
       "custom_css": [
-        ".banner__box {background: #ffffff99; text-shadow: 1px 1px #999;}"
+        "@media screen and (max-width: 749px){.banner__box {background: pink; }}",
+        "@media screen and (min-width: 750px) {.banner__box {background: #ffffff99; text-shadow: 1px 1px #999; } }"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/tenniskid12_street_style_photo_of_an_indian_woman_and_daughter__617135f1-3d76-4ba6-9ea5-0cdf7bec8779.png",
