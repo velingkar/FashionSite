@@ -169,7 +169,7 @@
         "@media (max-width: 767px) {.card__heading {font-size: calc(var(--font-heading-scale) * 1.2rem); font-weight: 600; }}"
       ],
       "settings": {
-        "title": "Women's Collections",
+        "title": "Girl's Collections",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -226,11 +226,11 @@
         "@media (max-width: 767px) {.card__heading {font-size: calc(var(--font-heading-scale) * 1.2rem); font-weight: 600; }}"
       ],
       "settings": {
-        "title": "Kid's Collection",
+        "title": "Boy's Collection",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "color_scheme": "scheme-6243f01a-1e84-4dac-98d1-832672700738",
+        "color_scheme": "scheme-24688561-4b46-4b1c-9caf-663ffa24604a",
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
