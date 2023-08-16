@@ -1,1 +1,72 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","settings":{"text":"1000+ Customizable Designs","link":""}},"5bb0b795-4315-42c0-a66f-906881010185":{"type":"announcement","settings":{"text":"Premium Designs from Korea","link":""}},"270e6c33-26f3-4a60-994e-d3d51b8e1f7f":{"type":"announcement","settings":{"text":"Premium Eco-Friendly 100% Cotton","link":""}},"3c69a1c8-1802-4dc8-9560-4722b4284a91":{"type":"announcement","settings":{"text":"Uniquely Printed for You","link":""}}},"block_order":["announcement-bar-0","5bb0b795-4315-42c0-a66f-906881010185","270e6c33-26f3-4a60-994e-d3d51b8e1f7f","3c69a1c8-1802-4dc8-9560-4722b4284a91"],"settings":{"color_scheme":"inverse","show_line_separator":true,"auto_rotate":true,"change_slides_speed":5}},"header":{"type":"header","settings":{"logo_position":"middle-left","menu":"main-menu","menu_type_desktop":"dropdown","sticky_header_type":"on-scroll-up","show_line_separator":true,"color_scheme":"background-1","enable_country_selector":false,"enable_language_selector":false,"mobile_logo_position":"center","margin_bottom":0,"padding_top":20,"padding_bottom":20}}},"order":["announcement-bar","header"]}
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "1000+ Customizable Designs",
+            "link": ""
+          }
+        },
+        "5bb0b795-4315-42c0-a66f-906881010185": {
+          "type": "announcement",
+          "settings": {
+            "text": "Premium Designs from Korea",
+            "link": ""
+          }
+        },
+        "270e6c33-26f3-4a60-994e-d3d51b8e1f7f": {
+          "type": "announcement",
+          "settings": {
+            "text": "Premium Eco-Friendly 100% Cotton",
+            "link": ""
+          }
+        },
+        "3c69a1c8-1802-4dc8-9560-4722b4284a91": {
+          "type": "announcement",
+          "settings": {
+            "text": "Uniquely Printed for You",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0",
+        "5bb0b795-4315-42c0-a66f-906881010185",
+        "270e6c33-26f3-4a60-994e-d3d51b8e1f7f",
+        "3c69a1c8-1802-4dc8-9560-4722b4284a91"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "show_line_separator": true,
+        "auto_rotate": true,
+        "change_slides_speed": 5
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "scheme-6243f01a-1e84-4dac-98d1-832672700738",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

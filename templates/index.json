@@ -77,12 +77,12 @@
         "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-button-1"
       ],
       "custom_css": [
-        "div {background-color: pink;}"
+
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-6243f01a-1e84-4dac-98d1-832672700738",
         "full_width": true,
         "padding_top": 20,
         "padding_bottom": 20
@@ -173,7 +173,7 @@
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "color_scheme": "",
+        "color_scheme": "scheme-6243f01a-1e84-4dac-98d1-832672700738",
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
@@ -230,7 +230,7 @@
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
-        "color_scheme": "",
+        "color_scheme": "scheme-6243f01a-1e84-4dac-98d1-832672700738",
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
