@@ -20,7 +20,7 @@
         "template--20174006387008__e38d460f-d359-40c8-b36a-8324af972aad-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Ladies, welcome to <em><strong>our <\/strong><\/em><strong>privileged<\/strong><em><strong> club<\/strong><\/em>, that celebrates that <em><strong>special something<\/strong><\/em> present all of us.<\/p><p>With <em><strong>dozens of new international designs<\/strong><\/em> launched each week, our t-shirts <em><strong>aspire to be unique<\/strong><\/em> just like you are. <\/p><p><em><strong>Mix & Match<\/strong><\/em> with our fun color ranges to get that <em><strong>perfect t-shirt<\/strong><\/em> lets <strong>your personality shine<\/strong>. We carry <strong>limited stocks<\/strong> with new designs launching every week. <strong>Get Yours Today!!!<\/strong><\/p>"
+            "text": "<p>Parents, welcome to <em><strong>our <\/strong><\/em><strong>privileged<\/strong><em><strong> club<\/strong><\/em>, that celebrates that <em><strong>special something<\/strong><\/em> present all of us.<\/p><p>With <em><strong>dozens of new international designs<\/strong><\/em> launched each week, our t-shirts <em><strong>aspire to be unique<\/strong><\/em> just like you are. <\/p><p><em><strong>Mix & Match<\/strong><\/em> with our fun color ranges to get that <em><strong>perfect t-shirt<\/strong><\/em> lets <strong>your personality shine<\/strong>. We carry <strong>limited stocks<\/strong> with new designs launching every week. <strong>Get Yours Today!!!<\/strong><\/p>"
           }
         }
       },
@@ -71,6 +71,7 @@
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-text-1",
         "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-buttons-1"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 749px) {.banner__box {background: pink; }}",
         "@media screen and (min-width: 750px) {.banner__box {background: #ffffff99; text-shadow: 1px 1px #999; }}"
@@ -119,7 +120,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -152,11 +153,11 @@
         "image": "shopify:\/\/shop_images\/planning-design-being-creative.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -193,7 +194,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "",
+        "color_scheme": "background-2",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
@@ -234,6 +235,7 @@
         "fae4bf71-1bba-4988-be1b-8138821585df",
         "1e258674-deaf-45ea-a023-bdbd02d753e8"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 749px) {.banner__box {background: pink; }}",
         "@media screen and (min-width: 750px) {.banner__box {background: #ffffff99; text-shadow: 1px 1px #999; }}"
