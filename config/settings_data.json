@@ -136,7 +136,7 @@
     "color_schemes": {
       "background-1": {
         "settings": {
-          "background": "#cc89f3",
+          "background": "#f6e443",
           "background_gradient": "",
           "text": "#121212",
           "button": "#f9ed7f",
@@ -147,7 +147,7 @@
       },
       "background-2": {
         "settings": {
-          "background": "#69dc95",
+          "background": "#39b4f1",
           "background_gradient": "",
           "text": "#121212",
           "button": "#f6e443",
