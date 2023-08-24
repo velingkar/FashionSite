@@ -102,11 +102,18 @@
           "settings": {
             "collection": "sweet-tooth-kawaii-designs"
           }
+        },
+        "b85dd095-a2dc-469c-b91d-d8e2770b0786": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ancient-masks"
+          }
         }
       },
       "block_order": [
         "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1",
-        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-2"
+        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-2",
+        "b85dd095-a2dc-469c-b91d-d8e2770b0786"
       ],
       "settings": {
         "title": "Collections",
