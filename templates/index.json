@@ -88,31 +88,36 @@
         "padding_bottom": 20
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "8ef620d1-3bda-44cb-917f-d34cf42e0792": {
+      "type": "collection-list",
+      "blocks": {
+        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cute-and-wild"
+          }
+        },
+        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sweet-tooth-kawaii-designs"
+          }
+        }
+      },
+      "block_order": [
+        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1",
+        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-2"
+      ],
       "settings": {
-        "title": "Sweet Tooth Collection",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "sweet-tooth-kawaii-designs",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": true,
-        "color_scheme": "background-1",
+        "title": "Collections",
+        "heading_size": "h0",
         "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-6243f01a-1e84-4dac-98d1-832672700738",
+        "show_view_all": false,
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 44,
+        "padding_top": 36,
         "padding_bottom": 36
       }
     }
@@ -120,6 +125,6 @@
   "order": [
     "image_banner",
     "a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4",
-    "featured_collection"
+    "8ef620d1-3bda-44cb-917f-d34cf42e0792"
   ]
 }

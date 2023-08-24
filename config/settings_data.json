@@ -45,7 +45,7 @@
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
     "card_shadow_blur": 5,
-    "collection_card_style": "standard",
+    "collection_card_style": "card",
     "collection_card_image_padding": 2,
     "collection_card_text_alignment": "left",
     "collection_card_color_scheme": "scheme-6243f01a-1e84-4dac-98d1-832672700738",
