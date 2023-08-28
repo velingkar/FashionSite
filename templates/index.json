@@ -43,51 +43,6 @@
         "show_text_below": false
       }
     },
-    "a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4": {
-      "type": "rich-text",
-      "blocks": {
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Quality Designs + Fun Colors",
-            "heading_size": "h1"
-          }
-        },
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Finally, get <em><strong>a t-shirt that is all about you<\/strong><\/em>. Mix & match our <em><strong>professionally made designs<\/strong><\/em> with your favorite <em><strong>trendy colours<\/strong><\/em> to get a unique shirt made <em><strong>JUST FOR YOU<\/strong><\/em>. <\/p><p>We carry <em><strong>limited stocks<\/strong><\/em>, new designs <strong>launching every week<\/strong>. Get yours today!<\/p>"
-          }
-        },
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "About Us",
-            "button_link": "shopify:\/\/pages\/about-us",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-heading-1",
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-text-1",
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-button-1"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "8ef620d1-3bda-44cb-917f-d34cf42e0792": {
       "type": "collection-list",
       "blocks": {
@@ -134,11 +89,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our European designs are intentionally kept <strong>simple, beautiful and elegant<\/strong>. Our designs strive to connect with your kids, allowing your <strong>kid's magical imagination<\/strong> to take over. Together, we strive to create an adventure where <strong>simple things come to life<\/strong>. <\/p><p>We believe <strong>every moment in childhood<\/strong> is precious. It's an opportunity to <strong>learn and explore<\/strong>. Hence, our premium t-shirts comes with an <strong>educational pamphlet <\/strong>on the topic.<\/p>"
+          }
+        },
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "About Us",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-heading-1",
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-text-1",
+        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-button-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
     "image_banner",
-    "a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4",
-    "8ef620d1-3bda-44cb-917f-d34cf42e0792"
+    "8ef620d1-3bda-44cb-917f-d34cf42e0792",
+    "a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4"
   ]
 }
