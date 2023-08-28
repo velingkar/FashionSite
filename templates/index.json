@@ -43,6 +43,22 @@
         "show_text_below": false
       }
     },
+    "c846e3ab-5b0a-4f08-ad4b-83ee1b972498": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Allorio_Banner_Top_Reasons_to_Buy.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "8ef620d1-3bda-44cb-917f-d34cf42e0792": {
       "type": "collection-list",
       "blocks": {
@@ -138,6 +154,7 @@
   },
   "order": [
     "image_banner",
+    "c846e3ab-5b0a-4f08-ad4b-83ee1b972498",
     "8ef620d1-3bda-44cb-917f-d34cf42e0792",
     "a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4"
   ]
