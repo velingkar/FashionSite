@@ -106,49 +106,41 @@
         "padding_bottom": 36
       }
     },
-    "a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4": {
-      "type": "rich-text",
+    "579d4a67-210a-4a03-9bc3-7fa5172e77c0": {
+      "type": "image-with-text",
       "blocks": {
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-text-1": {
+        "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our European designs are intentionally kept <strong>simple, beautiful and elegant<\/strong>. Our designs strive to connect with your kids, allowing your <strong>kid's magical imagination<\/strong> to take over. Together, we strive to create an adventure where <strong>simple things come to life<\/strong>. <\/p><p>We believe <strong>every moment in childhood<\/strong> is precious. It's an opportunity to <strong>learn and explore<\/strong>. Hence, our premium t-shirts comes with an <strong>educational pamphlet <\/strong>on the topic.<\/p>"
+            "text": "<p>Our European designs are intentionally kept <strong>simple, beautiful and elegant<\/strong>. Our designs strive to connect with your kids, allowing your <strong>kid's imagination <\/strong>to take over. Together, we strive to create an adventure where <strong>simple things come to life<\/strong>.<\/p>",
+            "text_style": "body"
           }
         },
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-button-1": {
+        "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-button-1": {
           "type": "button",
           "settings": {
-            "button_label": "About Us",
-            "button_link": "shopify:\/\/pages\/about-us",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/about-us"
           }
         }
       },
       "block_order": [
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-heading-1",
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-text-1",
-        "template--20174006124864__a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4-button-1"
-      ],
-      "custom_css": [
-
+        "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-text-1",
+        "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-button-1"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/hand-doodle-on-grid.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -156,6 +148,6 @@
     "image_banner",
     "c846e3ab-5b0a-4f08-ad4b-83ee1b972498",
     "8ef620d1-3bda-44cb-917f-d34cf42e0792",
-    "a3f24ec2-6a45-4b68-b5fc-2f17a915eaa4"
+    "579d4a67-210a-4a03-9bc3-7fa5172e77c0"
   ]
 }
