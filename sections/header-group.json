@@ -5,17 +5,10 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "1000+ Customizable Designs",
-            "link": ""
-          }
-        },
         "5bb0b795-4315-42c0-a66f-906881010185": {
           "type": "announcement",
           "settings": {
-            "text": "Premium Designs from Europe",
+            "text": "High Quality European Designs",
             "link": ""
           }
         },
@@ -26,18 +19,25 @@
             "link": ""
           }
         },
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "MIx and Match Colors with Designs",
+            "link": ""
+          }
+        },
         "3c69a1c8-1802-4dc8-9560-4722b4284a91": {
           "type": "announcement",
           "settings": {
-            "text": "Uniquely Printed for You",
+            "text": "New Collections Launched Weekly",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
         "5bb0b795-4315-42c0-a66f-906881010185",
         "270e6c33-26f3-4a60-994e-d3d51b8e1f7f",
+        "announcement-bar-0",
         "3c69a1c8-1802-4dc8-9560-4722b4284a91"
       ],
       "settings": {
