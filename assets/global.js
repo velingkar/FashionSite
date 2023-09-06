@@ -909,14 +909,17 @@ class VariantSelects extends HTMLElement {
   }
 
   filterImgVariant() {
-    if ( this.currentVariant.featured_image && this.currentVariant.featured_image.alt) {
-      document.querySelectorAll('[thumbnail-alt]').forEach( img => img.style.display = 'none');
-      const curImgAlt = this.currentVariant.featured_image.alt;
-      const variantImgSelector = `[thumbnail-alt = '$(curImgAlt)']`;
-      document.querySelectorAll(variantImgSelector).forEach( img => img.style.display = 'block');
-    }
-    else {
-      document.querySelectorAll('[thumbnail-alt]').forEach( img => img.style.display = 'block');
+    console.log("thumbnail updated", this.currentVariant);
+    const thumbnailEls = document.querySelectorAll('[thumbnail-alt]');
+    if (this.currentVariant.featured_image && this.currentVariant.featured_image.alt) {
+      // Show only thumbnail for selected variant
+      const currentImgAlt = this.currentVariant.featured_image.alt;
+      const thumbnailSelector = `[thumbnail-alt='${currentImgAlt}']`;
+      thumbnailEls.forEach(img => img.style.display = 'none');
+      document.querySelectorAll(thumbnailSelector).forEach(img => img.style.display = 'block');
+    } else {
+      // Show all thumbnails
+      thumbnailEls.forEach(img => img.style.display = 'block');
     }
   }
 
