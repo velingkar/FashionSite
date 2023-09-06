@@ -909,7 +909,6 @@ class VariantSelects extends HTMLElement {
   }
 
   filterImgVariant() {
-    console.log("thumbnail updated", this.currentVariant);
     const thumbnailEls = document.querySelectorAll('[thumbnail-alt]');
     if (this.currentVariant.featured_image && this.currentVariant.featured_image.alt) {
       // Show only thumbnail for selected variant
