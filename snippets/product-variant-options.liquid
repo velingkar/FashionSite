@@ -59,10 +59,19 @@
         class="disabled"
       {% endif %}
     >
-      <label style="background-image:url({{ value | append: '.png' | file_url }})" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+    {% if option.name == 'Color' %}
+      <label
+        style="background-image:url({{ value | append: '.png' | file_url }})"
+        for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+      >
+        <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+      </label>
+    {% else %}
+      <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
         {{ value -}}
-      <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
-    </label>
+        <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
+      </label>
+    {% endif %}
   {%- elsif block.settings.picker_type == 'dropdown' -%}
     <option
       value="{{ value | escape }}"
