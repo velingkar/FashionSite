@@ -1599,15 +1599,6 @@ a.product__text {
   height: 40px;
   width: 40px;
   border-radius: 100%;
-  .disabled {
-    opacity:10%;
-  }
-}
-
-.product-form__input input[type=radio] {
-  .disabled {
-    opacity:10%;
-  }
 }
 
 .product-form__input input[type=radio]:checked+label.color-swatch {
