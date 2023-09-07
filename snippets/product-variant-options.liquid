@@ -66,7 +66,7 @@
         for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
       >
         {% if option_disabled %}
-          <span style="background-image:url('disabled_color_swatch.png' | file_url }})"></span>
+          <span style="background-image:url({{ 'disabled_color_swatch.png' | file_url }})"></span>
         {% endif %}
         <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
       </label>
