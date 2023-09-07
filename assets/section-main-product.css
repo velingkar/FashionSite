@@ -1604,6 +1604,12 @@ a.product__text {
   }
 }
 
+.product-form__input input[type=radio]+label {
+  .disabled {
+    opacity:10%;
+  }
+}
+
 .product-form__input input[type=radio]:checked+label.color-swatch {
   box-shadow: 0 0 0 2px #000;
   transition: box-shadow .2s ease;
