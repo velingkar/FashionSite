@@ -1617,7 +1617,3 @@ a.product__text {
   left: -1px;
   right: -1px;
 }
-
-.product-form__input input[type=radio]:disabled+label.color-swatch {
-  border: 1px dotted black;
-}
