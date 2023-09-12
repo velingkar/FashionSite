@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "707f07a8-4b29-4ab1-b12e-81d5000d9576": {
+      "type": "collection-list",
+      "blocks": {
+        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ancient-masks"
+          }
+        },
+        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cute-and-wild"
+          }
+        },
+        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "glass-forest"
+          }
+        },
+        "6baabdef-e768-43a5-bae6-31023bc661d0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medieval-characters"
+          }
+        },
+        "bd71873c-41bb-475a-bf0f-56cdc517a010": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "space-traveller"
+          }
+        },
+        "c57817b1-9acb-43d4-824a-60c8a1702f1c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sweet-tooth-kawaii-designs"
+          }
+        }
+      },
+      "block_order": [
+        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-1",
+        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-2",
+        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-3",
+        "6baabdef-e768-43a5-bae6-31023bc661d0",
+        "bd71873c-41bb-475a-bf0f-56cdc517a010",
+        "c57817b1-9acb-43d4-824a-60c8a1702f1c"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "707f07a8-4b29-4ab1-b12e-81d5000d9576"
+  ]
+}
