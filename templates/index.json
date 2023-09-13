@@ -43,42 +43,58 @@
         "show_text_below": false
       }
     },
-    "c406c263-bb1b-426c-811b-e8d8b0db8508": {
-      "type": "image-banner",
-      "blocks": {
-        "a17e77cc-db03-477e-a103-3f9002736a5c": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop for Boys",
-            "button_link_1": "shopify:\/\/pages\/boys",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "a17e77cc-db03-477e-a103-3f9002736a5c"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/FinishedBanner1.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "855c5bda-2dd1-4cbc-8313-15e02c560457": {
       "type": "multicolumn",
       "blocks": {
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sitting-on-school-steps-to-go-back-to-school.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Shop for Boys",
+            "link": "shopify:\/\/pages\/boys"
+          }
+        },
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/smiling-girl-on-stairs.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Shop for Girls",
+            "link": "shopify:\/\/pages\/girls-collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1",
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "7d62fb67-9aca-493f-a866-49525fa19228": {
+      "type": "multicolumn",
+      "blocks": {
+        "6798997b-9ac2-4aff-9c45-7e56ad49101d": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-design-white.png",
@@ -88,7 +104,7 @@
             "link": ""
           }
         },
-        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2": {
+        "e01452a0-553c-4392-9dc6-d682c1698581": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/medal-white.png",
@@ -100,11 +116,8 @@
         }
       },
       "block_order": [
-        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1",
-        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2"
-      ],
-      "custom_css": [
-
+        "6798997b-9ac2-4aff-9c45-7e56ad49101d",
+        "e01452a0-553c-4392-9dc6-d682c1698581"
       ],
       "settings": {
         "title": "",
@@ -269,8 +282,8 @@
   },
   "order": [
     "image_banner",
-    "c406c263-bb1b-426c-811b-e8d8b0db8508",
     "855c5bda-2dd1-4cbc-8313-15e02c560457",
+    "7d62fb67-9aca-493f-a866-49525fa19228",
     "8ef620d1-3bda-44cb-917f-d34cf42e0792",
     "70223f50-5b85-44a2-b2c7-aa882f374b44",
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0"
