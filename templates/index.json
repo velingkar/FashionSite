@@ -51,7 +51,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-design-white.png",
             "title": "",
-            "text": "<h5>Cute European Designs<\/h5>",
+            "text": "<h4>Cute European Designs<\/h4>",
             "link_label": "",
             "link": ""
           }
@@ -61,7 +61,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/medal-white.png",
             "title": "",
-            "text": "<h5>100% Premium Cotton<\/h5>",
+            "text": "<h4>100% Premium Cotton<\/h4>",
             "link_label": "",
             "link": ""
           }
