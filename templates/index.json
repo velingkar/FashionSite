@@ -42,8 +42,8 @@
           "type": "caption",
           "settings": {
             "caption": "Premium kids t-shirts that fuel your imagination.",
-            "text_style": "subtitle",
-            "text_size": "large"
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         }
       },
