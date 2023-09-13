@@ -167,12 +167,6 @@
             "collection": "cute-and-wild"
           }
         },
-        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "sweet-tooth-kawaii-designs"
-          }
-        },
         "b85dd095-a2dc-469c-b91d-d8e2770b0786": {
           "type": "featured_collection",
           "settings": {
@@ -184,25 +178,17 @@
           "settings": {
             "collection": "medieval-characters"
           }
-        },
-        "a6d461da-1920-4b5d-abde-e2391828c46a": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "glass-forest"
-          }
         }
       },
       "block_order": [
         "6e93dd27-a83b-4548-ad63-7703bcc4329c",
         "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1",
-        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-2",
         "b85dd095-a2dc-469c-b91d-d8e2770b0786",
-        "fd53155b-5408-4c10-ac2c-9220315c0ea4",
-        "a6d461da-1920-4b5d-abde-e2391828c46a"
+        "fd53155b-5408-4c10-ac2c-9220315c0ea4"
       ],
       "settings": {
-        "title": "Collections",
-        "heading_size": "h0",
+        "title": "Featured Collections for Boys",
+        "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "color_scheme": "scheme-6243f01a-1e84-4dac-98d1-832672700738",
@@ -258,6 +244,53 @@
         "padding_bottom": 12
       }
     },
+    "e55e6824-194e-4cba-9757-70e6caa0174a": {
+      "type": "collection-list",
+      "blocks": {
+        "0242da18-9989-48f7-ba08-feabad863d8f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cute-and-wild-girls"
+          }
+        },
+        "d6599f93-1438-4f8d-8155-466cf65a308d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sweet-tooth-girls"
+          }
+        },
+        "a408ed2b-47ea-4b52-988b-44385d753123": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "glass-forest-girls"
+          }
+        },
+        "a6134e81-e431-4a5b-b7e9-6c5cf0021866": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "space-traveller-girls"
+          }
+        }
+      },
+      "block_order": [
+        "0242da18-9989-48f7-ba08-feabad863d8f",
+        "d6599f93-1438-4f8d-8155-466cf65a308d",
+        "a408ed2b-47ea-4b52-988b-44385d753123",
+        "a6134e81-e431-4a5b-b7e9-6c5cf0021866"
+      ],
+      "settings": {
+        "title": "Featured Collections for Girls",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-6243f01a-1e84-4dac-98d1-832672700738",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0": {
       "type": "image-with-text",
       "blocks": {
@@ -303,6 +336,7 @@
     "7d62fb67-9aca-493f-a866-49525fa19228",
     "8ef620d1-3bda-44cb-917f-d34cf42e0792",
     "70223f50-5b85-44a2-b2c7-aa882f374b44",
+    "e55e6824-194e-4cba-9757-70e6caa0174a",
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0"
   ]
 }
