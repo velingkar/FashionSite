@@ -82,8 +82,11 @@
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2",
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-3"
       ],
+      "custom_css": [
+        "img {width: 128px; height: 128px;}"
+      ],
       "settings": {
-        "title": "Top reasons to buy from us",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
