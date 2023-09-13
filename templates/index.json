@@ -51,7 +51,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/distribution-white.png",
             "title": "European Designs",
-            "text": "<p>Globally designed especially for kids  🌎✨, styles that are stylish, elegant, and oh-so-cute!<\/p>",
+            "text": "<p>Stylish, elegant and cute designs ✨,   created especially for kids. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -61,13 +61,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/graphic-design-white.png",
             "title": "Premium Quality",
-            "text": "<p>Breathable, soft, and sustainable 100% premium cotton 🍃, bio-washed for fast colors, lasting comfort and great fit. <\/p>",
+            "text": "<p>100% premium cotton 🍃, bio-washed for lasting color, comfort & fit. <\/p>",
             "link_label": "",
             "link": ""
           }
         },
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-3": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/return-box.png",
             "title": "Hassle Free",
@@ -83,23 +84,23 @@
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-3"
       ],
       "custom_css": [
-        "img {width: 128px; height: 128px; position: absolute; top: 50%; left: 50%; transform: translateY(-50%) translateX(-50%);}"
+
       ],
       "settings": {
         "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-2",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "c846e3ab-5b0a-4f08-ad4b-83ee1b972498": {
@@ -180,6 +181,63 @@
         "padding_bottom": 36
       }
     },
+    "70223f50-5b85-44a2-b2c7-aa882f374b44": {
+      "type": "multicolumn",
+      "blocks": {
+        "110cab1e-8e3c-4662-80f2-99bbef6ffbed": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/distribution-white.png",
+            "title": "European Designs",
+            "text": "<p>Stylish, elegant and cute designs ✨,   created especially for kids. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "ab1fa0af-5d95-4855-935b-4ba3f2db0025": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/graphic-design-white.png",
+            "title": "Premium Quality",
+            "text": "<p>100% premium cotton 🍃, bio-washed for lasting color, comfort & fit. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e560f2db-7272-46da-a865-86958fcdf449": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/return-box.png",
+            "title": "Hassle Free",
+            "text": "<p>Try risk-free! 7-day exchanges and returns on all products 🚚, with pickup from your doorstep 🏡. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "110cab1e-8e3c-4662-80f2-99bbef6ffbed",
+        "ab1fa0af-5d95-4855-935b-4ba3f2db0025",
+        "e560f2db-7272-46da-a865-86958fcdf449"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0": {
       "type": "image-with-text",
       "blocks": {
@@ -223,6 +281,7 @@
     "855c5bda-2dd1-4cbc-8313-15e02c560457",
     "c846e3ab-5b0a-4f08-ad4b-83ee1b972498",
     "8ef620d1-3bda-44cb-917f-d34cf42e0792",
+    "70223f50-5b85-44a2-b2c7-aa882f374b44",
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0"
   ]
 }
