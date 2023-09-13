@@ -43,6 +43,59 @@
         "show_text_below": false
       }
     },
+    "855c5bda-2dd1-4cbc-8313-15e02c560457": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "European Designs",
+            "text": "<p>Globally designed especially for kids  🌎✨, styles that are stylish, elegant, and oh-so-cute!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Premium Quality",
+            "text": "<p>Breathable, soft, and sustainable 100% premium cotton 🍃, bio-washed for fast colors, lasting comfort and great fit. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "Hassle Free",
+            "text": "<p>Try risk-free! 7-day exchanges and returns on all products 🚚, with pickup from your doorstep 🏡. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1",
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2",
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-3"
+      ],
+      "settings": {
+        "title": "Top reasons to buy from us",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "c846e3ab-5b0a-4f08-ad4b-83ee1b972498": {
       "type": "image-banner",
       "settings": {
@@ -160,6 +213,7 @@
   },
   "order": [
     "image_banner",
+    "855c5bda-2dd1-4cbc-8313-15e02c560457",
     "c846e3ab-5b0a-4f08-ad4b-83ee1b972498",
     "8ef620d1-3bda-44cb-917f-d34cf42e0792",
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0"
