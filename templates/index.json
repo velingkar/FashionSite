@@ -51,8 +51,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/sitting-on-school-steps-to-go-back-to-school.jpg",
             "title": "",
-            "text": "<p>Shop for Boys &gt;&gt;<\/p>",
-            "link_label": "",
+            "text": "",
+            "link_label": "Shop for Boys",
             "link": "shopify:\/\/pages\/boys"
           }
         },
