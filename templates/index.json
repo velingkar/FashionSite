@@ -49,6 +49,7 @@
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/distribution-white.png",
             "title": "European Designs",
             "text": "<p>Globally designed especially for kids  🌎✨, styles that are stylish, elegant, and oh-so-cute!<\/p>",
             "link_label": "",
@@ -58,6 +59,7 @@
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/graphic-design-white.png",
             "title": "Premium Quality",
             "text": "<p>Breathable, soft, and sustainable 100% premium cotton 🍃, bio-washed for fast colors, lasting comfort and great fit. <\/p>",
             "link_label": "",
@@ -67,6 +69,7 @@
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/return-box.png",
             "title": "Hassle Free",
             "text": "<p>Try risk-free! 7-day exchanges and returns on all products 🚚, with pickup from your doorstep 🏡. <\/p>",
             "link_label": "",
@@ -98,6 +101,7 @@
     },
     "c846e3ab-5b0a-4f08-ad4b-83ee1b972498": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Allorio_Banner_Top_Reasons_to_Buy_7e893ec4-008b-45ba-b5fa-9c87437a4891.png",
         "image_overlay_opacity": 0,
