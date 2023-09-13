@@ -49,9 +49,9 @@
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/distribution-white.png",
-            "title": "European Designs",
-            "text": "<p>Stylish, elegant and cute designs ✨,   created especially for kids. <\/p>",
+            "image": "shopify:\/\/shop_images\/graphic-design-white.png",
+            "title": "",
+            "text": "<h5>Cute European Designs<\/h5>",
             "link_label": "",
             "link": ""
           }
@@ -59,20 +59,9 @@
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/graphic-design-white.png",
-            "title": "Premium Quality",
-            "text": "<p>100% premium cotton 🍃, bio-washed for lasting color, comfort & fit. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-3": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/return-box.png",
-            "title": "Hassle Free",
-            "text": "<p>Try risk-free! 7-day exchanges and returns on all products 🚚, with pickup from your doorstep 🏡. <\/p>",
+            "image": "shopify:\/\/shop_images\/medal-white.png",
+            "title": "",
+            "text": "<h5>100% Premium Cotton<\/h5>",
             "link_label": "",
             "link": ""
           }
@@ -80,8 +69,7 @@
       },
       "block_order": [
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1",
-        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2",
-        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-3"
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2"
       ],
       "custom_css": [
 
@@ -101,23 +89,6 @@
         "swipe_on_mobile": false,
         "padding_top": 12,
         "padding_bottom": 12
-      }
-    },
-    "c846e3ab-5b0a-4f08-ad4b-83ee1b972498": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Allorio_Banner_Top_Reasons_to_Buy_7e893ec4-008b-45ba-b5fa-9c87437a4891.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "top-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "8ef620d1-3bda-44cb-917f-d34cf42e0792": {
@@ -184,23 +155,12 @@
     "70223f50-5b85-44a2-b2c7-aa882f374b44": {
       "type": "multicolumn",
       "blocks": {
-        "110cab1e-8e3c-4662-80f2-99bbef6ffbed": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/distribution-white.png",
-            "title": "European Designs",
-            "text": "<p>Stylish, elegant and cute designs ✨,   created especially for kids. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "ab1fa0af-5d95-4855-935b-4ba3f2db0025": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/graphic-design-white.png",
-            "title": "Premium Quality",
-            "text": "<p>100% premium cotton 🍃, bio-washed for lasting color, comfort & fit. <\/p>",
+            "image": "shopify:\/\/shop_images\/medal-white.png",
+            "title": "",
+            "text": "<h5>100% premium cotton<\/h5>",
             "link_label": "",
             "link": ""
           }
@@ -209,15 +169,14 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/return-box.png",
-            "title": "Hassle Free",
-            "text": "<p>Try risk-free! 7-day exchanges and returns on all products 🚚, with pickup from your doorstep 🏡. <\/p>",
+            "title": "",
+            "text": "<h5><strong>Hassle Free Returns<\/strong><\/h5>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "110cab1e-8e3c-4662-80f2-99bbef6ffbed",
         "ab1fa0af-5d95-4855-935b-4ba3f2db0025",
         "e560f2db-7272-46da-a865-86958fcdf449"
       ],
@@ -279,7 +238,6 @@
   "order": [
     "image_banner",
     "855c5bda-2dd1-4cbc-8313-15e02c560457",
-    "c846e3ab-5b0a-4f08-ad4b-83ee1b972498",
     "8ef620d1-3bda-44cb-917f-d34cf42e0792",
     "70223f50-5b85-44a2-b2c7-aa882f374b44",
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0"
