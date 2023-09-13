@@ -158,9 +158,9 @@
         "ab1fa0af-5d95-4855-935b-4ba3f2db0025": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/medal-white.png",
+            "image": "shopify:\/\/shop_images\/feathers-light.png",
             "title": "",
-            "text": "<h5>100% premium cotton<\/h5>",
+            "text": "<h4>Soft and Comfortable<\/h4>",
             "link_label": "",
             "link": ""
           }
@@ -170,7 +170,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/return-box.png",
             "title": "",
-            "text": "<h5><strong>Hassle Free Returns<\/strong><\/h5>",
+            "text": "<h4><strong>Hassle Free Returns<\/strong><\/h4>",
             "link_label": "",
             "link": ""
           }
