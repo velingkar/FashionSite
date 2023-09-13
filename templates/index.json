@@ -83,7 +83,7 @@
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-3"
       ],
       "custom_css": [
-        "img {width: 128px; height: 128px;}"
+        "img {width: 128px; height: 128px; position: absolute; top: 50%; left: 50%; transform: translateY(-50%) translateX(-50%);}"
       ],
       "settings": {
         "title": "",
