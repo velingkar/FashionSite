@@ -16,22 +16,10 @@
             "collection": "ancient-masks"
           }
         },
-        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cute-and-wild"
-          }
-        },
-        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-3": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "glass-forest"
-          }
-        },
         "6baabdef-e768-43a5-bae6-31023bc661d0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "medieval-characters"
+            "collection": "fruit-dojo-boys"
           }
         },
         "bd71873c-41bb-475a-bf0f-56cdc517a010": {
@@ -43,17 +31,29 @@
         "c57817b1-9acb-43d4-824a-60c8a1702f1c": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sweet-tooth-kawaii-designs"
+            "collection": "sunny-in-africa-boys"
+          }
+        },
+        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cute-and-wild"
+          }
+        },
+        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "glass-forest"
           }
         }
       },
       "block_order": [
         "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-1",
-        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-2",
-        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-3",
         "6baabdef-e768-43a5-bae6-31023bc661d0",
         "bd71873c-41bb-475a-bf0f-56cdc517a010",
-        "c57817b1-9acb-43d4-824a-60c8a1702f1c"
+        "c57817b1-9acb-43d4-824a-60c8a1702f1c",
+        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-2",
+        "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-3"
       ],
       "settings": {
         "title": "",
