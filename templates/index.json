@@ -155,18 +155,6 @@
     "8ef620d1-3bda-44cb-917f-d34cf42e0792": {
       "type": "collection-list",
       "blocks": {
-        "6e93dd27-a83b-4548-ad63-7703bcc4329c": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "space-traveller"
-          }
-        },
-        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cute-and-wild"
-          }
-        },
         "b85dd095-a2dc-469c-b91d-d8e2770b0786": {
           "type": "featured_collection",
           "settings": {
@@ -176,15 +164,43 @@
         "fd53155b-5408-4c10-ac2c-9220315c0ea4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "medieval-characters"
+            "collection": "fruit-dojo-boys"
+          }
+        },
+        "6e93dd27-a83b-4548-ad63-7703bcc4329c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "space-traveller"
+          }
+        },
+        "99b39fd0-a0f5-425f-ab33-c16e74bfbf31": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sunny-in-africa-boys"
+          }
+        },
+        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "cute-and-wild"
+          }
+        },
+        "c72cf904-1598-466f-b085-da9af2eb7b8b": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "glass-forest"
           }
         }
       },
       "block_order": [
-        "6e93dd27-a83b-4548-ad63-7703bcc4329c",
-        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1",
         "b85dd095-a2dc-469c-b91d-d8e2770b0786",
-        "fd53155b-5408-4c10-ac2c-9220315c0ea4"
+        "fd53155b-5408-4c10-ac2c-9220315c0ea4",
+        "6e93dd27-a83b-4548-ad63-7703bcc4329c",
+        "99b39fd0-a0f5-425f-ab33-c16e74bfbf31",
+        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1",
+        "c72cf904-1598-466f-b085-da9af2eb7b8b"
       ],
       "settings": {
         "title": "Featured Collections for Boys",
@@ -247,16 +263,16 @@
     "e55e6824-194e-4cba-9757-70e6caa0174a": {
       "type": "collection-list",
       "blocks": {
-        "0242da18-9989-48f7-ba08-feabad863d8f": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cute-and-wild-girls"
-          }
-        },
         "d6599f93-1438-4f8d-8155-466cf65a308d": {
           "type": "featured_collection",
           "settings": {
             "collection": "sweet-tooth-girls"
+          }
+        },
+        "0242da18-9989-48f7-ba08-feabad863d8f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cute-and-wild-girls"
           }
         },
         "a408ed2b-47ea-4b52-988b-44385d753123": {
@@ -268,15 +284,31 @@
         "a6134e81-e431-4a5b-b7e9-6c5cf0021866": {
           "type": "featured_collection",
           "settings": {
-            "collection": "space-traveller-girls"
+            "collection": "fruit-dojo-girls"
+          }
+        },
+        "cc3487aa-7ea5-4740-8709-87cefa87ae45": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "sunny-in-africa-girls"
+          }
+        },
+        "e0ce7a2b-5ae5-4c06-84b5-ca772bc9e63b": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "ancient-masks-girls"
           }
         }
       },
       "block_order": [
-        "0242da18-9989-48f7-ba08-feabad863d8f",
         "d6599f93-1438-4f8d-8155-466cf65a308d",
+        "0242da18-9989-48f7-ba08-feabad863d8f",
         "a408ed2b-47ea-4b52-988b-44385d753123",
-        "a6134e81-e431-4a5b-b7e9-6c5cf0021866"
+        "a6134e81-e431-4a5b-b7e9-6c5cf0021866",
+        "cc3487aa-7ea5-4740-8709-87cefa87ae45",
+        "e0ce7a2b-5ae5-4c06-84b5-ca772bc9e63b"
       ],
       "settings": {
         "title": "Featured Collections for Girls",
