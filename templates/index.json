@@ -68,7 +68,7 @@
             "image": "shopify:\/\/shop_images\/Boys_Collections.png",
             "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "Shop for Boys",
             "link": "shopify:\/\/pages\/boys"
           }
         },
@@ -78,7 +78,7 @@
             "image": "shopify:\/\/shop_images\/Girls_Collections_fb05a091-7145-43b7-aa7b-9bd75ea9c83a.png",
             "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "Shop for Girls",
             "link": "shopify:\/\/pages\/girls-collections"
           }
         }
