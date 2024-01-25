@@ -43,7 +43,7 @@
           "settings": {
             "caption": "Premium Kids Clothing for 3 to 10 Year Olds.",
             "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_size": "large"
           }
         }
       },
@@ -323,6 +323,30 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_9Qr4zR": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_iQFETP": {
+          "type": "caption",
+          "settings": {
+            "caption": "Made with Love and Affection",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "caption_iQFETP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0": {
       "type": "image-with-text",
       "blocks": {
@@ -369,6 +393,7 @@
     "8ef620d1-3bda-44cb-917f-d34cf42e0792",
     "70223f50-5b85-44a2-b2c7-aa882f374b44",
     "e55e6824-194e-4cba-9757-70e6caa0174a",
+    "rich_text_9Qr4zR",
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0"
   ]
 }
