@@ -370,11 +370,11 @@
         "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-button-1"
       ],
       "custom_css": [
-        "@media screen and (min-width: 900px) {img {margin-top: 70px; max-height: 250px; }}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Allorio_Mascot_White_Shadow.png",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
