@@ -40,6 +40,7 @@
         "announcement-bar-0",
         "3c69a1c8-1802-4dc8-9560-4722b4284a91"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "show_line_separator": true,
