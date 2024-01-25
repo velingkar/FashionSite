@@ -369,17 +369,20 @@
         "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-text-1",
         "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-button-1"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 900px) {img {width: 100%; max-height: 50%; }}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Joyful_Expression.png",
+        "image": "shopify:\/\/shop_images\/Allorio_Mascot_White_Shadow.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-2",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
