@@ -41,7 +41,7 @@
         "e3f20d97-8361-405d-acca-96b67300b8ba": {
           "type": "caption",
           "settings": {
-            "caption": "Premium Kids Apparel - Highest Quality, Cutest Designs.",
+            "caption": "Premium Kids Clothing for 3 to 10 Year Olds.",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -113,9 +113,9 @@
         "6798997b-9ac2-4aff-9c45-7e56ad49101d": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/graphic-design-white.png",
-            "title": "",
-            "text": "<h4>Cute European Designs<\/h4>",
+            "image": "shopify:\/\/shop_images\/puppet-show.png",
+            "title": "CUTE",
+            "text": "<p>Modern European designs that<br\/>sparks interest & curiosity. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -123,9 +123,9 @@
         "e01452a0-553c-4392-9dc6-d682c1698581": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/medal-white.png",
-            "title": "",
-            "text": "<h4>100% Premium Cotton<\/h4>",
+            "image": "shopify:\/\/shop_images\/levitation.png",
+            "title": "COMFORTABLE",
+            "text": "<p>Super-combed organic cotton, premium quality stitching with no harsh edges.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -221,9 +221,9 @@
         "ab1fa0af-5d95-4855-935b-4ba3f2db0025": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/feathers-light.png",
-            "title": "",
-            "text": "<h4>Soft and Comfortable<\/h4>",
+            "image": "shopify:\/\/shop_images\/love-birds.png",
+            "title": "CARING",
+            "text": "<p>Anti-bacterial hypo-allergenic treatment, water based dyes<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -231,9 +231,9 @@
         "e560f2db-7272-46da-a865-86958fcdf449": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/return-box.png",
-            "title": "",
-            "text": "<h4><strong>Hassle Free Returns<\/strong><\/h4>",
+            "image": "shopify:\/\/shop_images\/hypoallergenic.png",
+            "title": "EARTH-FRIENDLY",
+            "text": "<p>Durable products, locally sourced, eco-friendly packaging. <\/p>",
             "link_label": "",
             "link": ""
           }
