@@ -15,7 +15,7 @@
         "description": "<p>Check out our best selling products<\/p>",
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "ancient-masks",
+        "collection": "best-selling-boys-t-shirts",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": true,
