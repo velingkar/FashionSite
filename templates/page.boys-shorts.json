@@ -7,261 +7,32 @@
         "padding_bottom": 0
       }
     },
-    "e38d460f-d359-40c8-b36a-8324af972aad": {
+    "rich_text_wUJxqU": {
       "type": "rich-text",
       "blocks": {
-        "template--20174006387008__e38d460f-d359-40c8-b36a-8324af972aad-heading-1": {
+        "heading_b633L9": {
           "type": "heading",
           "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "template--20174006387008__e38d460f-d359-40c8-b36a-8324af972aad-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Parents & Kids, welcome to <strong>allörio<\/strong>. We design clothes especially for kids that bring simple things to life.<\/p><p><strong>allörio <\/strong>is a combination of two words. <strong>Allora <\/strong>(Italian) is a filler word that can mean whatever your imagination wants it to mean. <strong>Rio<\/strong> (Spanish) means a river, also has a fun, adventurous vibe to it. For us, <strong>allörio <\/strong>means a \"a river of imagination, full of fun & adventure\". Exactly what we want for kids who wear our clothing.<\/p><p>We carry <strong>limited stocks<\/strong> with new designs launching every week. <strong>Get Yours Today!!!<\/strong><\/p>"
+            "heading": "Coming soon....",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
-        "template--20174006387008__e38d460f-d359-40c8-b36a-8324af972aad-heading-1",
-        "template--20174006387008__e38d460f-d359-40c8-b36a-8324af972aad-text-1"
+        "heading_b633L9"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 4,
-        "padding_bottom": 20
-      }
-    },
-    "a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6": {
-      "type": "image-banner",
-      "blocks": {
-        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Become Our Model",
-            "heading_size": "h1"
-          }
-        },
-        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Ladies & girls, our clothes are <em><strong>made for you. <\/strong><\/em><em>O<\/em>ur clothes should<em><strong> look good on you<\/strong><\/em>, not for some photoshopped models. Hence, we <em><strong>want you to model them<\/strong><\/em>. Interested? We will arrange a <strong>female photographer<\/strong> to come your home & we promise to make this fun.",
-            "text_style": "body"
-          }
-        },
-        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Learn More",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-heading-1",
-        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-text-1",
-        "template--20174006387008__a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6-buttons-1"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (max-width: 749px) {.banner__box {background: pink; }}",
-        "@media screen and (min-width: 750px) {.banner__box {background: #ffffff99; text-shadow: 1px 1px #999; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/tenniskid12_street_style_photo_of_an_indian_woman_and_daughter__617135f1-3d76-4ba6-9ea5-0cdf7bec8779.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
-    "a2946ae0-8932-45de-9fb5-fcf0e9661686": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Create Unique Combinations",
-            "heading_size": "h2"
-          }
-        },
-        "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Choose any design you like and combine it with any color of your choice to create hundreds of unique choices.<br\/><br\/>Printed in high quality directly on the surface of the garment which gives it a breathable life-like print that doesn't fade after washing.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-heading-1",
-        "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-text-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/womens-tshirts.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "f119e8d5-0b40-4c1a-b929-80f30eb9ee98": {
-      "type": "image-with-text",
-      "blocks": {
-        "202c7b90-cbb8-4ece-9419-ea3ec9284add": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stunning, High Quality Designs",
-            "heading_size": "h2"
-          }
-        },
-        "eaa360cf-a1f3-4083-8353-160de5363328": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Our designs are sourced from the best designers, inspired by ideas all around the world. Each collection is themed to create a unique yet common look to suit your personal preference.<\/p><p><strong>Watch out weekly for new designs!!!<\/strong><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "202c7b90-cbb8-4ece-9419-ea3ec9284add",
-        "eaa360cf-a1f3-4083-8353-160de5363328"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/planning-design-being-creative.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "a5bbee70-7cb5-47e6-b5a6-fe709f06da08": {
-      "type": "image-with-text",
-      "blocks": {
-        "5989333d-8940-4f1c-bfe6-81543d5d1170": {
-          "type": "heading",
-          "settings": {
-            "heading": "Premium Stretchable Fabric",
-            "heading_size": "h2"
-          }
-        },
-        "7a2ea3c0-2b57-4f2b-91e9-2e3fa8eb99da": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Why buy your shirts in Singapore, Dubai and Thailand when you can buy the same quality right here?<\/em><\/p><p>Our t-shirts are made of premium export-quality cotton and are breathable and soft, making them comfortable to wear at any time of the day. This ensures a premium fit even after many washes.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "5989333d-8940-4f1c-bfe6-81543d5d1170",
-        "7a2ea3c0-2b57-4f2b-91e9-2e3fa8eb99da"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/stack-of-t-shirts.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "5def6d63-08b3-44b2-8ba1-2318bb253bbe": {
-      "type": "image-banner",
-      "blocks": {
-        "9e6f62ed-5d34-40c2-96a3-11b0159dd86b": {
-          "type": "heading",
-          "settings": {
-            "heading": "Become Our Influencer",
-            "heading_size": "h1"
-          }
-        },
-        "fae4bf71-1bba-4988-be1b-8138821585df": {
-          "type": "text",
-          "settings": {
-            "text": "We are looking for an <em><strong>influencer<\/strong><\/em> & there is <em><strong>no one b<\/strong><\/em><strong>etter than<\/strong> <em><strong>YOU. <\/strong><\/em><strong>Inspire others<\/strong> to express themselves, just like you do. Our success lies in <strong>you showcasing us<\/strong> instead of a paid influencers. To participate, share your photo on insta with <strong>hastag #XyzShirts<\/strong> and get featured on our site!!!",
-            "text_style": "body"
-          }
-        },
-        "1e258674-deaf-45ea-a023-bdbd02d753e8": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Send Request",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "9e6f62ed-5d34-40c2-96a3-11b0159dd86b",
-        "fae4bf71-1bba-4988-be1b-8138821585df",
-        "1e258674-deaf-45ea-a023-bdbd02d753e8"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (max-width: 749px) {.banner__box {background: pink; }}",
-        "@media screen and (min-width: 750px) {.banner__box {background: #ffffff99; text-shadow: 1px 1px #999; }}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/tenniskid12_street_style_photo_of_an_indian_woman_and_daughter__617135f1-3d76-4ba6-9ea5-0cdf7bec8779.png",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
-    "e38d460f-d359-40c8-b36a-8324af972aad",
-    "a58577d5-e2c9-4b8a-9ad7-7ac82473a0d6",
-    "a2946ae0-8932-45de-9fb5-fcf0e9661686",
-    "f119e8d5-0b40-4c1a-b929-80f30eb9ee98",
-    "a5bbee70-7cb5-47e6-b5a6-fe709f06da08",
-    "5def6d63-08b3-44b2-8ba1-2318bb253bbe"
+    "rich_text_wUJxqU"
   ]
 }
