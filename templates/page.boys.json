@@ -10,9 +10,9 @@
     "featured_collection_mVKntG": {
       "type": "featured-collection",
       "settings": {
-        "title": "Ancient Masks",
+        "title": "Ancient Masks (6)",
         "heading_size": "h2",
-        "description": "<p>Collection of 6 beautiful designs inspired by <strong>ancient cultures around the world<\/strong>.<\/p>",
+        "description": "<p>inspired by ancient cultures around the world<\/p>",
         "show_description": false,
         "description_style": "subtitle",
         "collection": "ancient-masks",
@@ -30,7 +30,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
