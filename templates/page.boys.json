@@ -7,6 +7,34 @@
         "padding_bottom": 0
       }
     },
+    "featured_collection_mVKntG": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Ancient Masks",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "ancient-masks",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "707f07a8-4b29-4ab1-b12e-81d5000d9576": {
       "type": "collection-list",
       "blocks": {
@@ -55,6 +83,7 @@
         "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-2",
         "template--21025443545408__707f07a8-4b29-4ab1-b12e-81d5000d9576-featured_collection-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -71,6 +100,7 @@
   },
   "order": [
     "main",
+    "featured_collection_mVKntG",
     "707f07a8-4b29-4ab1-b12e-81d5000d9576"
   ]
 }
