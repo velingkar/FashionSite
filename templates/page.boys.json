@@ -38,13 +38,13 @@
     "featured_collection_FdPD4G": {
       "type": "featured-collection",
       "settings": {
-        "title": "Space Traveller",
+        "title": "Space Traveller (8)",
         "heading_size": "h2",
-        "description": "<p>Collection of 8 out of the world designs inspired by <strong>our quest for space travel<\/strong>.<\/p>",
+        "description": "<p>An ode to space exploration. <\/p>",
         "show_description": false,
         "description_style": "subtitle",
         "collection": "space-traveller",
-        "products_to_show": 4,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -58,7 +58,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
