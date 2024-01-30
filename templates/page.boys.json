@@ -10,9 +10,9 @@
     "featured_collection_mVKntG": {
       "type": "featured-collection",
       "settings": {
-        "title": "Ancient Masks (6)",
+        "title": "Best Selling T-Shirts",
         "heading_size": "h2",
-        "description": "<p>inspired by ancient cultures around the world<\/p>",
+        "description": "<p>Check out our best selling products<\/p>",
         "show_description": false,
         "description_style": "subtitle",
         "collection": "ancient-masks",
@@ -37,6 +37,7 @@
     },
     "featured_collection_FdPD4G": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Space Traveller (8)",
         "heading_size": "h2",
@@ -61,6 +62,48 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_BwGAnD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iemeLw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Check Out Our Featured Collections",
+            "heading_size": "h2"
+          }
+        },
+        "text_QMEBnB": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "button_enpJQ4": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iemeLw",
+        "text_QMEBnB",
+        "button_enpJQ4"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "707f07a8-4b29-4ab1-b12e-81d5000d9576": {
@@ -129,6 +172,7 @@
     "main",
     "featured_collection_mVKntG",
     "featured_collection_FdPD4G",
+    "rich_text_BwGAnD",
     "707f07a8-4b29-4ab1-b12e-81d5000d9576"
   ]
 }
