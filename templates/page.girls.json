@@ -7,6 +7,57 @@
         "padding_bottom": 0
       }
     },
+    "featured_collection_QqPFYC": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best selling",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-selling-girls-t-shirts",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_4fTcdX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CfXexG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Featured Collections",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CfXexG"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "707f07a8-4b29-4ab1-b12e-81d5000d9576": {
       "type": "collection-list",
       "blocks": {
@@ -71,6 +122,8 @@
   },
   "order": [
     "main",
+    "featured_collection_QqPFYC",
+    "rich_text_4fTcdX",
     "707f07a8-4b29-4ab1-b12e-81d5000d9576"
   ]
 }
