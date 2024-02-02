@@ -65,20 +65,20 @@
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Boys_Collections.png",
+            "image": "shopify:\/\/shop_images\/Boys_Collections_5.png",
             "title": "",
             "text": "",
-            "link_label": "Shop for Boys",
+            "link_label": "",
             "link": "shopify:\/\/pages\/boys"
           }
         },
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Girls_Collections_fb05a091-7145-43b7-aa7b-9bd75ea9c83a.png",
+            "image": "shopify:\/\/shop_images\/Girls_Collections_5.png",
             "title": "",
             "text": "",
-            "link_label": "Shop for Girls",
+            "link_label": "",
             "link": "shopify:\/\/pages\/girls-collections"
           }
         }
