@@ -3,7 +3,7 @@
     "image_banner_NkgmCd": {
       "type": "image-banner",
       "settings": {
-        "image": "{{ collection.image }}",
+        "image": "{{ collection.metafields.custom.countryflag.value }}",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
