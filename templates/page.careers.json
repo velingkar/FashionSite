@@ -28,6 +28,7 @@
         "template--20174006387008__e38d460f-d359-40c8-b36a-8324af972aad-heading-1",
         "template--20174006387008__e38d460f-d359-40c8-b36a-8324af972aad-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -112,6 +113,7 @@
         "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-heading-1",
         "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-text-1"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/womens-tshirts.jpg",
         "height": "adapt",
@@ -149,6 +151,7 @@
         "202c7b90-cbb8-4ece-9419-ea3ec9284add",
         "eaa360cf-a1f3-4083-8353-160de5363328"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/planning-design-being-creative.jpg",
         "height": "adapt",
@@ -186,6 +189,7 @@
         "5989333d-8940-4f1c-bfe6-81543d5d1170",
         "7a2ea3c0-2b57-4f2b-91e9-2e3fa8eb99da"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/stack-of-t-shirts.jpg",
         "height": "adapt",
