@@ -293,7 +293,8 @@
         "column_893RbH": {
           "type": "column",
           "settings": {
-            "title": "Cute",
+            "image": "shopify:\/\/shop_images\/puppet-show.png",
+            "title": "1. Cute",
             "text": "<ul><li><strong>Adorable Designs:<\/strong> Infuse each garment with charming, imaginative designs.<\/li><li><strong>Global Aesthetic:<\/strong> Draw inspiration from diverse cultures, creating a universal visual appeal.<\/li><\/ul>",
             "link_label": "",
             "link": ""
@@ -302,7 +303,8 @@
         "column_H3nQDb": {
           "type": "column",
           "settings": {
-            "title": "Comfortable",
+            "image": "shopify:\/\/shop_images\/levitation.png",
+            "title": "2. Comfortable",
             "text": "<ul><li><strong>Superior Cotton<\/strong>: Prioritize comfort with the finest super combed cotton for a soft, luxurious feel.<\/li><li><strong>Stylish Fit:<\/strong> Craft each piece for unparalleled smart appearance, allowing children to move freely and feel snug.<\/li><\/ul>",
             "link_label": "",
             "link": ""
@@ -311,7 +313,8 @@
         "column_NWhpKp": {
           "type": "column",
           "settings": {
-            "title": "Caring",
+            "image": "shopify:\/\/shop_images\/love-birds.png",
+            "title": "3. Caring",
             "text": "<ul><li><strong>Skin-Safe Dyes:<\/strong> Use gentle dyes for safety on even the most sensitive skin.<\/li><li><strong>Eco-Friendly:<\/strong> Embrace sustainability with eco-friendly materials and low-inventory wastage for a healthier planet.<\/li><li><strong>Local Manufacturing:<\/strong> Support local production with select suppliers, fostering community relationships and reducing carbon footprint<\/li><\/ul>",
             "link_label": "",
             "link": ""
@@ -326,7 +329,7 @@
       "settings": {
         "title": "Our Values",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
