@@ -37,16 +37,32 @@
         "padding_bottom": 20
       }
     },
-    "a5bbee70-7cb5-47e6-b5a6-fe709f06da08": {
-      "type": "image-with-text",
+    "rich_text_nQBXWx": {
+      "type": "rich-text",
       "blocks": {
-        "5989333d-8940-4f1c-bfe6-81543d5d1170": {
+        "heading_DrbxCL": {
           "type": "heading",
           "settings": {
             "heading": "Our Story",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
-        },
+        }
+      },
+      "block_order": [
+        "heading_DrbxCL"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 20
+      }
+    },
+    "a5bbee70-7cb5-47e6-b5a6-fe709f06da08": {
+      "type": "image-with-text",
+      "blocks": {
         "7a2ea3c0-2b57-4f2b-91e9-2e3fa8eb99da": {
           "type": "text",
           "settings": {
@@ -56,7 +72,6 @@
         }
       },
       "block_order": [
-        "5989333d-8940-4f1c-bfe6-81543d5d1170",
         "7a2ea3c0-2b57-4f2b-91e9-2e3fa8eb99da"
       ],
       "settings": {
@@ -74,16 +89,32 @@
         "padding_bottom": 36
       }
     },
-    "a2946ae0-8932-45de-9fb5-fcf0e9661686": {
-      "type": "image-with-text",
+    "rich_text_e3PfBK": {
+      "type": "rich-text",
       "blocks": {
-        "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-heading-1": {
+        "heading_zmhf9J": {
           "type": "heading",
           "settings": {
             "heading": "What does <strong>allörio<\/strong> mean?",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
-        },
+        }
+      },
+      "block_order": [
+        "heading_zmhf9J"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 20
+      }
+    },
+    "a2946ae0-8932-45de-9fb5-fcf0e9661686": {
+      "type": "image-with-text",
+      "blocks": {
         "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-text-1": {
           "type": "text",
           "settings": {
@@ -93,7 +124,6 @@
         }
       },
       "block_order": [
-        "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-heading-1",
         "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-text-1"
       ],
       "settings": {
@@ -164,129 +194,6 @@
         "show_text_below": true
       }
     },
-    "rich_text_rzQU7y": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_67CLXY": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Values",
-            "heading_size": "h1"
-          }
-        },
-        "text_aM8YCa": {
-          "type": "text",
-          "settings": {
-            "text": "<p>It is our promise that every <strong>allörio<\/strong> product is<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_67CLXY",
-        "text_aM8YCa"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "image_with_text_RFwFQB": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_aEBAM3": {
-          "type": "heading",
-          "settings": {
-            "heading": "1. Cute",
-            "heading_size": "h2"
-          }
-        },
-        "text_C3tXaP": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li><strong>Adorable Designs:<\/strong> Infuse each garment with charming, imaginative designs.<\/li><li><strong>Global Aesthetic:<\/strong> Draw inspiration from diverse cultures, creating a universal visual appeal.<\/li><\/ul>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_aEBAM3",
-        "text_C3tXaP"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/stack-of-t-shirts.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_X4hqLi": {
-      "type": "multirow",
-      "blocks": {
-        "row_XLHDCE": {
-          "type": "row",
-          "settings": {
-            "caption": "Value #1",
-            "heading": "Cute",
-            "text": "<ul><li><strong>Adorable Designs:<\/strong> Infuse each garment with charming, imaginative designs.<\/li><li><strong>Global Aesthetic:<\/strong> Draw inspiration from diverse cultures, creating a universal visual appeal.<\/li><\/ul>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_pJ7MWr": {
-          "type": "row",
-          "settings": {
-            "caption": "Value #2",
-            "heading": "Comfortable",
-            "text": "<ul><li><strong>Superior Cotton<\/strong>: Prioritize comfort with the finest super combed cotton for a soft, luxurious feel.<\/li><li><strong>Stylish Fit:<\/strong> Craft each piece for unparalleled smart appearance, allowing children to move freely and feel snug.<\/li><\/ul>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_Et6ike": {
-          "type": "row",
-          "settings": {
-            "caption": "Value #3",
-            "heading": "Caring",
-            "text": "<ul><li><strong>Skin-Safe Dyes:<\/strong> Use gentle dyes for safety on even the most sensitive skin.<\/li><li><strong>Eco-Friendly:<\/strong> Embrace sustainability with eco-friendly materials and low-inventory wastage for a healthier planet.<\/li><li><strong>Local Manufacturing:<\/strong> Support local production with select suppliers, fostering community relationships and reducing carbon footprint.<\/li><\/ul>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_XLHDCE",
-        "row_pJ7MWr",
-        "row_Et6ike"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn_4QJiCN": {
       "type": "multicolumn",
       "blocks": {
@@ -339,7 +246,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -350,12 +257,11 @@
   "order": [
     "main",
     "e38d460f-d359-40c8-b36a-8324af972aad",
+    "rich_text_nQBXWx",
     "a5bbee70-7cb5-47e6-b5a6-fe709f06da08",
+    "rich_text_e3PfBK",
     "a2946ae0-8932-45de-9fb5-fcf0e9661686",
     "5def6d63-08b3-44b2-8ba1-2318bb253bbe",
-    "rich_text_rzQU7y",
-    "image_with_text_RFwFQB",
-    "multirow_X4hqLi",
     "multicolumn_4QJiCN"
   ]
 }
