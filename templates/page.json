@@ -252,6 +252,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_rxWDzd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_E9cxPW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shefali_Profile.png",
+            "title": "Shefali Velingkar, Co-Founder",
+            "text": "<p>Shefali is a mother of two lovely daughters and a holistic lifestyle enthusiast. She is<br\/>a trained architect and has an MBA from Seattle University. Previously, she worked at home remodeling startup – HomeSavvi based out of Seattle, USA. In 2019, She overcame a health scare and regained her wellness through emotional intelligence, nervous system regulation andnutrition. She is passionate about creating a healthier and more equitable world for children through better lifestyle choices. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tJcxjD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/amit_profile.png",
+            "title": "Amit Velingkar, Co-Founder",
+            "text": "<p>Amit has previously worked at firms like Flipkart, Microsoft (USA) and Thunder (acquired by Walmart) leading Product, Design and Marketing teams. He has a Masters Degree in Computer Science from UNH and an MBA from Seattle University. He is passionate about building the best end user experience by applying the latest technology available.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_E9cxPW",
+        "column_tJcxjD"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {margin-left: auto; margin-right: auto;}"
+      ],
+      "settings": {
+        "title": "Founding Team",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -262,6 +310,7 @@
     "rich_text_e3PfBK",
     "a2946ae0-8932-45de-9fb5-fcf0e9661686",
     "5def6d63-08b3-44b2-8ba1-2318bb253bbe",
-    "multicolumn_4QJiCN"
+    "multicolumn_4QJiCN",
+    "multicolumn_rxWDzd"
   ]
 }
