@@ -43,14 +43,14 @@
         "5989333d-8940-4f1c-bfe6-81543d5d1170": {
           "type": "heading",
           "settings": {
-            "heading": "Our Story: It's Hard to Find Good Quality Kids Clothing in India",
+            "heading": "Our Story",
             "heading_size": "h2"
           }
         },
         "7a2ea3c0-2b57-4f2b-91e9-2e3fa8eb99da": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "<p>Our global journey as parents, having lived in diverse corners of the world, played a pivotal role in shaping allörio's identity. The idea took root as we faced the challenges of finding clothing that not only embraced the delicate nature of children's skin but also reflected their vibrant personalities. <\/p><p>Our journey began with a desire to create garments crafted from the finest quality cotton, free from harmful dyes, and environmentally conscious.<br\/><br\/>It was a mission fueled by the need to balance our daughter's sensitive skin issues with her flair for stylish clothing. It prompted us to seek only the softest fabrics without compromising on safety and cute, colorful designs.<em><br\/><\/em><br\/>And so, allörio was born. We are dedicated to sourcing the perfect yarn, discovering the safest dyes, and collaborating with the best designers to bring forth a collection that not only cares for your child's comfort but also sparks their imagination.<\/p><p>Welcome to allörio, where the global meets the local, and every thread is woven with love, care, and the spirit of childhood adventure.<\/p>",
             "text_style": "body"
           }
         }
@@ -80,14 +80,14 @@
         "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Create Unique Combinations",
+            "heading": "What does <strong>allörio<\/strong> mean?",
             "heading_size": "h2"
           }
         },
         "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Choose any design you like and combine it with any color of your choice to create hundreds of unique choices.<br\/><br\/>Printed in high quality directly on the surface of the garment which gives it a breathable life-like print that doesn't fade after washing.<\/p>",
+            "text": "<p>allörio means a <strong>river of imagination<\/strong>. It's a combination of two European words. <strong>allora (italian)<\/strong> - a filler word and <strong>rio (spanish)<\/strong> - a river. <\/p><p>At allörio, we create unique designs by tapping into endless imagination inspired by little kids around the world.<\/p>",
             "text_style": "body"
           }
         }
@@ -96,12 +96,11 @@
         "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-heading-1",
         "template--20174006387008__a2946ae0-8932-45de-9fb5-fcf0e9661686-text-1"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/womens-tshirts.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -138,7 +137,7 @@
         "image": "shopify:\/\/shop_images\/planning-design-being-creative.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
