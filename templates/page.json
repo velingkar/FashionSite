@@ -29,8 +29,8 @@
         "template--20174006387008__e38d460f-d359-40c8-b36a-8324af972aad-text-1"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 4,
