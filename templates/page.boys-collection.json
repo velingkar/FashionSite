@@ -35,19 +35,18 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_FdPD4G": {
+    "featured_collection_i6Ramt": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Space Traveller (8)",
+        "title": "Best Selling Casual Shorts",
         "heading_size": "h2",
-        "description": "<p>An ode to space exploration. <\/p>",
+        "description": "<p>Check out our best selling products<\/p>",
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "space-traveller",
+        "collection": "premium-boys-mid-rise-cotton-shorts",
         "products_to_show": 8,
         "columns_desktop": 4,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": true,
@@ -59,7 +58,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -171,7 +170,7 @@
   "order": [
     "main",
     "featured_collection_mVKntG",
-    "featured_collection_FdPD4G",
+    "featured_collection_i6Ramt",
     "rich_text_BwGAnD",
     "707f07a8-4b29-4ab1-b12e-81d5000d9576"
   ]
