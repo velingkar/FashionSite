@@ -10,12 +10,40 @@
     "featured_collection_QqPFYC": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best selling",
+        "title": "Best selling t-shirts",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "best-selling-girls-t-shirts",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_CrzrCN": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Selling Leggings",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "premium-girls-active-cotton-leggings",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -123,6 +151,7 @@
   "order": [
     "main",
     "featured_collection_QqPFYC",
+    "featured_collection_CrzrCN",
     "rich_text_4fTcdX",
     "707f07a8-4b29-4ab1-b12e-81d5000d9576"
   ]
