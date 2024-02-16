@@ -12,7 +12,7 @@
       "settings": {
         "title": "Best Selling T-Shirts",
         "heading_size": "h2",
-        "description": "<p>Check out our best selling products<\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "subtitle",
         "collection": "best-selling-boys-t-shirts",
@@ -40,7 +40,7 @@
       "settings": {
         "title": "Best Selling Casual Shorts",
         "heading_size": "h2",
-        "description": "<p>Check out our best selling products<\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "subtitle",
         "collection": "premium-boys-mid-rise-cotton-shorts",
