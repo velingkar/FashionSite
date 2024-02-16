@@ -192,6 +192,12 @@
           "settings": {
             "collection": "glass-forest"
           }
+        },
+        "featured_collection_nre3wH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "premium-boys-mid-rise-cotton-shorts"
+          }
         }
       },
       "block_order": [
@@ -200,7 +206,8 @@
         "6e93dd27-a83b-4548-ad63-7703bcc4329c",
         "99b39fd0-a0f5-425f-ab33-c16e74bfbf31",
         "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1",
-        "c72cf904-1598-466f-b085-da9af2eb7b8b"
+        "c72cf904-1598-466f-b085-da9af2eb7b8b",
+        "featured_collection_nre3wH"
       ],
       "settings": {
         "title": "Featured Collections for Boys",
@@ -300,6 +307,12 @@
           "settings": {
             "collection": "ancient-masks-girls"
           }
+        },
+        "featured_collection_iARQGm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "premium-girls-active-cotton-leggings"
+          }
         }
       },
       "block_order": [
@@ -308,7 +321,8 @@
         "a408ed2b-47ea-4b52-988b-44385d753123",
         "a6134e81-e431-4a5b-b7e9-6c5cf0021866",
         "cc3487aa-7ea5-4740-8709-87cefa87ae45",
-        "e0ce7a2b-5ae5-4c06-84b5-ca772bc9e63b"
+        "e0ce7a2b-5ae5-4c06-84b5-ca772bc9e63b",
+        "featured_collection_iARQGm"
       ],
       "settings": {
         "title": "Featured Collections for Girls",
