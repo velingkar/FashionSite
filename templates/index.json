@@ -396,42 +396,16 @@
         "padding_bottom": 36
       }
     },
-    "image_banner_BzdwWU": {
-      "type": "image-banner",
-      "blocks": {
-        "buttons_cTRfdw": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Learn More",
-            "button_link_1": "shopify:\/\/pages\/allorio-little-picasso-challenge",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons_cTRfdw"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/little_Picasso.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "accent-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0": {
       "type": "image-with-text",
       "blocks": {
+        "heading_WqGbW8": {
+          "type": "heading",
+          "settings": {
+            "heading": "About allörio",
+            "heading_size": "h1"
+          }
+        },
         "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-text-1": {
           "type": "text",
           "settings": {
@@ -448,6 +422,7 @@
         }
       },
       "block_order": [
+        "heading_WqGbW8",
         "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-text-1",
         "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-button-1"
       ],
@@ -475,7 +450,7 @@
         "caption_iQFETP": {
           "type": "caption",
           "settings": {
-            "caption": "💙💛🩷Made with Love and Affection 🩷💛💙",
+            "caption": "Made with Love and Affection",
             "text_style": "caption-with-letter-spacing",
             "text_size": "large"
           }
@@ -504,7 +479,6 @@
     "e55e6824-194e-4cba-9757-70e6caa0174a",
     "rich_text_ndKFKa",
     "multirow_cbJW4D",
-    "image_banner_BzdwWU",
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0",
     "rich_text_9Qr4zR"
   ]
