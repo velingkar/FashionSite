@@ -352,6 +352,7 @@
       "block_order": [
         "caption_kiUjik"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
