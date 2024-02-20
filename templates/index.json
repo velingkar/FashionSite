@@ -375,54 +375,32 @@
             "button_label": "Learn More",
             "button_link": "shopify:\/\/pages\/little-picasso-challenge"
           }
+        },
+        "row_7PfUhT": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Allorio_Mascot_White_Shadow.png",
+            "caption": "",
+            "heading": "About our company",
+            "text": "<p><strong>allörio <\/strong>is a <strong>quality-first, design-centric<\/strong> kid’s premium lifestyle company.<\/p><p>Our mission is to make<strong> every kid feel special <\/strong>and <strong>every mom feel reassured <\/strong>by providing the <strong>best quality kid’s products <\/strong>available in the Indian Market.<\/p><p>Our<strong> European designed products<\/strong> are crafted just for kids and <strong>responsibly made<\/strong> locally in India. We work with carefully chosen <strong>accredited export-quality suppliers<\/strong>. With our products, we strive to bring <strong>fun new concepts <\/strong>from around the world to your family.<\/p>",
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/little-picasso-challenge"
+          }
         }
       },
       "block_order": [
-        "row_b8xaX4"
+        "row_b8xaX4",
+        "row_7PfUhT"
       ],
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
+        "image_height": "adapt",
+        "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "background-1",
-        "row_color_scheme": "background-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_aWArYW": {
-      "type": "multirow",
-      "blocks": {
-        "row_zaqeHA": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Allorio_Mascot_White_Shadow.png",
-            "caption": "",
-            "heading": "About allörio",
-            "text": "<p><strong>allörio <\/strong>is a <strong>quality-first, design-centric<\/strong> kid’s premium lifestyle company.<\/p><p>Our mission is to make<strong> every kid feel special <\/strong>and <strong>every mom feel reassured <\/strong>by providing the <strong>best quality kid’s products <\/strong>available in the Indian Market. <\/p><p>Our<strong> European designed products<\/strong> are crafted just for kids and <strong>responsibly made<\/strong> locally in India. We work with carefully chosen <strong>accredited export-quality suppliers<\/strong>. With our products, we strive to bring <strong>fun new concepts <\/strong>from around the world to your family.<\/p>",
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/about-us"
-          }
-        }
-      },
-      "block_order": [
-        "row_zaqeHA"
-      ],
-      "settings": {
-        "image_height": "adapt",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-right",
         "section_color_scheme": "background-1",
         "row_color_scheme": "background-2",
         "mobile_content_alignment": "left",
@@ -460,6 +438,7 @@
         "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-text-1",
         "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-button-1"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -513,7 +492,6 @@
     "e55e6824-194e-4cba-9757-70e6caa0174a",
     "rich_text_ndKFKa",
     "multirow_cbJW4D",
-    "multirow_aWArYW",
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0",
     "rich_text_9Qr4zR"
   ]
