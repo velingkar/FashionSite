@@ -372,7 +372,7 @@
             "heading": "<a href=\"\/pages\/allorio-little-picasso-challenge\" title=\"allörio: little picasso challenge\">Little Picasso Challenge<\/a>",
             "text": "<p>Kids, <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/1258\/2976\/files\/allorio_-_little_picasso_contest.pdf\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/1258\/2976\/files\/allorio_-_little_picasso_contest.pdf\">download form<\/a> & send your imaginative designs to <a href=\"mailto:contest@allorio.in\" title=\"mailto:contest@allorio.in\"><strong>contest@allorio.in<\/strong><\/a> to win exciting prizes!<\/p>",
             "button_label": "Learn More",
-            "button_link": "shopify:\/\/pages\/allorio-little-picasso-challenge"
+            "button_link": "shopify:\/\/pages\/little-picasso-challenge"
           }
         }
       },
@@ -402,7 +402,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Learn More",
-            "button_link_1": "shopify:\/\/pages\/allorio-little-picasso-challenge",
+            "button_link_1": "shopify:\/\/pages\/little-picasso-challenge",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
