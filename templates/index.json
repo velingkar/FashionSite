@@ -367,9 +367,9 @@
         "row_b8xaX4": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/little_Picasso.png",
+            "image": "shopify:\/\/shop_images\/little_Picasso2.png",
             "caption": "",
-            "heading": "Little Picasso Challenge",
+            "heading": "<a href=\"\/pages\/allorio-little-picasso-challenge\" title=\"allörio: little picasso challenge\">Little Picasso Challenge<\/a>",
             "text": "<p>Kids, send your imaginative designs to <a href=\"mailto:contest@allorio.in\" title=\"mailto:contest@allorio.in\"><strong>contest@allorio.in<\/strong><\/a> to win exciting prizes!<\/p>",
             "button_label": "Learn More",
             "button_link": "shopify:\/\/pages\/allorio-little-picasso-challenge"
@@ -398,20 +398,6 @@
     "image_banner_BzdwWU": {
       "type": "image-banner",
       "blocks": {
-        "heading_zF76NW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Style, Sketch and Win!!!",
-            "heading_size": "h1"
-          }
-        },
-        "text_hEzdti": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Kids, let your imagination run wild and design the coolest T-shirt ever to win exciting prizes and bragging rights. <\/strong>",
-            "text_style": "body"
-          }
-        },
         "buttons_cTRfdw": {
           "type": "buttons",
           "settings": {
@@ -425,14 +411,12 @@
         }
       },
       "block_order": [
-        "heading_zF76NW",
-        "text_hEzdti",
         "buttons_cTRfdw"
       ],
       "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/little_Picasso.png",
-        "image_overlay_opacity": 80,
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
