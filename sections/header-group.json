@@ -8,14 +8,14 @@
         "270e6c33-26f3-4a60-994e-d3d51b8e1f7f": {
           "type": "announcement",
           "settings": {
-            "text": "Buy Any 3, Get ₹300 Off. Use Code: COMBO3",
+            "text": "Buy Any 3, Get ₹300 Off. Code: COMBO3",
             "link": ""
           }
         },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Buy Any 5, Get 20% Off. Use Code: COMBO5",
+            "text": "Buy Any 5, Get 20% Off. Code: COMBO5",
             "link": ""
           }
         }
