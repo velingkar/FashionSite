@@ -1,0 +1,61 @@
+{{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+
+<div
+  class="highlight-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} utility-bar--bottom-border{% endif %}"
+  {{ block.shopify_attributes }}
+>
+    <h1>Hello World</h1>
+</div>
+
+{% schema %}
+{
+  "name": "header-highlights",
+  "max_blocks": 3,
+  "class": "header-highlights-section",
+  "settings": [
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "accent-1"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_line_separator",
+      "default": true,
+      "label": "Show Line Separator"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "highlight",
+      "name": "Highlight",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "highlight",
+          "label": "text"
+        },
+        {
+            "type": "image_picker",
+            "id": "image",
+            "label": "image"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "highlights"
+      }
+    ]
+  },
+  "enabled_on": {
+    "templates": ["*"],
+    "groups": ["header"]
+  }
+}
+{% endschema %}
