@@ -5,42 +5,25 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "5bb0b795-4315-42c0-a66f-906881010185": {
-          "type": "announcement",
-          "settings": {
-            "text": "High Quality European Designs",
-            "link": ""
-          }
-        },
         "270e6c33-26f3-4a60-994e-d3d51b8e1f7f": {
           "type": "announcement",
           "settings": {
-            "text": "Premium Eco-Friendly 100% Cotton",
+            "text": "Buy Any 3, Get ₹300 Off. Use Code: COMBO3",
             "link": ""
           }
         },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "MIx and Match Colors with Designs",
-            "link": ""
-          }
-        },
-        "3c69a1c8-1802-4dc8-9560-4722b4284a91": {
-          "type": "announcement",
-          "settings": {
-            "text": "New Collections Launched Weekly",
+            "text": "Buy Any 5, Get 20% Off. Use Code: COMBO5",
             "link": ""
           }
         }
       },
       "block_order": [
-        "5bb0b795-4315-42c0-a66f-906881010185",
         "270e6c33-26f3-4a60-994e-d3d51b8e1f7f",
-        "announcement-bar-0",
-        "3c69a1c8-1802-4dc8-9560-4722b4284a91"
+        "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "background-2",
         "show_line_separator": true,
