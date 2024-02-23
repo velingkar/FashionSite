@@ -70,7 +70,10 @@
         "highlight_kt64gg",
         "highlight_ppAaLm"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".highlight-item {display: flex; align-items: center; margin: 0 1.4em;}",
+        ".highlight-section {display: flex; justify-content: center; align-items: center;}"
+      ],
       "settings": {
         "color_scheme": "background-2"
       }
