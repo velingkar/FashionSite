@@ -19,7 +19,7 @@
         "button"
       ],
       "custom_css": [
-
+        ".banner__media {margin-top: 12px;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/FinishedBanner1.png",
