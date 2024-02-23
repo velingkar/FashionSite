@@ -1,61 +1,122 @@
-{{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
-{{ 'component-slider.css' | asset_url | stylesheet_tag }}
-
 <div
-  class="highlight-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} utility-bar--bottom-border{% endif %}"
+  class="utility-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} utility-bar--bottom-border{% endif %}"
   {{ block.shopify_attributes }}
 >
-    <h1>Default Highlights</h1>
+  <div class="announcement-bar">
+    <div class="page-width flex-center highlight-section">
+      {% for block in section.blocks %}
+        <div class="announcement-bar__message h5 highlight-item flex-center">
+          {%- if block.settings.image != blank -%}
+            {{ block.settings.image | image_url: width: 16 | image_tag }}
+          {%- endif -%}
+          <span class="highlight-text">{{ block.settings.text }}</span>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
+
+{% stylesheet %}
+  .highlight-section {
+    padding: 1.15em 0;
+  }
+  @media screen and (max-width: 767px) .highlight-section {
+    padding: 4px 0 2px;
+  }
+  @media screen and (max-width: 990px) .highlight-section {
+  }
+  @media screen and (max-width: 1279px) .highlight-section {
+  }
+  @media screen and (max-width: 767px) .main-container {
+    padding: 0 10px;
+  }
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 767px) .highlight-section svg {
+    width: 2.2em;
+    flex: 2.2em;
+  }
+  .highlight-section svg {
+    width: 2.7em;
+    flex: 2.7em;
+    margin-right: 0.7em;
+    height: 100%;
+  }
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  @media screen and (max-width: 767px) .highlight-section .highlight-item {
+    margin: 0 9px;
+  }
+
+  .highlight-section .highlight-item {
+    display: flex;
+    align-items: center;
+    margin: 0 1.4em;
+  }
+
+  @media screen and (max-width: 767px) .highlight-item .highlight-text {
+    margin-left: 5px;
+  }
+
+  .highlight-item .highlight-text {
+    margin-left: 0.5em;
+  }
+{% endstylesheet %}
 
 {% schema %}
 {
-  "name": "header-highlights",
-  "max_blocks": 3,
-  "class": "header-highlights-section",
+  "name": "Header Highlights",
   "settings": [
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "Color Scheme",
+      "label": "t:sections.all.colors.label",
       "default": "accent-1"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_line_separator",
-      "default": true,
-      "label": "Show Line Separator"
     }
   ],
+  "tag": "header",
+  "class": "header-highlights",
+  "limit": 1,
   "blocks": [
     {
-      "type": "highlight",
       "name": "Highlight",
+      "type": "highlight",
       "settings": [
         {
           "type": "text",
           "id": "text",
-          "default": "highlight",
-          "label": "text"
+          "label": "Caption",
+          "default": "Highlight"
         },
         {
-            "type": "image_picker",
-            "id": "image",
-            "label": "image"
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
         }
       ]
     }
   ],
-  "default": {
-    "blocks": [
-      {
-        "type": "highlights"
-      }
-    ]
-  },
+  "max_blocks": 3,
   "enabled_on": {
     "templates": ["*"],
     "groups": ["header"]
-  }
+  },
+  "presets": [
+    {
+      "name": "Highlights",
+      "blocks": [
+        {
+          "type": "highlight"
+        },
+        {
+          "type": "highlight"
+        }
+      ]
+    }
+  ]
 }
 {% endschema %}
