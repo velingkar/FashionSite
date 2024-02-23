@@ -70,6 +70,7 @@
         "highlight_kt64gg",
         "highlight_ppAaLm"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-2"
       }

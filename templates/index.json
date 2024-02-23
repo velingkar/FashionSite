@@ -23,7 +23,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/FinishedBanner1.png",
-        "image_overlay_opacity": 30,
+        "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
