@@ -47,10 +47,37 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "header_highlights_zkXUya": {
+      "type": "header-highlights",
+      "blocks": {
+        "highlight_kt64gg": {
+          "type": "highlight",
+          "settings": {
+            "text": "Best Quality",
+            "image": "shopify:\/\/shop_images\/quality-icon.svg"
+          }
+        },
+        "highlight_ppAaLm": {
+          "type": "highlight",
+          "settings": {
+            "text": "7 Day Returns",
+            "image": "shopify:\/\/shop_images\/refund-icon.svg"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_kt64gg",
+        "highlight_ppAaLm"
+      ],
+      "settings": {
+        "color_scheme": "background-2"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "header_highlights_zkXUya"
   ]
 }
