@@ -1,1 +1,501 @@
-{"sections":{"image_banner":{"type":"image-banner","blocks":{"button":{"type":"buttons","settings":{"button_label_1":"","button_link_1":"#","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["button"],"custom_css":[".banner__media {margin-top: 12px;}"],"settings":{"image":"shopify:\/\/shop_images\/FinishedBanner1.png","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"bottom-center","show_text_box":false,"desktop_content_alignment":"center","color_scheme":"inverse","image_behavior":"none","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"a9f63ca4-3529-4822-963a-ef73e51b7e72":{"type":"rich-text","blocks":{"e3f20d97-8361-405d-acca-96b67300b8ba":{"type":"caption","settings":{"caption":"Premium Kids Clothing for 3 to 10 Year Olds.","text_style":"caption-with-letter-spacing","text_size":"large"}}},"block_order":["e3f20d97-8361-405d-acca-96b67300b8ba"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-1","full_width":true,"padding_top":20,"padding_bottom":20}},"855c5bda-2dd1-4cbc-8313-15e02c560457":{"type":"multicolumn","blocks":{"template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Boys_Collections_5.png","title":"","text":"","link_label":"","link":"shopify:\/\/pages\/boys-collection"}},"template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Girls_Collections_5.png","title":"","text":"","link_label":"","link":"shopify:\/\/pages\/girls-collection"}}},"block_order":["template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1","template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2"],"custom_css":[],"settings":{"title":"","heading_size":"h2","image_width":"full","image_ratio":"square","columns_desktop":2,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"2","swipe_on_mobile":false,"padding_top":12,"padding_bottom":12}},"7d62fb67-9aca-493f-a866-49525fa19228":{"type":"multicolumn","blocks":{"6798997b-9ac2-4aff-9c45-7e56ad49101d":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/puppet-show.png","title":"CUTE","text":"<p>Modern European designs that<br\/>sparks interest & curiosity. <\/p>","link_label":"","link":""}},"e01452a0-553c-4392-9dc6-d682c1698581":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/levitation.png","title":"COMFORTABLE","text":"<p>Super-combed cotton, premium quality stitching with no harsh edges.<\/p>","link_label":"","link":""}}},"block_order":["6798997b-9ac2-4aff-9c45-7e56ad49101d","e01452a0-553c-4392-9dc6-d682c1698581"],"settings":{"title":"","heading_size":"h2","image_width":"third","image_ratio":"adapt","columns_desktop":2,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"background-2","columns_mobile":"2","swipe_on_mobile":false,"padding_top":12,"padding_bottom":12}},"8ef620d1-3bda-44cb-917f-d34cf42e0792":{"type":"collection-list","blocks":{"b85dd095-a2dc-469c-b91d-d8e2770b0786":{"type":"featured_collection","settings":{"collection":"ancient-masks"}},"fd53155b-5408-4c10-ac2c-9220315c0ea4":{"type":"featured_collection","settings":{"collection":"fruit-dojo-boys"}},"6e93dd27-a83b-4548-ad63-7703bcc4329c":{"type":"featured_collection","settings":{"collection":"space-traveller"}},"99b39fd0-a0f5-425f-ab33-c16e74bfbf31":{"type":"featured_collection","settings":{"collection":"sunny-in-africa-boys"}},"template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1":{"type":"featured_collection","disabled":true,"settings":{"collection":"cute-and-wild"}},"c72cf904-1598-466f-b085-da9af2eb7b8b":{"type":"featured_collection","disabled":true,"settings":{"collection":"glass-forest"}},"featured_collection_nre3wH":{"type":"featured_collection","settings":{"collection":"premium-boys-mid-rise-cotton-shorts"}}},"block_order":["b85dd095-a2dc-469c-b91d-d8e2770b0786","fd53155b-5408-4c10-ac2c-9220315c0ea4","6e93dd27-a83b-4548-ad63-7703bcc4329c","99b39fd0-a0f5-425f-ab33-c16e74bfbf31","template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1","c72cf904-1598-466f-b085-da9af2eb7b8b","featured_collection_nre3wH"],"settings":{"title":"Featured Collections for Boys","heading_size":"h2","image_ratio":"adapt","columns_desktop":3,"color_scheme":"scheme-6243f01a-1e84-4dac-98d1-832672700738","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"70223f50-5b85-44a2-b2c7-aa882f374b44":{"type":"multicolumn","blocks":{"ab1fa0af-5d95-4855-935b-4ba3f2db0025":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/love-birds.png","title":"CARING","text":"<p>Anti-bacterial hypo-allergenic treatment, water based dyes<\/p>","link_label":"","link":""}},"e560f2db-7272-46da-a865-86958fcdf449":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/hypoallergenic.png","title":"EARTH-FRIENDLY","text":"<p>Durable products, locally sourced, eco-friendly packaging. <\/p>","link_label":"","link":""}}},"block_order":["ab1fa0af-5d95-4855-935b-4ba3f2db0025","e560f2db-7272-46da-a865-86958fcdf449"],"settings":{"title":"","heading_size":"h2","image_width":"third","image_ratio":"adapt","columns_desktop":2,"column_alignment":"center","background_style":"primary","button_label":"","button_link":"","color_scheme":"background-2","columns_mobile":"2","swipe_on_mobile":false,"padding_top":12,"padding_bottom":12}},"e55e6824-194e-4cba-9757-70e6caa0174a":{"type":"collection-list","blocks":{"d6599f93-1438-4f8d-8155-466cf65a308d":{"type":"featured_collection","settings":{"collection":"sweet-tooth-girls"}},"0242da18-9989-48f7-ba08-feabad863d8f":{"type":"featured_collection","settings":{"collection":"cute-and-wild-girls"}},"a408ed2b-47ea-4b52-988b-44385d753123":{"type":"featured_collection","settings":{"collection":"glass-forest-girls"}},"a6134e81-e431-4a5b-b7e9-6c5cf0021866":{"type":"featured_collection","settings":{"collection":"fruit-dojo-girls"}},"cc3487aa-7ea5-4740-8709-87cefa87ae45":{"type":"featured_collection","disabled":true,"settings":{"collection":"sunny-in-africa-girls"}},"e0ce7a2b-5ae5-4c06-84b5-ca772bc9e63b":{"type":"featured_collection","disabled":true,"settings":{"collection":"ancient-masks-girls"}},"featured_collection_iARQGm":{"type":"featured_collection","settings":{"collection":"premium-girls-active-cotton-leggings"}}},"block_order":["d6599f93-1438-4f8d-8155-466cf65a308d","0242da18-9989-48f7-ba08-feabad863d8f","a408ed2b-47ea-4b52-988b-44385d753123","a6134e81-e431-4a5b-b7e9-6c5cf0021866","cc3487aa-7ea5-4740-8709-87cefa87ae45","e0ce7a2b-5ae5-4c06-84b5-ca772bc9e63b","featured_collection_iARQGm"],"settings":{"title":"Featured Collections for Girls","heading_size":"h2","image_ratio":"adapt","columns_desktop":3,"color_scheme":"scheme-6243f01a-1e84-4dac-98d1-832672700738","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"rich_text_ndKFKa":{"type":"rich-text","blocks":{"caption_kiUjik":{"type":"caption","settings":{"caption":"Sketch, Style and Win!!!","text_style":"caption-with-letter-spacing","text_size":"large"}}},"block_order":["caption_kiUjik"],"disabled":true,"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-2","full_width":true,"padding_top":20,"padding_bottom":20}},"multirow_cbJW4D":{"type":"multirow","blocks":{"row_b8xaX4":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/little_Picasso2.png","caption":"","heading":"<a href=\"\/pages\/little-picasso-challenge\" title=\"allörio: little picasso challenge\">Little Picasso Challenge<\/a>","text":"<p>Showcase your artistic skills to win exciting prizes. Send <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/1258\/2976\/files\/allorio_-_little_picasso_contest.pdf\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/1258\/2976\/files\/allorio_-_little_picasso_contest.pdf\"><strong>your design<\/strong><\/a> to <a href=\"mailto:contest@allorio.in\" title=\"mailto:contest@allorio.in\"><strong>contest@allorio.in<\/strong><\/a> for a chance to win exciting prizes!<\/p>","button_label":"Learn More","button_link":"shopify:\/\/pages\/little-picasso-challenge"}},"row_7PfUhT":{"type":"row","settings":{"image":"shopify:\/\/shop_images\/Allorio_Mascot_Pattern.png","caption":"","heading":"About our company","text":"<p><strong>allörio <\/strong>is a <strong>quality-first, design-centric<\/strong> kid’s premium lifestyle company.<\/p><p>Our mission is to make<strong> every kid feel special <\/strong>and <strong>every mom feel reassured <\/strong>by providing the <strong>best quality kid’s products <\/strong>available in the Indian Market.<\/p><p>Our<strong> European designed products<\/strong> are crafted just for kids and <strong>responsibly made<\/strong> locally in India. We work with carefully chosen <strong>accredited export-quality suppliers<\/strong>. With our products, we strive to bring <strong>fun new concepts <\/strong>from around the world to your family.<\/p>","button_label":"Learn More","button_link":"shopify:\/\/pages\/little-picasso-challenge"}}},"block_order":["row_b8xaX4","row_7PfUhT"],"settings":{"image_height":"adapt","desktop_image_width":"small","heading_size":"h1","text_style":"body","button_style":"secondary","desktop_content_position":"middle","desktop_content_alignment":"left","image_layout":"alternate-left","section_color_scheme":"background-1","row_color_scheme":"background-2","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"579d4a67-210a-4a03-9bc3-7fa5172e77c0":{"type":"image-with-text","blocks":{"heading_WqGbW8":{"type":"heading","settings":{"heading":"About allörio","heading_size":"h1"}},"template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-text-1":{"type":"text","settings":{"text":"<p><strong>allörio <\/strong>is a <strong>quality-first, design-centric<\/strong> kid’s premium lifestyle company.<\/p><p>Our mission is to make<strong> every kid feel special <\/strong>and <strong>every mom feel reassured <\/strong>by providing the <strong>best quality kid’s products <\/strong>available in the Indian Market. <\/p><p>Our<strong> European designed products<\/strong> are crafted just for kids and <strong>responsibly made<\/strong> locally in India. We work with carefully chosen <strong>accredited export-quality suppliers<\/strong>. With our products, we strive to bring <strong>fun new concepts <\/strong>from around the world to your family.<\/p>","text_style":"body"}},"template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-button-1":{"type":"button","settings":{"button_label":"Learn More","button_link":"shopify:\/\/pages\/about-us"}}},"block_order":["heading_WqGbW8","template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-text-1","template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-button-1"],"disabled":true,"custom_css":[],"settings":{"image":"shopify:\/\/shop_images\/Allorio_Mascot_White_Shadow.png","height":"adapt","desktop_image_width":"small","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-2","image_behavior":"none","mobile_content_alignment":"center","padding_top":36,"padding_bottom":36}},"rich_text_9Qr4zR":{"type":"rich-text","blocks":{"caption_iQFETP":{"type":"caption","settings":{"caption":"Made with Love and Affection","text_style":"caption-with-letter-spacing","text_size":"large"}}},"block_order":["caption_iQFETP"],"settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"background-2","full_width":true,"padding_top":20,"padding_bottom":20}}},"order":["image_banner","a9f63ca4-3529-4822-963a-ef73e51b7e72","855c5bda-2dd1-4cbc-8313-15e02c560457","7d62fb67-9aca-493f-a866-49525fa19228","8ef620d1-3bda-44cb-917f-d34cf42e0792","70223f50-5b85-44a2-b2c7-aa882f374b44","e55e6824-194e-4cba-9757-70e6caa0174a","rich_text_ndKFKa","multirow_cbJW4D","579d4a67-210a-4a03-9bc3-7fa5172e77c0","rich_text_9Qr4zR"]}
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "#",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button"
+      ],
+      "custom_css": [
+        ".banner__media {margin-top: 12px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FinishedBanner1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "inverse",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "a9f63ca4-3529-4822-963a-ef73e51b7e72": {
+      "type": "rich-text",
+      "blocks": {
+        "e3f20d97-8361-405d-acca-96b67300b8ba": {
+          "type": "caption",
+          "settings": {
+            "caption": "Premium Kids Clothing for 3 to 10 Year Olds.",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "e3f20d97-8361-405d-acca-96b67300b8ba"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "855c5bda-2dd1-4cbc-8313-15e02c560457": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Boys_Collections_5.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/boys-collection"
+          }
+        },
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Girls_Collections_5.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/girls-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1",
+        "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2"
+      ],
+      "custom_css": [
+        ".multicolumn-card.content-container {position: relative;}",
+        ".multicolumn-card a.link.animate-arrow {position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; margin-top: 0;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "7d62fb67-9aca-493f-a866-49525fa19228": {
+      "type": "multicolumn",
+      "blocks": {
+        "6798997b-9ac2-4aff-9c45-7e56ad49101d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/puppet-show.png",
+            "title": "CUTE",
+            "text": "<p>Modern European designs that<br\/>sparks interest & curiosity. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e01452a0-553c-4392-9dc6-d682c1698581": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/levitation.png",
+            "title": "COMFORTABLE",
+            "text": "<p>Super-combed cotton, premium quality stitching with no harsh edges.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "6798997b-9ac2-4aff-9c45-7e56ad49101d",
+        "e01452a0-553c-4392-9dc6-d682c1698581"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "8ef620d1-3bda-44cb-917f-d34cf42e0792": {
+      "type": "collection-list",
+      "blocks": {
+        "b85dd095-a2dc-469c-b91d-d8e2770b0786": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ancient-masks"
+          }
+        },
+        "fd53155b-5408-4c10-ac2c-9220315c0ea4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fruit-dojo-boys"
+          }
+        },
+        "6e93dd27-a83b-4548-ad63-7703bcc4329c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "space-traveller"
+          }
+        },
+        "99b39fd0-a0f5-425f-ab33-c16e74bfbf31": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sunny-in-africa-boys"
+          }
+        },
+        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "cute-and-wild"
+          }
+        },
+        "c72cf904-1598-466f-b085-da9af2eb7b8b": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "glass-forest"
+          }
+        },
+        "featured_collection_nre3wH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "premium-boys-mid-rise-cotton-shorts"
+          }
+        }
+      },
+      "block_order": [
+        "b85dd095-a2dc-469c-b91d-d8e2770b0786",
+        "fd53155b-5408-4c10-ac2c-9220315c0ea4",
+        "6e93dd27-a83b-4548-ad63-7703bcc4329c",
+        "99b39fd0-a0f5-425f-ab33-c16e74bfbf31",
+        "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1",
+        "c72cf904-1598-466f-b085-da9af2eb7b8b",
+        "featured_collection_nre3wH"
+      ],
+      "settings": {
+        "title": "Featured Collections for Boys",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-6243f01a-1e84-4dac-98d1-832672700738",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "70223f50-5b85-44a2-b2c7-aa882f374b44": {
+      "type": "multicolumn",
+      "blocks": {
+        "ab1fa0af-5d95-4855-935b-4ba3f2db0025": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/love-birds.png",
+            "title": "CARING",
+            "text": "<p>Anti-bacterial hypo-allergenic treatment, water based dyes<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "e560f2db-7272-46da-a865-86958fcdf449": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hypoallergenic.png",
+            "title": "EARTH-FRIENDLY",
+            "text": "<p>Durable products, locally sourced, eco-friendly packaging. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ab1fa0af-5d95-4855-935b-4ba3f2db0025",
+        "e560f2db-7272-46da-a865-86958fcdf449"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "e55e6824-194e-4cba-9757-70e6caa0174a": {
+      "type": "collection-list",
+      "blocks": {
+        "d6599f93-1438-4f8d-8155-466cf65a308d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sweet-tooth-girls"
+          }
+        },
+        "0242da18-9989-48f7-ba08-feabad863d8f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cute-and-wild-girls"
+          }
+        },
+        "a408ed2b-47ea-4b52-988b-44385d753123": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "glass-forest-girls"
+          }
+        },
+        "a6134e81-e431-4a5b-b7e9-6c5cf0021866": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fruit-dojo-girls"
+          }
+        },
+        "cc3487aa-7ea5-4740-8709-87cefa87ae45": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "sunny-in-africa-girls"
+          }
+        },
+        "e0ce7a2b-5ae5-4c06-84b5-ca772bc9e63b": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "ancient-masks-girls"
+          }
+        },
+        "featured_collection_iARQGm": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "premium-girls-active-cotton-leggings"
+          }
+        }
+      },
+      "block_order": [
+        "d6599f93-1438-4f8d-8155-466cf65a308d",
+        "0242da18-9989-48f7-ba08-feabad863d8f",
+        "a408ed2b-47ea-4b52-988b-44385d753123",
+        "a6134e81-e431-4a5b-b7e9-6c5cf0021866",
+        "cc3487aa-7ea5-4740-8709-87cefa87ae45",
+        "e0ce7a2b-5ae5-4c06-84b5-ca772bc9e63b",
+        "featured_collection_iARQGm"
+      ],
+      "settings": {
+        "title": "Featured Collections for Girls",
+        "heading_size": "h2",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "scheme-6243f01a-1e84-4dac-98d1-832672700738",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_ndKFKa": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_kiUjik": {
+          "type": "caption",
+          "settings": {
+            "caption": "Sketch, Style and Win!!!",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "caption_kiUjik"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "multirow_cbJW4D": {
+      "type": "multirow",
+      "blocks": {
+        "row_b8xaX4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/little_Picasso2.png",
+            "caption": "",
+            "heading": "<a href=\"\/pages\/little-picasso-challenge\" title=\"allörio: little picasso challenge\">Little Picasso Challenge<\/a>",
+            "text": "<p>Showcase your artistic skills to win exciting prizes. Send <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/1258\/2976\/files\/allorio_-_little_picasso_contest.pdf\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0801\/1258\/2976\/files\/allorio_-_little_picasso_contest.pdf\"><strong>your design<\/strong><\/a> to <a href=\"mailto:contest@allorio.in\" title=\"mailto:contest@allorio.in\"><strong>contest@allorio.in<\/strong><\/a> for a chance to win exciting prizes!<\/p>",
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/little-picasso-challenge"
+          }
+        },
+        "row_7PfUhT": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Allorio_Mascot_Pattern.png",
+            "caption": "",
+            "heading": "About our company",
+            "text": "<p><strong>allörio <\/strong>is a <strong>quality-first, design-centric<\/strong> kid’s premium lifestyle company.<\/p><p>Our mission is to make<strong> every kid feel special <\/strong>and <strong>every mom feel reassured <\/strong>by providing the <strong>best quality kid’s products <\/strong>available in the Indian Market.<\/p><p>Our<strong> European designed products<\/strong> are crafted just for kids and <strong>responsibly made<\/strong> locally in India. We work with carefully chosen <strong>accredited export-quality suppliers<\/strong>. With our products, we strive to bring <strong>fun new concepts <\/strong>from around the world to your family.<\/p>",
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/little-picasso-challenge"
+          }
+        }
+      },
+      "block_order": [
+        "row_b8xaX4",
+        "row_7PfUhT"
+      ],
+      "settings": {
+        "image_height": "adapt",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "background-1",
+        "row_color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "579d4a67-210a-4a03-9bc3-7fa5172e77c0": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WqGbW8": {
+          "type": "heading",
+          "settings": {
+            "heading": "About allörio",
+            "heading_size": "h1"
+          }
+        },
+        "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>allörio <\/strong>is a <strong>quality-first, design-centric<\/strong> kid’s premium lifestyle company.<\/p><p>Our mission is to make<strong> every kid feel special <\/strong>and <strong>every mom feel reassured <\/strong>by providing the <strong>best quality kid’s products <\/strong>available in the Indian Market. <\/p><p>Our<strong> European designed products<\/strong> are crafted just for kids and <strong>responsibly made<\/strong> locally in India. We work with carefully chosen <strong>accredited export-quality suppliers<\/strong>. With our products, we strive to bring <strong>fun new concepts <\/strong>from around the world to your family.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "shopify:\/\/pages\/about-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WqGbW8",
+        "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-text-1",
+        "template--20174006124864__579d4a67-210a-4a03-9bc3-7fa5172e77c0-button-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Allorio_Mascot_White_Shadow.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_9Qr4zR": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_iQFETP": {
+          "type": "caption",
+          "settings": {
+            "caption": "Made with Love and Affection",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "caption_iQFETP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "a9f63ca4-3529-4822-963a-ef73e51b7e72",
+    "855c5bda-2dd1-4cbc-8313-15e02c560457",
+    "7d62fb67-9aca-493f-a866-49525fa19228",
+    "8ef620d1-3bda-44cb-917f-d34cf42e0792",
+    "70223f50-5b85-44a2-b2c7-aa882f374b44",
+    "e55e6824-194e-4cba-9757-70e6caa0174a",
+    "rich_text_ndKFKa",
+    "multirow_cbJW4D",
+    "579d4a67-210a-4a03-9bc3-7fa5172e77c0",
+    "rich_text_9Qr4zR"
+  ]
+}
