@@ -48,15 +48,17 @@
         },
         "icon_with_text_DMTty7": {
           "type": "icon-with-text",
-          "disabled": true,
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
-            "heading_1": "100% Premium Cotton",
+            "image_1": "{{ product.metafields.custom.product_highlights.value.highlight_image_1.value }}",
+            "heading_1": "{{ product.metafields.custom.product_highlights.value.highlight_text_1.value }}",
             "icon_2": "return",
-            "heading_2": "Hi-Tech Printed Safe Dyes",
+            "image_2": "{{ product.metafields.custom.product_highlights.value.highlight_image_2.value }}",
+            "heading_2": "{{ product.metafields.custom.product_highlights.value.highlight_text_2.value }}",
             "icon_3": "truck",
-            "heading_3": "Luxuriously Soft  Bio-Wash"
+            "image_3": "{{ product.metafields.custom.product_highlights.value.highlight_image_3.value }}",
+            "heading_3": "{{ product.metafields.custom.product_highlights.value.highlight_text_3.value }}"
           }
         },
         "description": {
