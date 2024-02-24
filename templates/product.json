@@ -46,6 +46,13 @@
             "show_gift_card_recipient": false
           }
         },
+        "text_tWbqXb": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Product Highlights<\/strong>",
+            "text_style": "body"
+          }
+        },
         "icon_with_text_DMTty7": {
           "type": "icon-with-text",
           "settings": {
@@ -104,6 +111,7 @@
         "340cde47-c314-41db-a3ec-31934bc4bcde",
         "quantity_selector",
         "buy_buttons",
+        "text_tWbqXb",
         "icon_with_text_DMTty7",
         "description",
         "collapsible_tab_N3JtdN",
