@@ -48,6 +48,7 @@
         },
         "icon_with_text_DMTty7": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "layout": "horizontal",
             "icon_1": "heart",
@@ -65,6 +66,7 @@
         },
         "collapsible_tab_N3JtdN": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "About This Design",
             "icon": "none",
