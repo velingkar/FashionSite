@@ -56,7 +56,7 @@
       "name": "Médias sociaux",
       "settings": {
         "social_twitter_link": {
-          "label": "Twitter",
+          "label": "X",
           "info": "https://twitter.com/shopify"
         },
         "social_facebook_link": {
@@ -139,7 +139,7 @@
           "label": "Activer les suggestions de recherche"
         },
         "predictive_search_show_vendor": {
-          "label": "Afficher le distributeur du produit",
+          "label": "Afficher le fournisseur du produit",
           "info": "Visible lorsque les suggestions de recherche sont activées."
         },
         "predictive_search_show_price": {
@@ -256,7 +256,7 @@
           }
         },
         "show_vendor": {
-          "label": "Afficher le distributeur"
+          "label": "Afficher le fournisseur"
         },
         "show_cart_note": {
           "label": "Activer la note de panier"
@@ -359,10 +359,13 @@
             "label": "Aucun"
           },
           "options__2": {
-            "label": "3D lift"
+            "label": "Levée verticale"
           },
           "label": "Effet de survol",
-          "info": "Concerne les cartes et les boutons."
+          "info": "Concerne les cartes et les boutons.",
+          "options__3": {
+            "label": "3D lift"
+          }
         }
       }
     }
@@ -385,7 +388,7 @@
           "label": "Petit"
         },
         "options__2": {
-          "label": "Moyen"
+          "label": "Moyenne"
         },
         "options__3": {
           "label": "Grand"
@@ -434,6 +437,9 @@
           "label": "Comportement de l’image",
           "options__3": {
             "label": "Position de l’arrière-plan fixe"
+          },
+          "options__4": {
+            "label": "Zoom sur le défilement"
           }
         }
       }
@@ -467,11 +473,38 @@
       },
       "settings": {
         "auto_rotate": {
-          "label": "Rotation automatique des diapositives"
+          "label": "Rotation automatique des annonces"
         },
         "change_slides_speed": {
-          "label": "Changer de diapositive toutes les"
+          "label": "Changer toutes les"
+        },
+        "header__1": {
+          "content": "Icônes de réseaux sociaux",
+          "info": "Pour afficher vos comptes de réseaux sociaux, ajoutez les liens correspondants dans les [paramètres de votre thème](/editor?context=theme&category=social%20media)."
+        },
+        "header__2": {
+          "content": "Annonces"
+        },
+        "show_social": {
+          "label": "Afficher les icônes sur le bureau"
+        },
+        "header__3": {
+          "content": "Sélecteur de pays/région",
+          "info": "Pour ajouter un pays/une région, accédez à vos [paramètres de marché.](/admin/settings/markets)"
+        },
+        "enable_country_selector": {
+          "label": "Activer le sélecteur de pays/région"
+        },
+        "header__4": {
+          "content": "Sélecteur de langue",
+          "info": "Pour ajouter une langue, accédez à vos [paramètres de langue.](/admin/settings/languages)"
+        },
+        "enable_language_selector": {
+          "label": "Activer le sélecteur de langue"
         }
+      },
+      "presets": {
+        "name": "Barre d’annonces"
       }
     },
     "collage": {
@@ -486,7 +519,7 @@
             "label": "Grand bloc gauche"
           },
           "options__2": {
-            "label": "Grand bloc droit"
+            "label": "Grand bloc droite"
           }
         },
         "mobile_layout": {
@@ -627,8 +660,8 @@
       "name": "Liquid personnalisé",
       "settings": {
         "custom_liquid": {
-          "label": "Liquid personnalisé",
-          "info": "Ajoutez des extraits d'application ou autre code Liquid pour créer des personnalisations avancées."
+          "label": "Code Liquid",
+          "info": "Ajoutez des extraits d’application ou autre code pour créer des personnalisations avancées. [En savoir plus](https://shopify.dev/docs/api/liquid)"
         }
       },
       "presets": {
@@ -702,7 +735,7 @@
           "label": "Afficher la deuxième image en survol"
         },
         "show_vendor": {
-          "label": "Afficher le distributeur"
+          "label": "Afficher le fournisseur"
         },
         "show_rating": {
           "label": "Afficher la note du produit",
@@ -961,6 +994,12 @@
         },
         "enable_language_selector": {
           "label": "Activer le sélecteur de langue"
+        },
+        "header__1": {
+          "content": "Couleur"
+        },
+        "menu_color_scheme": {
+          "label": "Nuancier de couleurs de menu"
         }
       }
     },
@@ -972,9 +1011,6 @@
         },
         "image_2": {
           "label": "Deuxième image"
-        },
-        "color_scheme": {
-          "info": "Visible lorsque le conteneur est affiché."
         },
         "stack_images_on_mobile": {
           "label": "Empiler des images sur un mobile"
@@ -997,7 +1033,7 @@
             "label": "Petit"
           },
           "options__3": {
-            "label": "Moyen"
+            "label": "Moyenne"
           },
           "info": "Pour optimiser vos résultats, utilisez une image ayant un rapport d'aspect de 3:2. [En savoir plus](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
           "options__4": {
@@ -1135,7 +1171,7 @@
             "label": "Petit"
           },
           "options__3": {
-            "label": "Moyen"
+            "label": "Moyenne"
           },
           "label": "Hauteur de l'image",
           "options__4": {
@@ -1157,7 +1193,7 @@
             "label": "Petit"
           },
           "options__2": {
-            "label": "Moyen"
+            "label": "Moyenne"
           },
           "options__3": {
             "label": "Grand"
@@ -1246,6 +1282,9 @@
             },
             "button_link": {
               "label": "Lien du bouton"
+            },
+            "outline_button": {
+              "label": "Utiliser le style de bouton en relief"
             }
           }
         },
@@ -1270,7 +1309,7 @@
                 "label": "Petit"
               },
               "options__2": {
-                "label": "Moyen"
+                "label": "Moyenne"
               },
               "options__3": {
                 "label": "Grand"
@@ -1298,7 +1337,7 @@
                 "label": "Petit"
               },
               "options__3": {
-                "label": "Moyen"
+                "label": "Moyenne"
               },
               "info": "Pour optimiser vos résultats, utilisez une image ayant un rapport d'aspect de 16:9. [En savoir plus](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
               "options__4": {
@@ -1374,7 +1413,7 @@
             "label": "Petit"
           },
           "options__3": {
-            "label": "Moyen"
+            "label": "Moyenne"
           },
           "options__4": {
             "label": "Grand"
@@ -1441,7 +1480,7 @@
           "label": "Afficher la deuxième image en survol"
         },
         "show_vendor": {
-          "label": "Afficher le distributeur"
+          "label": "Afficher le fournisseur"
         },
         "header__1": {
           "content": "Filtrage et tri"
@@ -1600,12 +1639,25 @@
           "name": "Sélecteur de variante",
           "settings": {
             "picker_type": {
-              "label": "Type",
+              "label": "Style",
               "options__1": {
                 "label": "Menu déroulant"
               },
               "options__2": {
                 "label": "Comprimés"
+              }
+            },
+            "swatch_shape": {
+              "label": "Échantillon",
+              "info": "Activez [échantillons](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) sur les options produits.",
+              "options__1": {
+                "label": "Cercle"
+              },
+              "options__2": {
+                "label": "Carré"
+              },
+              "options__3": {
+                "label": "Aucun"
               }
             }
           }
@@ -1618,8 +1670,8 @@
               "info": "En utilisant les méthodes de paiement disponibles sur votre boutique, les clients voient leur option préférée, comme PayPal ou Apple Pay. [En savoir plus](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)"
             },
             "show_gift_card_recipient": {
-              "label": "Afficher le formulaire d’information sur le destinataire pour les cartes‑cadeaux en tant que produit",
-              "info": "Les cartes‑cadeaux en tant que produits peuvent être envoyées directement au destinataire à une date programmée, accompagnées d’un message personnel. [En savoir plus](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
+              "label": "Afficher le formulaire d’information sur le destinataire pour les cartes‑cadeaux",
+              "info": "Permet aux acheteurs d’envoyer des cartes-cadeaux à une date prévue ainsi qu’un message personnel. [En savoir plus](https://help.shopify.com/manual/online-store/themes/customizing-themes/add-gift-card-recipient-fields)"
             }
           }
         },
@@ -1804,15 +1856,6 @@
             }
           }
         },
-        "custom_liquid": {
-          "name": "Liquid personnalisé",
-          "settings": {
-            "custom_liquid": {
-              "label": "Liquid personnalisé",
-              "info": "Ajoutez des extraits d'application ou autre code Liquid pour créer des personnalisations avancées."
-            }
-          }
-        },
         "rating": {
           "name": "Note de produit",
           "settings": {
@@ -1991,7 +2034,7 @@
             "label": "Petit"
           },
           "options__2": {
-            "label": "Moyen"
+            "label": "Moyenne"
           },
           "options__3": {
             "label": "Grand"
@@ -2066,7 +2109,7 @@
           "label": "Afficher la deuxième image en survol"
         },
         "show_vendor": {
-          "label": "Afficher le distributeur"
+          "label": "Afficher le fournisseur"
         },
         "header__1": {
           "content": "Carte de produit"
@@ -2345,7 +2388,7 @@
                 "label": "Petit"
               },
               "options__2": {
-                "label": "Moyen"
+                "label": "Moyenne"
               },
               "options__3": {
                 "label": "Grand"
@@ -2452,12 +2495,25 @@
           "name": "Sélecteur de variante",
           "settings": {
             "picker_type": {
-              "label": "Type",
+              "label": "Style",
               "options__1": {
                 "label": "Menu déroulant"
               },
               "options__2": {
                 "label": "Pilules"
+              }
+            },
+            "swatch_shape": {
+              "label": "Échantillon",
+              "info": "Activez [échantillons](https://help.shopify.com/en/manual/online-store/themes/theme-structure/theme-settings#options-with-swatches) sur les options produits.",
+              "options__1": {
+                "label": "Cercle"
+              },
+              "options__2": {
+                "label": "Carré"
+              },
+              "options__3": {
+                "label": "Aucun"
               }
             }
           }
@@ -2485,14 +2541,6 @@
             },
             "text": {
               "label": "Texte"
-            }
-          }
-        },
-        "custom_liquid": {
-          "name": "Liquid personnalisé",
-          "settings": {
-            "custom_liquid": {
-              "label": "Liquid personnalisé"
             }
           }
         },
@@ -2585,7 +2633,7 @@
             "label": "Petit"
           },
           "options__3": {
-            "label": "Moyen"
+            "label": "Moyenne"
           },
           "options__4": {
             "label": "Grand"
@@ -2648,6 +2696,9 @@
             "label": "Droite"
           },
           "label": "Alignement du contenu sur mobile"
+        },
+        "color_scheme": {
+          "info": "Visible lorsque le conteneur est affiché."
         }
       },
       "blocks": {
@@ -2705,7 +2756,7 @@
             "label": "Petit"
           },
           "options__3": {
-            "label": "Moyen"
+            "label": "Moyenne"
           },
           "options__4": {
             "label": "Grand"
@@ -3146,7 +3197,7 @@
             "label": "Petit"
           },
           "options__3": {
-            "label": "Moyen"
+            "label": "Moyenne"
           },
           "options__4": {
             "label": "Grand"
@@ -3158,7 +3209,7 @@
             "label": "Petit"
           },
           "options__2": {
-            "label": "Moyen"
+            "label": "Moyenne"
           },
           "options__3": {
             "label": "Grand"
@@ -3171,7 +3222,7 @@
             "label": "Petit"
           },
           "options__2": {
-            "label": "Moyen"
+            "label": "Moyenne"
           },
           "options__3": {
             "label": "Grand"
@@ -3283,6 +3334,20 @@
       },
       "presets": {
         "name": "Multiligne"
+      }
+    },
+    "quick-order-list": {
+      "name": "Liste rapide des commandes",
+      "settings": {
+        "show_image": {
+          "label": "Afficher les images"
+        },
+        "show_sku": {
+          "label": "Afficher les SKU"
+        }
+      },
+      "presets": {
+        "name": "Liste rapide des commandes"
       }
     }
   }

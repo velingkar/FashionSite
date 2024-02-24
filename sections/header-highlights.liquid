@@ -3,13 +3,13 @@
   {{ block.shopify_attributes }}
 >
   <div class="announcement-bar">
-    <div class="page-width flex-center allorio-highlight-section">
+    <div class="page-width flex-center highlight-section">
       {% for block in section.blocks %}
-        <div class="announcement-bar__message h5 allorio-highlight-item flex-center">
+        <div class="announcement-bar__message h5 highlight-item flex-center">
           {%- if block.settings.image != blank -%}
             {{ block.settings.image | image_url: width: 16 | image_tag }}
           {%- endif -%}
-          <span class="allorio-highlight-text">{{ block.settings.text }}</span>
+          <span class="highlight-text">{{ block.settings.text }}</span>
         </div>
       {% endfor %}
     </div>
@@ -17,45 +17,52 @@
 </div>
 
 {% stylesheet %}
-  .allorio-highlight-section {
+  .highlight-section {
     padding: 1.15em 0;
+  }
+  @media screen and (max-width: 767px) .highlight-section {
+    padding: 4px 0 2px;
+  }
+  @media screen and (max-width: 990px) .highlight-section {
+  }
+  @media screen and (max-width: 1279px) .highlight-section {
+  }
+  @media screen and (max-width: 767px) .main-container {
+    padding: 0 10px;
+  }
+  .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  @media screen and (max-width: 767px) .allorio-highlight-section {
-    padding: 4px 0 2px;
-  }
-  @media screen and (max-width: 990px) .allorio-highlight-section {
-  }
-  @media screen and (max-width: 1279px) .allorio-highlight-section {
-  }
-  @media screen and (max-width: 767px) .allorio-highlight-section svg {
+  @media screen and (max-width: 767px) .highlight-section svg {
     width: 2.2em;
     flex: 2.2em;
   }
-  .allorio-highlight-section svg {
+  .highlight-section svg {
     width: 2.7em;
     flex: 2.7em;
     margin-right: 0.7em;
     height: 100%;
   }
-
-  @media screen and (max-width: 767px) .allorio-highlight-section .allorio-highlight-item {
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  @media screen and (max-width: 767px) .highlight-section .highlight-item {
     margin: 0 9px;
   }
 
-  .allorio-highlight-section .allorio-highlight-item {
+  .highlight-section .highlight-item {
     display: flex;
     align-items: center;
     margin: 0 1.4em;
   }
 
-  @media screen and (max-width: 767px) .allorio-highlight-item .allorio-highlight-text {
+  @media screen and (max-width: 767px) .highlight-item .highlight-text {
     margin-left: 5px;
   }
 
-  .allorio-highlight-item .allorio-highlight-text {
+  .highlight-item .highlight-text {
     margin-left: 0.5em;
   }
 {% endstylesheet %}
@@ -69,12 +76,6 @@
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
       "default": "accent-1"
-    },
-    {
-      "type": "checkbox",
-      "id": "show_line_separator",
-      "default": true,
-      "label": "t:sections.header.settings.show_line_separator.label"
     }
   ],
   "tag": "header",
