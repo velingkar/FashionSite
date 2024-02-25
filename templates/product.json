@@ -101,7 +101,7 @@
           "settings": {
             "heading": "{{ product.metafields.custom.about_design_heading.value }}",
             "icon": "snowflake",
-            "content": "{{ product.metafields.custom.about_design_description | metafield_tag }}",
+            "content": "",
             "page": "{{ product.metafields.custom.collection_description.value }}"
           }
         },
