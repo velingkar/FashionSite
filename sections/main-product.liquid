@@ -204,7 +204,7 @@
                 {{ block.settings.custom_liquid }}
               {%- when 'custom_page_content' -%}
                 <div class="product__custom_page_content" {{ block.shopify_attributes }}>
-                  <h2 class="h3 custom_page__title inline-richtext">
+                  <h2 class="h4 custom_page__title inline-richtext">
                     {{ block.settings.heading | default: block.settings.page.title | escape }}
                   </h2>
                   <div class="custom_page__content rte" id="ProductCustomPage-{{ block.id }}-{{ section.id }}">
