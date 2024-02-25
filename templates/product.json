@@ -80,11 +80,11 @@
           "settings": {
           }
         },
-        "text_TqPnkQ": {
-          "type": "text",
+        "custom_page_content_ndXeXk": {
+          "type": "custom_page_content",
           "settings": {
-            "text": "<strong>Product Description<\/strong>",
-            "text_style": "body"
+            "heading": "Product Details",
+            "page": "{{ product.metafields.custom.product_details.value }}"
           }
         },
         "collapsible_tab_N3JtdN": {
@@ -129,7 +129,7 @@
         "icon_with_text_DMTty7",
         "text_UGDfYN",
         "description",
-        "text_TqPnkQ",
+        "custom_page_content_ndXeXk",
         "collapsible_tab_N3JtdN",
         "share",
         "complementary_NEAaMy"
