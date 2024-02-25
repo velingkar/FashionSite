@@ -2059,6 +2059,18 @@
             }
           }
         },
+        "custom_page_content": {
+          "name": "Custom Page",
+          "settings": {
+            "heading": {
+              "info": "Include a heading that explains the content.",
+              "label": "Heading"
+            },
+            "page": {
+              "label": "Row content from page"
+            }
+          }
+        },
         "collapsible_tab": {
           "name": "Collapsible row",
           "settings": {
