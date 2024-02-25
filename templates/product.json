@@ -99,7 +99,7 @@
         "collapsible_tab_BL4EhL": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "About this collection{{ product.metafields.custom.about_design_heading.value }}",
+            "heading": "{{ product.metafields.custom.about_design_heading.value }}",
             "icon": "snowflake",
             "content": "{{ product.metafields.custom.about_design_description | metafield_tag }}",
             "page": "{{ product.metafields.custom.collection_description.value }}"
