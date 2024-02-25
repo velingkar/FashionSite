@@ -68,9 +68,23 @@
             "heading_3": "{{ product.metafields.custom.product_highlights.value.highlight_text_3.value }}"
           }
         },
+        "text_UGDfYN": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Product Description<\/strong>",
+            "text_style": "body"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
+          }
+        },
+        "text_TqPnkQ": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Product Description<\/strong>",
+            "text_style": "body"
           }
         },
         "collapsible_tab_N3JtdN": {
@@ -113,7 +127,9 @@
         "buy_buttons",
         "text_tWbqXb",
         "icon_with_text_DMTty7",
+        "text_UGDfYN",
         "description",
+        "text_TqPnkQ",
         "collapsible_tab_N3JtdN",
         "share",
         "complementary_NEAaMy"
