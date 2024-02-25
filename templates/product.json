@@ -87,14 +87,22 @@
             "page": "{{ product.metafields.custom.product_details.value }}"
           }
         },
-        "collapsible_tab_N3JtdN": {
+        "collapsible_tab_HppNxq": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "About This Design",
-            "icon": "none",
-            "content": "{{ product.metafields.custom.about_design | metafield_tag }}",
-            "page": ""
+            "heading": "About This Collection",
+            "icon": "snowflake",
+            "content": "",
+            "page": "{{ product.metafields.custom.collection_description.value }}"
+          }
+        },
+        "collapsible_tab_BL4EhL": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "About this collection{{ product.metafields.custom.about_design_heading.value }}",
+            "icon": "snowflake",
+            "content": "{{ product.metafields.custom.about_design_description | metafield_tag }}",
+            "page": "{{ product.metafields.custom.collection_description.value }}"
           }
         },
         "share": {
@@ -130,7 +138,8 @@
         "text_UGDfYN",
         "description",
         "custom_page_content_ndXeXk",
-        "collapsible_tab_N3JtdN",
+        "collapsible_tab_HppNxq",
+        "collapsible_tab_BL4EhL",
         "share",
         "complementary_NEAaMy"
       ],
