@@ -32,7 +32,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "a9f63ca4-3529-4822-963a-ef73e51b7e72": {
