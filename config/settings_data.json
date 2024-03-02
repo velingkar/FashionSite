@@ -121,7 +121,7 @@
     "checkout_logo_image": "shopify:\/\/shop_images\/allorio-kids-rect-logo-1.png",
     "checkout_body_background_color": "#fdf5d5",
     "checkout_input_background_color_mode": "white",
-    "checkout_sidebar_background_color": "#5ebec4",
+    "checkout_sidebar_background_color": "#ffffff",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
