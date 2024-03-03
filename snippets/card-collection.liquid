@@ -114,7 +114,7 @@
             {%- if card_collection.products.count > 1 -%}
               <span
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_collection.id }}"
-                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+                class="badge badge--bottom-left color-{{ settings.collection_badge_color_scheme }}"
               >
                 {{- 'collections.collection.style_count' | t: quantity: card_collection.products.count -}}
               </span>
@@ -177,7 +177,7 @@
           {%- if card_collection.products.count > 1 -%}
             <span
               id="NoMediaStandardBadge-{{ section_id }}-{{ card_collection.id }}"
-              class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+              class="badge badge--bottom-left color-{{ settings.collection_badge_color_scheme }}"
             >
               {{- 'collections.collection.style_count' | t: quantity: card_collection.products.count -}}
             </span>
