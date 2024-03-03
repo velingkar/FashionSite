@@ -128,12 +128,21 @@
                 {{- 'products.product.sold_out' | t -}}
               </span>
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-              <span
-                id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
-                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
-              >
-                {{- 'products.product.on_sale' | t -}}
-              </span>
+              {%- liquid
+                assign show_sale_badge = false
+                assign discount_percentage = card_product.compare_at_price | minus: card_product.price | times: 100 | divided_by: card_product.compare_at_price
+                if discount_percentage > 32
+                  assign show_sale_badge = true
+                endif
+              -%}
+              {%- if show_sale_badge == true -%}
+                <span
+                  id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
+                  class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+                >
+                  {{- 'products.product.on_sale' | t -}}
+                </span>
+              {%- endif -%}
             {%- endif -%}
           </div>
         </div>
@@ -313,12 +322,21 @@
               {{- 'products.product.sold_out' | t -}}
             </span>
           {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
-            <span
-              id="Badge-{{ section_id }}-{{ card_product.id }}"
-              class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
-            >
-              {{- 'products.product.on_sale' | t -}}
-            </span>
+            {%- liquid
+              assign show_sale_badge = false
+              assign discount_percentage = card_product.compare_at_price | minus: card_product.price | times: 100 | divided_by: card_product.compare_at_price
+              if discount_percentage > 32
+                assign show_sale_badge = true
+              endif
+            -%}
+            {%- if show_sale_badge == true -%}
+              <span
+                id="Badge-{{ section_id }}-{{ card_product.id }}"
+                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+              >
+                {{- 'products.product.on_sale' | t -}}
+              </span>
+            {%- endif -%}
           {%- endif -%}
         </div>
       </div>
