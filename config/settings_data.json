@@ -97,6 +97,7 @@
     "badge_position": "bottom left",
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
+    "collection_badge_color_scheme": "scheme-24688561-4b46-4b1c-9caf-663ffa24604a",
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "",
     "brand_description": "<p><\/p>",
@@ -208,9 +209,9 @@
       },
       "scheme-24688561-4b46-4b1c-9caf-663ffa24604a": {
         "settings": {
-          "background": "#a9def9",
+          "background": "{{ shop.brand.colors.primary[0].foreground }}",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "{{ shop.brand.colors.primary[0].background }}",
           "button": "#fcf6bd",
           "button_label": "#242833",
           "secondary_button_label": "#121212",
