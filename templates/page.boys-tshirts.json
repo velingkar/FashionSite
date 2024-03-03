@@ -44,7 +44,7 @@
         "description": "<p>An ode to space exploration. <\/p>",
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "space-traveller",
+        "collection": "space-traveller-boys-t-shirts",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -124,7 +124,7 @@
         "bd71873c-41bb-475a-bf0f-56cdc517a010": {
           "type": "featured_collection",
           "settings": {
-            "collection": "space-traveller"
+            "collection": "space-traveller-boys-t-shirts"
           }
         },
         "c57817b1-9acb-43d4-824a-60c8a1702f1c": {
