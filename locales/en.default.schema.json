@@ -106,6 +106,10 @@
         "sale_badge_color_scheme": {
           "label": "Sale badge color scheme"
         },
+        "sale_badge_threshold": {
+          "label": "Sale badge discount threshold",
+          "info": "Choose minimum discount for which to show sale badge."
+        },
         "collection_badge_color_scheme": {
           "label": "Collection badge color scheme"
         },

@@ -1,8 +1,6 @@
 {% comment %}
   Renders a list of product's price (regular, sale)
 
-  NOTE: Hard Coding Showing Discount Above 33%
-
   Accepts:
   - product: {Object} Product Liquid object (optional)
   - use_variant: {Boolean} Renders selected or first variant price instead of overall product pricing (optional)
@@ -38,7 +36,7 @@
     assign discount_percentage = compare_at_price | minus: price | times: 100 | divided_by: compare_at_price
   endif
   assign show_discount = false
-  if discount_percentage > 32
+  if discount_percentage >= settings.sale_badge_threshold
     assign show_discount = true
   endif
 

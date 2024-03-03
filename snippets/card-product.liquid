@@ -131,7 +131,7 @@
               {%- liquid
                 assign show_sale_badge = false
                 assign discount_percentage = card_product.compare_at_price | minus: card_product.price | times: 100 | divided_by: card_product.compare_at_price
-                if discount_percentage > 32
+                if discount_percentage >= settings.sale_badge_threshold
                   assign show_sale_badge = true
                 endif
               -%}
@@ -325,7 +325,7 @@
             {%- liquid
               assign show_sale_badge = false
               assign discount_percentage = card_product.compare_at_price | minus: card_product.price | times: 100 | divided_by: card_product.compare_at_price
-              if discount_percentage > 32
+              if discount_percentage >= settings.sale_badge_threshold
                 assign show_sale_badge = true
               endif
             -%}
