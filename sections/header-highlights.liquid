@@ -20,24 +20,10 @@
   .highlight-section {
     padding: 1.15em 0;
   }
-  @media screen and (max-width: 767px) .highlight-section {
-    padding: 4px 0 2px;
-  }
-  @media screen and (max-width: 990px) .highlight-section {
-  }
-  @media screen and (max-width: 1279px) .highlight-section {
-  }
-  @media screen and (max-width: 767px) .main-container {
-    padding: 0 10px;
-  }
   .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  @media screen and (max-width: 767px) .highlight-section svg {
-    width: 2.2em;
-    flex: 2.2em;
   }
   .highlight-section svg {
     width: 2.7em;
@@ -48,22 +34,28 @@
   svg:not(:root) {
     overflow: hidden;
   }
-  @media screen and (max-width: 767px) .highlight-section .highlight-item {
-    margin: 0 9px;
-  }
-
   .highlight-section .highlight-item {
     display: flex;
     align-items: center;
     margin: 0 1.4em;
   }
-
-  @media screen and (max-width: 767px) .highlight-item .highlight-text {
-    margin-left: 5px;
-  }
-
   .highlight-item .highlight-text {
     margin-left: 0.5em;
+  }
+  @media screen and (max-width: 767px) {
+    .highlight-section {
+      padding: 4px 0 2px;
+    }
+    .main-container {
+      padding: 0 5px;
+    }
+    .highlight-section .highlight-item {
+      margin: 0 9px;
+    }
+    .highlight-item .highlight-text {
+      margin-left: 3px;
+      font-size: calc(var(--font-heading-scale) * 0.9rem);
+    }
   }
 {% endstylesheet %}
 
