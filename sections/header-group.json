@@ -18,19 +18,11 @@
             "text": "Buy Any 5, Get 20% Off. Code: COMBO5",
             "link": ""
           }
-        },
-        "announcement_gRyHgw": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "270e6c33-26f3-4a60-994e-d3d51b8e1f7f",
-        "announcement-bar-0",
-        "announcement_gRyHgw"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "background-2",
