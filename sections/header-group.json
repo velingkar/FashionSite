@@ -18,11 +18,19 @@
             "text": "Buy Any 5, Get 20% Off. Code: COMBO5",
             "link": ""
           }
+        },
+        "announcement_gRyHgw": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "270e6c33-26f3-4a60-994e-d3d51b8e1f7f",
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_gRyHgw"
       ],
       "settings": {
         "color_scheme": "background-2",
@@ -68,11 +76,19 @@
             "text": "7 Day Returns",
             "image": "shopify:\/\/shop_images\/refund-icon.svg"
           }
+        },
+        "highlight_zUnPTq": {
+          "type": "highlight",
+          "settings": {
+            "text": "Free Shipping",
+            "image": "shopify:\/\/shop_images\/truck-speed-svgrepo-com.svg"
+          }
         }
       },
       "block_order": [
         "highlight_kt64gg",
-        "highlight_ppAaLm"
+        "highlight_ppAaLm",
+        "highlight_zUnPTq"
       ],
       "custom_css": [
 
