@@ -137,7 +137,7 @@
         "e01452a0-553c-4392-9dc6-d682c1698581"
       ],
       "custom_css": [
-        "@media screen and (max-width: 767px) {.multicolumn-list h3 {font-size: calc(var(--font-heading-scale) * 1.4rem);}}"
+        "@media screen and (max-width: 767px) {.multicolumn-list h3 {font-size: calc(var(--font-heading-scale) * 1.4rem); }}"
       ],
       "settings": {
         "title": "",
@@ -253,6 +253,9 @@
       "block_order": [
         "ab1fa0af-5d95-4855-935b-4ba3f2db0025",
         "e560f2db-7272-46da-a865-86958fcdf449"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.multicolumn-list h3 {font-size: calc(var(--font-heading-scale) * 1.4rem); }}"
       ],
       "settings": {
         "title": "",
