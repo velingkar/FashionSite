@@ -7,6 +7,7 @@
       "blocks": {
         "link_list_PThKLA": {
           "type": "link_list",
+          "disabled": true,
           "settings": {
             "heading": "",
             "menu": "footer"
