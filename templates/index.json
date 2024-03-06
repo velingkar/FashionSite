@@ -136,6 +136,9 @@
         "6798997b-9ac2-4aff-9c45-7e56ad49101d",
         "e01452a0-553c-4392-9dc6-d682c1698581"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.multicolumn-list h3 {font-size: calc(var(--font-heading-scale) * 1.4rem);}}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h2",
