@@ -15,7 +15,7 @@
         "description": "",
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "best-selling-boys-t-shirts",
+        "collection": "custom-best-sellers",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": true,
