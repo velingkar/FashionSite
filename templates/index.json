@@ -130,11 +130,21 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_zFaFhA": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "6798997b-9ac2-4aff-9c45-7e56ad49101d",
-        "e01452a0-553c-4392-9dc6-d682c1698581"
+        "e01452a0-553c-4392-9dc6-d682c1698581",
+        "column_zFaFhA"
       ],
       "custom_css": [
         "@media screen and (max-width: 767px) {.multicolumn-list h3 {font-size: calc(var(--font-heading-scale) * 1.4rem); }}"
@@ -154,6 +164,34 @@
         "swipe_on_mobile": false,
         "padding_top": 12,
         "padding_bottom": 12
+      }
+    },
+    "featured_collection_4VTD63": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Selling Boys TShirts",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "custom-best-sellers",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "8ef620d1-3bda-44cb-917f-d34cf42e0792": {
@@ -272,6 +310,34 @@
         "swipe_on_mobile": false,
         "padding_top": 12,
         "padding_bottom": 12
+      }
+    },
+    "featured_collection_M3PfX7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Selling Girls TShirts",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "our-picks-girls",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "e55e6824-194e-4cba-9757-70e6caa0174a": {
@@ -496,8 +562,10 @@
     "a9f63ca4-3529-4822-963a-ef73e51b7e72",
     "855c5bda-2dd1-4cbc-8313-15e02c560457",
     "7d62fb67-9aca-493f-a866-49525fa19228",
+    "featured_collection_4VTD63",
     "8ef620d1-3bda-44cb-917f-d34cf42e0792",
     "70223f50-5b85-44a2-b2c7-aa882f374b44",
+    "featured_collection_M3PfX7",
     "e55e6824-194e-4cba-9757-70e6caa0174a",
     "rich_text_ndKFKa",
     "multirow_cbJW4D",
