@@ -130,21 +130,11 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_zFaFhA": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "6798997b-9ac2-4aff-9c45-7e56ad49101d",
-        "e01452a0-553c-4392-9dc6-d682c1698581",
-        "column_zFaFhA"
+        "e01452a0-553c-4392-9dc6-d682c1698581"
       ],
       "custom_css": [
         "@media screen and (max-width: 767px) {.multicolumn-list h3 {font-size: calc(var(--font-heading-scale) * 1.4rem); }}"
