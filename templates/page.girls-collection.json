@@ -37,6 +37,7 @@
     },
     "featured_collection_wwM8Rf": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Best Selling Active Leggings",
         "heading_size": "h1",
