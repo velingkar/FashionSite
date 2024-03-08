@@ -10,12 +10,12 @@
     "featured_collection_mVKntG": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Selling T-Shirts",
+        "title": "Limited Time Deals",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Boys T-Shirts<\/p>",
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "custom-best-sellers",
+        "collection": "boys-t-shirt-sale",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": true,
