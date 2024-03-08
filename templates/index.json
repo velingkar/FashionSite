@@ -227,6 +227,7 @@
         },
         "featured_collection_nre3wH": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "boys-mid-rise-cotton-shorts"
           }
@@ -373,6 +374,7 @@
         },
         "featured_collection_iARQGm": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "girls-cotton-leggings"
           }
