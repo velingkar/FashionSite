@@ -311,7 +311,7 @@
         "description": "<p>Girls T-Shirts<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "our-picks-girls",
+        "collection": "girls-t-shirt-sale",
         "products_to_show": 6,
         "columns_desktop": 4,
         "full_width": false,
