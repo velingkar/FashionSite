@@ -37,6 +37,7 @@
     },
     "featured_collection_i6Ramt": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Best Selling Casual Shorts",
         "heading_size": "h2",
