@@ -10,12 +10,12 @@
     "featured_collection_QqPFYC": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Selling T-Shirts",
+        "title": "Limited Time Deals",
         "heading_size": "h1",
-        "description": "",
+        "description": "<p>Girls T-Shirts<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "our-picks-girls",
+        "collection": "girls-t-shirt-sale",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
