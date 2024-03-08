@@ -159,12 +159,12 @@
     "featured_collection_4VTD63": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Selling Boys T-Shirts",
+        "title": "Limited Time Deals",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p> Boys T-Shirts<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "custom-best-sellers",
+        "collection": "boys-t-shirt-sale",
         "products_to_show": 6,
         "columns_desktop": 4,
         "full_width": false,
@@ -306,9 +306,9 @@
     "featured_collection_M3PfX7": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Selling Girls T-Shirts",
+        "title": "Limited Time Deals",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Girls T-Shirts<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "our-picks-girls",
