@@ -46,15 +46,15 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_meK9Vw": {
+    "featured_collection_LCby6q": {
       "type": "featured-collection",
       "settings": {
-        "title": "Ancient Masks Boys",
-        "heading_size": "h1",
-        "description": "<p>Boys T-Shirts<\/p>",
+        "title": "{{ section.settings.collection.metafields.custom.subcollection2.value.title.value }} Hello",
+        "heading_size": "h2",
+        "description": "<p>{{ section.settings.collection.metafields.custom.subcollection1.value.subtitle.value }}<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "{{ collection.metafields.custom.subcollection1.value }}",
+        "collection": "{{ collection.metafields.custom.subcollection1.value.collection.value }}",
         "products_to_show": 12,
         "columns_desktop": 4,
         "full_width": false,
@@ -79,6 +79,6 @@
     "image_banner_NkgmCd",
     "banner",
     "product-grid",
-    "featured_collection_meK9Vw"
+    "featured_collection_LCby6q"
   ]
 }
