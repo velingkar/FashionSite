@@ -87,6 +87,7 @@
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-1",
         "template--20174006124864__855c5bda-2dd1-4cbc-8313-15e02c560457-column-2"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-card.content-container {position: relative;}",
         ".multicolumn-card a.link.animate-arrow {position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; margin-top: 0;}"
@@ -106,6 +107,62 @@
         "swipe_on_mobile": false,
         "padding_top": 12,
         "padding_bottom": 12
+      }
+    },
+    "featured_collection_4VTD63": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Limited Time Deals",
+        "heading_size": "h2",
+        "description": "<p> Boys T-Shirts<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "boys-t-shirt-sale",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_M3PfX7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Limited Time Deals",
+        "heading_size": "h2",
+        "description": "<p>Girls T-Shirts<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "girls-t-shirt-sale",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "7d62fb67-9aca-493f-a866-49525fa19228": {
@@ -156,47 +213,19 @@
         "padding_bottom": 12
       }
     },
-    "featured_collection_4VTD63": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Limited Time Deals",
-        "heading_size": "h2",
-        "description": "<p> Boys T-Shirts<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "boys-t-shirt-sale",
-        "products_to_show": 6,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "8ef620d1-3bda-44cb-917f-d34cf42e0792": {
       "type": "collection-list",
       "blocks": {
         "b85dd095-a2dc-469c-b91d-d8e2770b0786": {
           "type": "featured_collection",
           "settings": {
-            "collection": "ancient-masks-boys-t-shirts"
+            "collection": "ancient-masks"
           }
         },
         "fd53155b-5408-4c10-ac2c-9220315c0ea4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "fruit-dojo-boys-t-shirts"
+            "collection": "fruit-dojo-t-shirts"
           }
         },
         "6e93dd27-a83b-4548-ad63-7703bcc4329c": {
@@ -208,21 +237,19 @@
         "99b39fd0-a0f5-425f-ab33-c16e74bfbf31": {
           "type": "featured_collection",
           "settings": {
-            "collection": "sunny-in-africa-boys-t-shirts"
+            "collection": "sunny-in-africa-t-shirts"
           }
         },
         "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": "cute-and-wild-boys-t-shirts"
+            "collection": "cute-and-wild-t-shirts"
           }
         },
         "c72cf904-1598-466f-b085-da9af2eb7b8b": {
           "type": "featured_collection",
-          "disabled": true,
           "settings": {
-            "collection": "glass-forest-boys-t-shirts"
+            "collection": "sweet-tooth-girls-t-shirts"
           }
         },
         "featured_collection_nre3wH": {
@@ -243,7 +270,7 @@
         "featured_collection_nre3wH"
       ],
       "settings": {
-        "title": "Featured Collections for Boys",
+        "title": "Featured Collections",
         "heading_size": "h2",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -301,34 +328,6 @@
         "swipe_on_mobile": false,
         "padding_top": 12,
         "padding_bottom": 12
-      }
-    },
-    "featured_collection_M3PfX7": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Limited Time Deals",
-        "heading_size": "h2",
-        "description": "<p>Girls T-Shirts<\/p>",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "girls-t-shirt-sale",
-        "products_to_show": 6,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "e55e6824-194e-4cba-9757-70e6caa0174a": {
@@ -389,6 +388,7 @@
         "e0ce7a2b-5ae5-4c06-84b5-ca772bc9e63b",
         "featured_collection_iARQGm"
       ],
+      "disabled": true,
       "settings": {
         "title": "Featured Collections for Girls",
         "heading_size": "h2",
@@ -553,11 +553,11 @@
     "image_banner",
     "a9f63ca4-3529-4822-963a-ef73e51b7e72",
     "855c5bda-2dd1-4cbc-8313-15e02c560457",
-    "7d62fb67-9aca-493f-a866-49525fa19228",
     "featured_collection_4VTD63",
+    "featured_collection_M3PfX7",
+    "7d62fb67-9aca-493f-a866-49525fa19228",
     "8ef620d1-3bda-44cb-917f-d34cf42e0792",
     "70223f50-5b85-44a2-b2c7-aa882f374b44",
-    "featured_collection_M3PfX7",
     "e55e6824-194e-4cba-9757-70e6caa0174a",
     "rich_text_ndKFKa",
     "multirow_cbJW4D",
