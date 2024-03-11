@@ -112,9 +112,9 @@
     "featured_collection_4VTD63": {
       "type": "featured-collection",
       "settings": {
-        "title": "Limited Time Deals",
+        "title": "Limited Time Deals - Boys",
         "heading_size": "h2",
-        "description": "<p> Boys T-Shirts<\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "boys-t-shirt-sale",
@@ -140,9 +140,9 @@
     "featured_collection_M3PfX7": {
       "type": "featured-collection",
       "settings": {
-        "title": "Limited Time Deals",
+        "title": "Limited Time Deals - Girls",
         "heading_size": "h2",
-        "description": "<p>Girls T-Shirts<\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "girls-t-shirt-sale",
