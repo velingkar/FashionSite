@@ -266,6 +266,12 @@
         "c72cf904-1598-466f-b085-da9af2eb7b8b": {
           "type": "featured_collection",
           "settings": {
+            "collection": "glass-forest-t-shirts"
+          }
+        },
+        "featured_collection_6xRFMi": {
+          "type": "featured_collection",
+          "settings": {
             "collection": "sweet-tooth-girls-t-shirts"
           }
         },
@@ -284,6 +290,7 @@
         "99b39fd0-a0f5-425f-ab33-c16e74bfbf31",
         "template--20174006124864__8ef620d1-3bda-44cb-917f-d34cf42e0792-featured_collection-1",
         "c72cf904-1598-466f-b085-da9af2eb7b8b",
+        "featured_collection_6xRFMi",
         "featured_collection_nre3wH"
       ],
       "settings": {
