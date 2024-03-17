@@ -301,6 +301,9 @@
         "featured_collection_6xRFMi",
         "featured_collection_nre3wH"
       ],
+      "custom_css": [
+        ".collection-list__item .card__information {padding-top: 0px;}"
+      ],
       "settings": {
         "title": "Featured Collections",
         "heading_size": "h2",
