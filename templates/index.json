@@ -19,7 +19,7 @@
         "button"
       ],
       "custom_css": [
-        ".banner__media {margin-top: 15px;}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/FinishedBanner1.png",
@@ -38,16 +38,24 @@
     "a9f63ca4-3529-4822-963a-ef73e51b7e72": {
       "type": "rich-text",
       "blocks": {
+        "heading_3hLRUp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>\"Wow, this is soo soft. Not pokey at all\"<\/em>",
+            "heading_size": "h2"
+          }
+        },
         "e3f20d97-8361-405d-acca-96b67300b8ba": {
           "type": "caption",
           "settings": {
-            "caption": "Premium Kids Clothing for 3 to 10 Year Olds.",
+            "caption": "Rishi N, 7 Years, Bengaluru",
             "text_style": "caption-with-letter-spacing",
             "text_size": "large"
           }
         }
       },
       "block_order": [
+        "heading_3hLRUp",
         "e3f20d97-8361-405d-acca-96b67300b8ba"
       ],
       "settings": {
@@ -56,7 +64,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 20,
-        "padding_bottom": 20
+        "padding_bottom": 0
       }
     },
     "855c5bda-2dd1-4cbc-8313-15e02c560457": {
