@@ -38,10 +38,23 @@
     "a9f63ca4-3529-4822-963a-ef73e51b7e72": {
       "type": "rich-text",
       "blocks": {
+        "heading_KedX9g": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hear From Our Kids",
+            "heading_size": "h2"
+          }
+        },
+        "text_ypMhEC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>\"This is the softest t-shirt. Doesn't feel itchy at all\"<\/em><\/p>"
+          }
+        },
         "heading_3hLRUp": {
           "type": "heading",
           "settings": {
-            "heading": "<em>\"Wow, this is soo soft. Not pokey at all\"<\/em>",
+            "heading": "",
             "heading_size": "h2"
           }
         },
@@ -50,11 +63,13 @@
           "settings": {
             "caption": "Rishi N, 7 Years, Bengaluru",
             "text_style": "caption-with-letter-spacing",
-            "text_size": "large"
+            "text_size": "medium"
           }
         }
       },
       "block_order": [
+        "heading_KedX9g",
+        "text_ypMhEC",
         "heading_3hLRUp",
         "e3f20d97-8361-405d-acca-96b67300b8ba"
       ],
