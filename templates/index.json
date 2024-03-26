@@ -482,6 +482,7 @@
       "blocks": {
         "row_b8xaX4": {
           "type": "row",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/little_Picasso2.png",
             "caption": "",
