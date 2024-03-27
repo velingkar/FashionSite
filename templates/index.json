@@ -598,6 +598,117 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "collapsible_content_fik6pK": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_w4BTRd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are my allörio clothes made of?",
+            "icon": "check_mark",
+            "row_content": "<p>At allörio,we don't compromise on quality and craftmanship. Here are some things that make our clothes special:<\/p><ol><li>We use best quality<strong> Grade-A Super Combed cotton<\/strong> only using impurity-free, long strands of cotton. <\/li><li><strong>Bio-Washed<\/strong> using natural enzymes to enhance the fabrics durability, texture, softness and appearance to remain good wash after wash. <\/li><li><strong>Eco-Friendly Digital Printing<\/strong> using latest imported technology for fresh, vibrant look.<\/li><li><strong>Skin safe fabric dyes<\/strong> that are safe for your little ones sensitive skin.<\/li><li><strong>Extensive Quality Testing<\/strong> for every batch at independent testing facilities to ensure that you always get a safe, high quality product. <\/li><\/ol>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WXT3mz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How are allörio softer than anything else in the market?",
+            "icon": "check_mark",
+            "row_content": "<p>Many of you have noticed the exceptional softness of our clothing and wondered about our secret. The answer lies in our dedication to quality from the very start. <\/p><p>Allörio selects super combed cotton, an exquisite version of cotton known for its incredible softness. This cotton undergoes a special treatment process to remove shorter fibres and impurities before spinning, resulting in a fabric that's not just soft but also strong and durable. <\/p><p>Yes, it's a pricier process, but we believe your little ones deserve the best.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jQMy3a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is this Super-Combed Cotton used by allörio?",
+            "icon": "check_mark",
+            "row_content": "<p>Super combed cotton is the pinnacle of cotton fabrics, distinguishing itself from regular cotton through its meticulous processing.<\/p><p>The magic happens during the combing process, where fine combs meticulously brush through cotton fibres. This essential step eliminates shorter fibres and any impurities.<\/p><p>The result? A yarn that spins into a fabric unmatched in quality—softer, stronger, and with a luxurious feel that truly sets it apart.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4F8ija": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes allörio t-shirts feel smooth?",
+            "icon": "check_mark",
+            "row_content": "<p>The smoothness of our t-shirts comes from a special process known as <strong>biowashing<\/strong>. This eco-friendly process using natural enzymes is conducted under precise conditions of pH, temperature, and enzyme concentration. <\/p><p>The process removes the tiny fiber ends that cause fuzziness on the surface of the fabric. The outcome is a smoother, brighter fabric that makes our clothes exceptionally comfortable from the first wear. <\/p><p>Besides feeling smooth, it enhances colour retention, reduces pilling, and improves the fabric's durability. All while being kind to the planet and safer for children's sensitive skin, steering clear of harsh chemical treatments.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_i9tG3d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can allörio clothing withstand frequent washing?",
+            "icon": "check_mark",
+            "row_content": "<p>Absolutely! We understand that children's clothes go through frequent washes. That's why <strong>allörio garments are designed with durability in mind<\/strong>. Our biowashing process not only enhances the fabric's softness but also its resilience, ensuring that the colours stay bright, and the fabric maintains its integrity wash after wash.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ybL4Xk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are allörio clothes suitable for children with allergies or sensitive skin?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, they are! We take special care to ensure our clothes are friendly for all children, including those with sensitive skin or allergies. Our super combed cotton is naturally hypoallergenic, and our eco-friendly biowashing process eliminates harsh chemicals, making allörio clothes safe and comfortable for every child.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_atkYBF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does allörio ensure the safety of its clothing?",
+            "icon": "check_mark",
+            "row_content": "<p>Safety is a top priority at allörio. From the selection of raw materials to the final product, every step is carefully monitored. Our garments are free from harmful chemicals and metals, with every batch undergoing independent lab testing to ensure they meet the highest safety standards. Plus, our non-toxic printing inks and tag-free designs add to the overall safety and comfort of our clothes.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nrHnP6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How are the prints so vibrant and colourful?",
+            "icon": "check_mark",
+            "row_content": "<p>At allörio, we don't believe in compromising style for safety or vice versa. While many brands settle for dull prints or vibrant but potentially harmful dyes, we embarked on a six-month journey to revolutionize printing technology in India.<\/p><p>Our cutting-edge imported technology allows us to produce sharp, vivid prints using non-toxic inks. Our fabrics remain breathable, and our prints stay vibrant and crack-free wash after wash, thanks to our eco-friendly dyes and advanced printing techniques.<\/p><p>Each batch undergoes rigorous testing to ensure the highest quality, proving our commitment to both style and safety.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fpzCij": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I find the right size for my child?",
+            "icon": "check_mark",
+            "row_content": "<p>Finding the perfect fit is easy with allörio. Check out our detailed size guide on our product pages, which provides comprehensive measurements and fitting tips to help you select the best size for your child. <\/p><p>If you're ever in doubt, our customer service team support@allorio.in is more than happy to assist with personalised sizing advice. <\/p><p>We also offer 7 days returns for all our purchases if you encounter sizing issues. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_w4BTRd",
+        "collapsible_row_WXT3mz",
+        "collapsible_row_jQMy3a",
+        "collapsible_row_4F8ija",
+        "collapsible_row_i9tG3d",
+        "collapsible_row_ybL4Xk",
+        "collapsible_row_atkYBF",
+        "collapsible_row_nrHnP6",
+        "collapsible_row_fpzCij"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -614,6 +725,7 @@
     "rich_text_ndKFKa",
     "multirow_cbJW4D",
     "579d4a67-210a-4a03-9bc3-7fa5172e77c0",
-    "rich_text_9Qr4zR"
+    "rich_text_9Qr4zR",
+    "collapsible_content_fik6pK"
   ]
 }
