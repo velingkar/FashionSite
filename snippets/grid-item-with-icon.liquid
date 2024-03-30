@@ -1,0 +1,44 @@
+{% comment %}
+  Renders icon with text block
+
+  Accepts:
+  - block: {Object} passes in the block information.
+
+
+  Usage:
+  {% render 'grid-item-with-icon',
+    block: block
+  %}
+{% endcomment %}
+{%- liquid
+  assign heading_empty = false
+
+  if block.settings.heading == empty
+    assign heading_empty = true
+  endif
+-%}
+{%- unless heading_empty -%}
+  <li
+    class="icon-with-text__item"
+    {{ block.shopify_attributes }}
+  >
+    {%- if block.settings.image == null -%}
+      {%- render 'icon-accordion', icon: block.settings.icon -%}
+    {%- else -%}
+      <img
+        src="{{ block.settings.image | image_url }}"
+        {% if block.settings.image.alt != blank %}
+          alt="{{ block.settings.image.alt | escape }}"
+        {% else %}
+          role="presentation"
+        {% endif %}
+        height="auto"
+        width="auto"
+        loading="lazy"
+      >
+    {%- endif -%}
+    <span class="h4 inline-richtext">
+      {{- block.settings.heading -}}
+    </span>
+  </li>
+{%- endunless -%}

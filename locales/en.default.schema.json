@@ -2841,6 +2841,9 @@
         }
       }
     },
+    "icons-with-text":{
+      "name": "Icons with text"
+    },
     "rich-text": {
       "name": "Rich text",
       "settings": {
