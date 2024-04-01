@@ -276,7 +276,7 @@
         "@media screen and (max-width: 767px) {.icon-with-text--horizontal .h4 {font-size: calc(var(--font-heading-scale) * 1.3rem); } .icon-with-text--horizontal {column-gap: 1rem; }}"
       ],
       "settings": {
-        "title": "What's special about us?",
+        "title": "What's Special About Us?",
         "heading_size": "h2",
         "image_width": "half",
         "image_ratio": "adapt",
