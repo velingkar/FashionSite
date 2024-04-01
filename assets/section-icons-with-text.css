@@ -47,7 +47,7 @@
 }
 
 .icon-with-text--horizontal .h4 {
-  padding-top: calc(var(--icon-size) + var(--icon-spacing));
+  padding-top: 1.5rem;
   text-align: center;
 }
 

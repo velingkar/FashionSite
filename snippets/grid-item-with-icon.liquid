@@ -3,11 +3,15 @@
 
   Accepts:
   - block: {Object} passes in the block information.
+  - numColumns: int passes in number of columns
+  - highest_ratio: highest ratio of all images
 
 
   Usage:
   {% render 'grid-item-with-icon',
-    block: block
+    block: block,
+    numColumns: int
+    highest_ratio: num
   %}
 {% endcomment %}
 {%- liquid
@@ -25,17 +29,50 @@
     {%- if block.settings.image == null -%}
       {%- render 'icon-accordion', icon: block.settings.icon -%}
     {%- else -%}
-      <img
-        src="{{ block.settings.image | image_url }}"
-        {% if block.settings.image.alt != blank %}
-          alt="{{ block.settings.image.alt | escape }}"
-        {% else %}
-          role="presentation"
+      {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
+        {% assign spaced_image = true %}
+      {% endif %}
+      <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
+        {%- if block.settings.link != blank -%}
+          <a href="{{ block.settings.link }}">
         {% endif %}
-        height="auto"
-        width="auto"
-        loading="lazy"
-      >
+        <div
+          class="media media--transparent media--{{ section.settings.image_ratio }}"
+          {% if section.settings.image_ratio == 'adapt' %}
+            style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
+          {% endif %}
+        >
+          {%- liquid
+            assign grid_space_desktop = numColumns | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
+            assign grid_space_tablet = numColumns | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
+            assign grid_space_mobile = numColumns | minus: 1 | times: settings.spacing_grid_horizontal | divided_by: 2 | plus: 30 | append: 'px'
+            if section.settings.image_width == 'half'
+              assign image_width = 0.5
+            elsif section.settings.image_width == 'third'
+              assign image_width = 0.33
+            else
+              assign image_width = 1
+            endif
+          -%}
+          {% capture sizes %}
+            (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width }}px - {{ grid_space_desktop }}) * {{ image_width }} /  {{ numColumns }}),
+            (min-width: 990px) calc((100vw - {{ grid_space_desktop }}) * {{ image_width }} / {{ numColumns }}),
+            (min-width: 750px) calc((100vw - {{ grid_space_tablet }}) * {{ image_width }} / {{ numColumns }}),
+            calc((100vw - {{ grid_space_mobile }}) * {{ image_width }} / {{ numColumns }})
+          {% endcapture %}
+          {{
+            block.settings.image
+            | image_url: width: 3200
+            | image_tag:
+              widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
+              sizes: sizes,
+              class: 'multicolumn-card__image'
+          }}
+        </div>
+        {%- if block.settings.link != blank -%}
+          </a>
+        {%- endif -%}
+      </div>
     {%- endif -%}
     <span class="h4 inline-richtext">
       {{- block.settings.heading -}}

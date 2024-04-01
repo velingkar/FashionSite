@@ -14,7 +14,19 @@
   }
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}"
+{%- liquid
+  assign highest_ratio = 0
+  assign numBlocks = 0
+  for block in section.blocks
+    assign numBlocks = numBlocks | plus: 1
+    if block.settings.image != null and block.settings.image.aspect_ratio > highest_ratio
+      assign highest_ratio = block.settings.image.aspect_ratio
+    endif
+  endfor
+-%}
+
+<div
+  class="isolate{% unless section.settings.full_width %} page-width{% endunless %}"
   {{ section.shopify_attributes }}
 >
   <div class="IconsWithText-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} icons-with-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
@@ -35,11 +47,15 @@
       data-section="{{ section.id }}"
       class="IconsWithText--container"
     >
-      <ul class="icon-with-text icon-with-text--{{ section.settings.layout }} list-unstyled">
+      <ul class="icon-with-text icon-with-text--horizontal list-unstyled">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'grid-item-with-icon' -%}
-              {% render 'grid-item-with-icon', block: block %}
+              {% render 'grid-item-with-icon', 
+                block: block,
+                numColumns: numBlocks,
+                highest_ratio: highest_ratio
+              %}
           {%- endcase -%}
         {%- endfor -%}
       </ul>
@@ -84,19 +100,47 @@
     },
     {
       "type": "select",
-      "id": "layout",
+      "id": "image_width",
       "options": [
         {
-          "value": "horizontal",
-          "label": "t:sections.icons-with-text.blocks.icon_with_text.settings.layout.options__1.label"
+          "value": "third",
+          "label": "t:sections.icons-with-text.settings.image_width.options__1.label"
         },
         {
-          "value": "vertical",
-          "label": "t:sections.icons-with-text.blocks.icon_with_text.settings.layout.options__2.label"
+          "value": "half",
+          "label": "t:sections.icons-with-text.settings.image_width.options__2.label"
+        },
+        {
+          "value": "full",
+          "label": "t:sections.icons-with-text.settings.image_width.options__3.label"
         }
       ],
-      "default": "horizontal",
-      "label": "t:sections.icons-with-text.blocks.icon_with_text.settings.layout.label"
+      "default": "third",
+      "label": "t:sections.icons-with-text.settings.image_width.label"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.icons-with-text.settings.image_ratio.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.icons-with-text.settings.image_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.icons-with-text.settings.image_ratio.options__3.label"
+        },
+        {
+          "value": "circle",
+          "label": "t:sections.icons-with-text.settings.image_ratio.options__4.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.icons-with-text.settings.image_ratio.label"
     },
     {
       "type": "richtext",
