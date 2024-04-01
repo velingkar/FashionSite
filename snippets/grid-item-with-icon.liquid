@@ -19,7 +19,7 @@
 -%}
 {%- unless heading_empty -%}
   <li
-    class="icon-with-text__item"
+    class="icon-with-text__item {% if section.settings.column_alignment == 'center' %} center{% endif %}"
     {{ block.shopify_attributes }}
   >
     {%- if block.settings.image == null -%}
@@ -39,6 +39,9 @@
     {%- endif -%}
     <span class="h4 inline-richtext">
       {{- block.settings.heading -}}
+    </span>
+    <span class="{% if section.settings.hide_description_on_mobile == true %} hide-description-on-mobile {% endif %}">
+      {{- block.settings.description -}}
     </span>
   </li>
 {%- endunless -%}

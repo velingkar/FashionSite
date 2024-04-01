@@ -1,13 +1,41 @@
 {{ 'section-icons-with-text.css' | asset_url | stylesheet_tag }}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="IconsWithText-wrapper">
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}"
+  {{ section.shopify_attributes }}
+>
+  <div class="IconsWithText-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} icons-with-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
+      {%- if section.settings.title != blank -%}
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          {{ section.settings.title }}
+        </h2>
+      {%- endif -%}
+      {%- if section.settings.description != blank -%}
+        <div class="collection__description {{ section.settings.description_style }} rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          {{ section.settings.description -}}
+        </div>
+      {%- endif -%}
+    </div>
     <div
       id="IconsWithText-{{ section.id }}"
       data-section="{{ section.id }}"
       class="IconsWithText--container"
     >
-      <ul class="icon-with-text icon-with-text--horizontal list-unstyled">
+      <ul class="icon-with-text icon-with-text--{{ section.settings.layout }} list-unstyled">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'grid-item-with-icon' -%}
@@ -21,7 +49,7 @@
 
 {% schema %}
 {
-  "name": "Icons With Text",
+  "name": "t:sections.icons-with-text.name",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -29,45 +57,92 @@
   },
   "settings": [
     {
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Icons With Text",
+      "label": "t:sections.icons-with-text.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "options": [
+        {
+          "value": "horizontal",
+          "label": "t:sections.icons-with-text.blocks.icon_with_text.settings.layout.options__1.label"
+        },
+        {
+          "value": "vertical",
+          "label": "t:sections.icons-with-text.blocks.icon_with_text.settings.layout.options__2.label"
+        }
+      ],
+      "default": "horizontal",
+      "label": "t:sections.icons-with-text.blocks.icon_with_text.settings.layout.label"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "t:sections.icons-with-text.settings.description.label"
+    },
+    {
+      "type": "select",
+      "id": "description_style",
+      "label": "t:sections.icons-with-text.settings.description_style.label",
+      "options": [
+        {
+          "value": "body",
+          "label": "t:sections.icons-with-text.settings.description_style.options__1.label"
+        },
+        {
+          "value": "subtitle",
+          "label": "t:sections.icons-with-text.settings.description_style.options__2.label"
+        },
+        {
+          "value": "uppercase",
+          "label": "t:sections.icons-with-text.settings.description_style.options__3.label"
+        }
+      ],
+      "default": "body"
+    },
+    {
       "type": "select",
       "id": "desktop_content_position",
       "options": [
         {
           "value": "left",
-          "label": "t:sections.rich-text.settings.desktop_content_position.options__1.label"
+          "label": "t:sections.icons-with-text.settings.desktop_content_position.options__1.label"
         },
         {
           "value": "center",
-          "label": "t:sections.rich-text.settings.desktop_content_position.options__2.label"
+          "label": "t:sections.icons-with-text.settings.desktop_content_position.options__2.label"
         },
         {
           "value": "right",
-          "label": "t:sections.rich-text.settings.desktop_content_position.options__3.label"
+          "label": "t:sections.icons-with-text.settings.desktop_content_position.options__3.label"
         }
       ],
       "default": "center",
-      "label": "t:sections.rich-text.settings.desktop_content_position.label",
-      "info": "t:sections.rich-text.settings.desktop_content_position.info"
-    },
-    {
-      "type": "select",
-      "id": "content_alignment",
-      "options": [
-        {
-          "value": "left",
-          "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
-        },
-        {
-          "value": "center",
-          "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
-        },
-        {
-          "value": "right",
-          "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
-        }
-      ],
-      "default": "center",
-      "label": "t:sections.rich-text.settings.content_alignment.label"
+      "label": "t:sections.icons-with-text.settings.desktop_content_position.label",
+      "info": "t:sections.icons-with-text.settings.desktop_content_position.info"
     },
     {
       "type": "color_scheme",
@@ -79,7 +154,29 @@
       "type": "checkbox",
       "id": "full_width",
       "default": true,
-      "label": "t:sections.rich-text.settings.full_width.label"
+      "label": "t:sections.icons-with-text.settings.full_width.label"
+    },
+    {
+      "type": "select",
+      "id": "column_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.icons-with-text.settings.column_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.icons-with-text.settings.column_alignment.options__2.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.icons-with-text.settings.column_alignment.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_description_on_mobile",
+      "default": false,
+      "label": "t:sections.icons-with-text.settings.hide_description_on_mobile.label"
     },
     {
       "type": "header",
@@ -108,67 +205,14 @@
   ],
   "blocks": [
     {
-      "type": "heading",
-      "name": "t:sections.rich-text.blocks.heading.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "inline_richtext",
-          "id": "heading",
-          "default": "Talk about your brand",
-          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
-        },
-        {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            },
-            {
-              "value": "hxl",
-              "label": "t:sections.all.heading_size.options__4.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
-        }
-      ]
-    },
-    {
       "type": "grid-item-with-icon",
-      "name": "t:sections.main-product.blocks.icon_with_text.name",
+      "name": "t:sections.icons-with-text.blocks.icon_with_text.name",
       "limit": 6,
       "settings": [
         {
-          "type": "select",
-          "id": "layout",
-          "options": [
-            {
-              "value": "horizontal",
-              "label": "t:sections.main-product.blocks.icon_with_text.settings.layout.options__1.label"
-            },
-            {
-              "value": "vertical",
-              "label": "t:sections.main-product.blocks.icon_with_text.settings.layout.options__2.label"
-            }
-          ],
-          "default": "horizontal",
-          "label": "t:sections.main-product.blocks.icon_with_text.settings.layout.label"
-        },
-        {
           "type": "header",
-          "content": "t:sections.main-product.blocks.icon_with_text.settings.content.label",
-          "info": "t:sections.main-product.blocks.icon_with_text.settings.content.info"
+          "content": "t:sections.icons-with-text.blocks.icon_with_text.settings.content.label",
+          "info": "t:sections.icons-with-text.blocks.icon_with_text.settings.content.info"
         },
         {
           "type": "select",
@@ -176,195 +220,221 @@
           "options": [
             {
               "value": "none",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__1.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__1.label"
             },
             {
               "value": "apple",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__2.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__2.label"
             },
             {
               "value": "banana",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__3.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__3.label"
             },
             {
               "value": "bottle",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__4.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__4.label"
             },
             {
               "value": "box",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__5.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__5.label"
             },
             {
               "value": "carrot",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__6.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__6.label"
             },
             {
               "value": "chat_bubble",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__7.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__7.label"
             },
             {
               "value": "check_mark",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__8.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__8.label"
             },
             {
               "value": "clipboard",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__9.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__9.label"
             },
             {
               "value": "dairy",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__10.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__10.label"
             },
             {
               "value": "dairy_free",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__11.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__11.label"
             },
             {
               "value": "dryer",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__12.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__12.label"
             },
             {
               "value": "eye",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__13.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__13.label"
             },
             {
               "value": "fire",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__14.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__14.label"
             },
             {
               "value": "gluten_free",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__15.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__15.label"
             },
             {
               "value": "heart",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__16.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__16.label"
             },
             {
               "value": "iron",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__17.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__17.label"
             },
             {
               "value": "leaf",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__18.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__18.label"
             },
             {
               "value": "leather",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__19.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__19.label"
             },
             {
               "value": "lightning_bolt",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__20.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__20.label"
             },
             {
               "value": "lipstick",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__21.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__21.label"
             },
             {
               "value": "lock",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__22.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__22.label"
             },
             {
               "value": "map_pin",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__23.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__23.label"
             },
             {
               "value": "nut_free",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__24.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__24.label"
             },
             {
               "value": "pants",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__25.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__25.label"
             },
             {
               "value": "paw_print",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__26.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__26.label"
             },
             {
               "value": "pepper",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__27.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__27.label"
             },
             {
               "value": "perfume",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__28.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__28.label"
             },
             {
               "value": "plane",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__29.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__29.label"
             },
             {
               "value": "plant",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__30.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__30.label"
             },
             {
               "value": "price_tag",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__31.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__31.label"
             },
             {
               "value": "question_mark",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__32.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__32.label"
             },
             {
               "value": "recycle",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__33.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__33.label"
             },
             {
               "value": "return",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__34.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__34.label"
             },
             {
               "value": "ruler",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__35.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__35.label"
             },
             {
               "value": "serving_dish",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__36.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__36.label"
             },
             {
               "value": "shirt",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__37.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__37.label"
             },
             {
               "value": "shoe",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__38.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__38.label"
             },
             {
               "value": "silhouette",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__39.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__39.label"
             },
             {
               "value": "snowflake",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__40.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__40.label"
             },
             {
               "value": "star",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__41.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__41.label"
             },
             {
               "value": "stopwatch",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__42.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__42.label"
             },
             {
               "value": "truck",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__43.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__43.label"
             },
             {
               "value": "washing",
-              "label": "t:sections.main-product.blocks.collapsible_tab.settings.icon.options__44.label"
+              "label": "t:sections.icons-with-text.blocks.collapsible_tab.settings.icon.options__44.label"
             }
           ],
           "default": "heart",
-          "label": "t:sections.main-product.blocks.icon_with_text.settings.icon_1.label"
+          "label": "t:sections.icons-with-text.blocks.icon_with_text.settings.icon.label"
         },
         {
           "type": "image_picker",
           "id": "image",
-          "label": "t:sections.main-product.blocks.icon_with_text.settings.image_1.label"
+          "label": "t:sections.icons-with-text.blocks.icon_with_text.settings.image.label"
         },
         {
           "type": "inline_richtext",
           "id": "heading",
           "default": "Heading",
-          "label": "t:sections.main-product.blocks.icon_with_text.settings.heading_1.label",
-          "info": "t:sections.main-product.blocks.icon_with_text.settings.heading.info"
+          "label": "t:sections.icons-with-text.blocks.icon_with_text.settings.heading.label",
+          "info": "t:sections.icons-with-text.blocks.icon_with_text.settings.heading.info"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "t:sections.icons-with-text.settings.description.label",
+          "default": "<p>Share information the value proposition of your brand, store or product with your customers.</p>"
+        },
+        {
+          "type": "select",
+          "id": "description_style",
+          "label": "t:sections.icons-with-text.settings.description_style.label",
+          "options": [
+            {
+              "value": "body",
+              "label": "t:sections.icons-with-text.settings.description_style.options__1.label"
+            },
+            {
+              "value": "subtitle",
+              "label": "t:sections.icons-with-text.settings.description_style.options__2.label"
+            },
+            {
+              "value": "uppercase",
+              "label": "t:sections.icons-with-text.settings.description_style.options__3.label"
+            }
+          ],
+          "default": "body"
         }
       ]
     }
@@ -373,9 +443,6 @@
     {
       "name": "Grid Items With Icon",
       "blocks": [
-        {
-          "type": "heading"
-        },
         {
           "type": "grid-item-with-icon"
         },
