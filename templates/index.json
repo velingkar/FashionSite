@@ -233,52 +233,62 @@
         "padding_bottom": 36
       }
     },
-    "7d62fb67-9aca-493f-a866-49525fa19228": {
-      "type": "multicolumn",
+    "icons_with_text_V8FxmF": {
+      "type": "icons-with-text",
       "blocks": {
-        "6798997b-9ac2-4aff-9c45-7e56ad49101d": {
-          "type": "column",
+        "grid_item_with_icon_H4KdkJ": {
+          "type": "grid-item-with-icon",
           "settings": {
+            "icon": "heart",
             "image": "shopify:\/\/shop_images\/puppet-show.png",
-            "title": "CUTE",
-            "text": "<p>Modern European designs that<br\/>sparks interest & curiosity. <\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "CUTE",
+            "description": "<p>Vibrant european designs.<\/p>",
+            "description_style": "body"
           }
         },
-        "e01452a0-553c-4392-9dc6-d682c1698581": {
-          "type": "column",
+        "grid_item_with_icon_jJz64i": {
+          "type": "grid-item-with-icon",
           "settings": {
+            "icon": "heart",
             "image": "shopify:\/\/shop_images\/levitation.png",
-            "title": "COMFORTABLE",
-            "text": "<p>Super-combed cotton, premium quality stitching with no harsh edges.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "COMFORTABLE",
+            "description": "<p>Finely crafted, super-combed cotton.<\/p>",
+            "description_style": "body"
+          }
+        },
+        "grid_item_with_icon_NQLTqz": {
+          "type": "grid-item-with-icon",
+          "settings": {
+            "icon": "heart",
+            "image": "shopify:\/\/shop_images\/love-birds.png",
+            "heading": "CARING",
+            "description": "<p>Skin safe, ethically sourced.<\/p>",
+            "description_style": "body"
           }
         }
       },
       "block_order": [
-        "6798997b-9ac2-4aff-9c45-7e56ad49101d",
-        "e01452a0-553c-4392-9dc6-d682c1698581"
+        "grid_item_with_icon_H4KdkJ",
+        "grid_item_with_icon_jJz64i",
+        "grid_item_with_icon_NQLTqz"
       ],
       "custom_css": [
-        "@media screen and (max-width: 767px) {.multicolumn-list h3 {font-size: calc(var(--font-heading-scale) * 1.4rem); }}"
+        "@media screen and (max-width: 767px) {.icon-with-text--horizontal .h4 {font-size: calc(var(--font-heading-scale) * 1.3rem); } .icon-with-text--horizontal {column-gap: 1rem; }}"
       ],
       "settings": {
-        "title": "",
+        "title": "What's special about us?",
         "heading_size": "h2",
-        "image_width": "third",
+        "image_width": "half",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "description": "",
+        "description_style": "body",
+        "desktop_content_position": "center",
         "color_scheme": "background-2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 12,
-        "padding_bottom": 12
+        "full_width": true,
+        "column_alignment": "center",
+        "hide_description_on_mobile": false,
+        "padding_top": 40,
+        "padding_bottom": 20
       }
     },
     "8ef620d1-3bda-44cb-917f-d34cf42e0792": {
@@ -358,54 +368,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "70223f50-5b85-44a2-b2c7-aa882f374b44": {
-      "type": "multicolumn",
-      "blocks": {
-        "ab1fa0af-5d95-4855-935b-4ba3f2db0025": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/love-birds.png",
-            "title": "CARING",
-            "text": "<p>Anti-bacterial hypo-allergenic treatment, water-based dyes.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "e560f2db-7272-46da-a865-86958fcdf449": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hypoallergenic.png",
-            "title": "EARTH-FRIENDLY",
-            "text": "<p>Durable products, locally sourced, eco-friendly packaging. <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "ab1fa0af-5d95-4855-935b-4ba3f2db0025",
-        "e560f2db-7272-46da-a865-86958fcdf449"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 767px) {.multicolumn-list h3 {font-size: calc(var(--font-heading-scale) * 1.4rem); }}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-2",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 12,
-        "padding_bottom": 12
       }
     },
     "e55e6824-194e-4cba-9757-70e6caa0174a": {
@@ -747,9 +709,8 @@
     "featured_collection_M3PfX7",
     "1710333954bc489ea7",
     "featured_collection_xHfjdF",
-    "7d62fb67-9aca-493f-a866-49525fa19228",
+    "icons_with_text_V8FxmF",
     "8ef620d1-3bda-44cb-917f-d34cf42e0792",
-    "70223f50-5b85-44a2-b2c7-aa882f374b44",
     "e55e6824-194e-4cba-9757-70e6caa0174a",
     "rich_text_ndKFKa",
     "multirow_cbJW4D",
