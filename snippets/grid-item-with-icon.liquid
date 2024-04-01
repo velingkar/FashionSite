@@ -37,10 +37,7 @@
           <a href="{{ block.settings.link }}">
         {% endif %}
         <div
-          class="media media--transparent media--{{ section.settings.image_ratio }}"
-          {% if section.settings.image_ratio == 'adapt' %}
-            style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
-          {% endif %}
+          class="media--grid media--transparent media--{{ section.settings.image_ratio }}"
         >
           {%- liquid
             assign grid_space_desktop = numColumns | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
