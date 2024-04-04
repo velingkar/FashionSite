@@ -1,10 +1,6 @@
-{% assign blog_handles = "discover-your-childs-spirit-animal-with-the-sunny-in-africa-t-shirt-collection" | split: "," %}
-
-   {% for handle in blog_handles %}
-
-        {% for article in blogs[handle].articles %}
-
-               <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
-         {% endfor %}
-
-  {% endfor %}
+{% for link in linklists.blogs.links %}
+  {% assign blog = link.object %}
+  {% for article in blog.articles %}
+    <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+  {% endfor %} 
+{% endfor %}
